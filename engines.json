@@ -1,0 +1,4809 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-29",
+  "description": "Catalog of open-source chess engine projects. Fetch available releases from each upstream repository on demand.",
+  "metadata_notes": {
+    "scope": "One entry per source project; no engine versions, release assets, download endpoints or external ratings are stored.",
+    "language": "Primary implementation language where confirmed; null means it was not established during this catalog review.",
+    "repository_archived": "Archive status when checked on updated_at; the application can refresh repository metadata on demand.",
+    "license": "Names identify the license family or upstream declaration. Follow the linked upstream terms for exact versions, exceptions, dependencies and networks.",
+    "availability": "Inclusion identifies a source project. It does not promise prebuilt binaries, compatible releases or a completed installation test."
+  },
+  "engines": [
+    {
+      "id": "4k-c",
+      "name": "4k.c",
+      "description": "A chess engine designed to fit into 4kb.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "GediminasMasaitis/4k-dot-c",
+      "repository_url": "https://github.com/GediminasMasaitis/4k-dot-c",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/GediminasMasaitis/4k-dot-c/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/GediminasMasaitis/4k-dot-c/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "4ku",
+      "name": "4ku",
+      "description": "A compact UCI chess engine designed for small executable size.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "kz04px/4ku",
+      "repository_url": "https://github.com/kz04px/4ku",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/kz04px/4ku/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/kz04px/4ku/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "absolute-zero",
+      "name": "Absolute-Zero",
+      "description": "UCI/standalone bitboard chess engine.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "zongzhengli/absolute-zero",
+      "repository_url": "https://github.com/zongzhengli/absolute-zero",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/zongzhengli/absolute-zero/blob/HEAD/README.md",
+      "license": {
+        "name": "Creative Commons Attribution 4.0 International",
+        "url": "https://github.com/zongzhengli/absolute-zero/blob/HEAD/LICENSE.md"
+      },
+      "notes": "Starts with its own GUI by default; pass -u to select UCI mode."
+    },
+    {
+      "id": "achillees",
+      "name": "Achillees",
+      "description": "A readable chess engine written in C.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "tempate/Achillees",
+      "repository_url": "https://github.com/tempate/Achillees",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/tempate/Achillees/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/tempate/Achillees/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "aconcagua",
+      "name": "Aconcagua",
+      "description": "⛰️ Aconcagua. UCI protocol chess engine written in Go.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "gabtar/aconcagua",
+      "repository_url": "https://github.com/gabtar/aconcagua",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/gabtar/aconcagua/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/gabtar/aconcagua/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "adachess",
+      "name": "AdaChess",
+      "description": "AdaChess is a smart chess engine written from scratch in the Ada programming language.",
+      "language": "Ada",
+      "repository_provider": "github",
+      "repository": "adachess/AdaChess",
+      "repository_url": "https://github.com/adachess/AdaChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/adachess/AdaChess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/adachess/AdaChess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "akimbo",
+      "name": "Akimbo",
+      "description": "UCI Chess Engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "jw1912/akimbo",
+      "repository_url": "https://github.com/jw1912/akimbo",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jw1912/akimbo/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/jw1912/akimbo/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "aku",
+      "name": "Aku",
+      "description": "An ok UCI chess engine in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "hoavu-cs/aku-chess-engine",
+      "repository_url": "https://github.com/hoavu-cs/aku-chess-engine",
+      "repository_archived": true,
+      "documentation_url": "https://github.com/hoavu-cs/aku-chess-engine/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/hoavu-cs/aku-chess-engine/blob/HEAD/LICENSE.txt"
+      },
+      "notes": "The upstream repository was archived when this entry was checked."
+    },
+    {
+      "id": "alcibiades",
+      "name": "Alcibiades",
+      "description": "A framework for writing chess engines in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "epandurski/alcibiades",
+      "repository_url": "https://github.com/epandurski/alcibiades",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/epandurski/alcibiades/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/epandurski/alcibiades/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandria",
+      "description": "bitboard chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "PGG106/Alexandria",
+      "repository_url": "https://github.com/PGG106/Alexandria",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/PGG106/Alexandria/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/PGG106/Alexandria/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "algae",
+      "name": "Algae",
+      "description": "A UCI chess engine in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "PaulJeFi/algae",
+      "repository_url": "https://github.com/PaulJeFi/algae",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/PaulJeFi/algae/blob/HEAD/readme.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/PaulJeFi/algae/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "alpaca",
+      "name": "Alpaca",
+      "description": "Alpaca is an open-source chess engine written in Go. UCI & XBoard compatible.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "bbogdan95/alpaca",
+      "repository_url": "https://github.com/bbogdan95/alpaca",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/bbogdan95/alpaca/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/bbogdan95/alpaca/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "altair",
+      "name": "Altair",
+      "description": "A top superhuman chess engine made in c++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Alex2262/AltairChessEngine",
+      "repository_url": "https://github.com/Alex2262/AltairChessEngine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Alex2262/AltairChessEngine/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Alex2262/AltairChessEngine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "amelia",
+      "name": "Amelia",
+      "description": "Chess engine accepting challenges on lichess.org.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "joey-bednar/amelia",
+      "repository_url": "https://github.com/joey-bednar/amelia",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/joey-bednar/amelia/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/joey-bednar/amelia/blob/HEAD/LICENSE"
+      },
+      "aliases": [
+        "Annie"
+      ]
+    },
+    {
+      "id": "amira",
+      "name": "Amira",
+      "description": "A chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "FauziAkram/amira",
+      "repository_url": "https://github.com/FauziAkram/amira",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/FauziAkram/amira/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/FauziAkram/amira/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "amoeba",
+      "name": "amoeba",
+      "description": "an UCI chess engine in D language.",
+      "language": "D",
+      "repository_provider": "github",
+      "repository": "abulmo/amoeba",
+      "repository_url": "https://github.com/abulmo/amoeba",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/abulmo/amoeba/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/abulmo/amoeba/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "amundsen",
+      "name": "Amundsen",
+      "description": "Amundsen chess program.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "johnbergbom/Amundsen",
+      "repository_url": "https://github.com/johnbergbom/Amundsen",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/johnbergbom/Amundsen/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "url": "https://github.com/johnbergbom/Amundsen/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "amy",
+      "name": "Amy",
+      "description": "A bitboard based chess program with parallel search and endgame table bases.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "thgreiner/amy",
+      "repository_url": "https://github.com/thgreiner/amy",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/thgreiner/amy/blob/HEAD/README.md",
+      "license": {
+        "name": "BSD 2-Clause License",
+        "url": "https://github.com/thgreiner/amy/blob/HEAD/LICENSE"
+      },
+      "notes": "The BSD license covers the engine; its README identifies Nalimov tablebase code under separate terms."
+    },
+    {
+      "id": "anka",
+      "name": "Anka",
+      "description": "A UCI chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "erenyesilyurt/anka",
+      "repository_url": "https://github.com/erenyesilyurt/anka",
+      "repository_archived": true,
+      "documentation_url": "https://github.com/erenyesilyurt/anka/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/erenyesilyurt/anka/blob/HEAD/LICENSE.txt"
+      },
+      "notes": "The upstream repository was archived when this entry was checked."
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "description": "Uci Compatible Chess Engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "stnevans/Apollo",
+      "repository_url": "https://github.com/stnevans/Apollo",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/stnevans/Apollo/blob/HEAD/README.MD",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/stnevans/Apollo/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "aramis",
+      "name": "Aramis",
+      "description": "A chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "FedericoSaitta/Chess-Engine-in-cpp",
+      "repository_url": "https://github.com/FedericoSaitta/Chess-Engine-in-cpp",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/FedericoSaitta/Chess-Engine-in-cpp/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/FedericoSaitta/Chess-Engine-in-cpp/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "arasan",
+      "name": "Arasan",
+      "description": "A chess engine supporting UCI and XBoard interfaces.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "jdart1/arasan-chess",
+      "repository_url": "https://github.com/jdart1/arasan-chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jdart1/arasan-chess/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/jdart1/arasan-chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "arcanum",
+      "name": "Arcanum",
+      "description": "UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "LarsAur/Arcanum",
+      "repository_url": "https://github.com/LarsAur/Arcanum",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/LarsAur/Arcanum/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/LarsAur/Arcanum/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "arche",
+      "name": "Arche",
+      "description": "Basic rust chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "aywrite/arche",
+      "repository_url": "https://github.com/aywrite/arche",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/aywrite/arche/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/aywrite/arche/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "astra",
+      "name": "Astra",
+      "description": "UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "h1me01/Astra",
+      "repository_url": "https://github.com/h1me01/Astra",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/h1me01/Astra/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/h1me01/Astra/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "asymptote",
+      "name": "Asymptote",
+      "description": "A UCI chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "malu/asymptote",
+      "repository_url": "https://github.com/malu/asymptote",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/malu/asymptote/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/malu/asymptote/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "description": "Athena is a UCI compatible chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "NicolasSegl/Athena",
+      "repository_url": "https://github.com/NicolasSegl/Athena",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/NicolasSegl/Athena/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/NicolasSegl/Athena/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "description": "An open-source chess engine with an MCTS-Minimax hybrid search and an NNUE evaluation.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "kjljixx/Aurora-Chess-Engine",
+      "repository_url": "https://github.com/kjljixx/Aurora-Chess-Engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/kjljixx/Aurora-Chess-Engine/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/kjljixx/Aurora-Chess-Engine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "austerlitz",
+      "name": "Austerlitz",
+      "description": "Austerlitz engine, created as an experiment fully in C++, is my first released program.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "taperihn0/Austerlitz-Engine",
+      "repository_url": "https://github.com/taperihn0/Austerlitz-Engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/taperihn0/Austerlitz-Engine/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/taperihn0/Austerlitz-Engine/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "avalanche",
+      "name": "Avalanche",
+      "description": "UCI Chess Engine written in Zig.",
+      "language": "Zig",
+      "repository_provider": "github",
+      "repository": "SnowballSH/Avalanche",
+      "repository_url": "https://github.com/SnowballSH/Avalanche",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/SnowballSH/Avalanche/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/SnowballSH/Avalanche/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "axolotl",
+      "name": "Axolotl",
+      "description": "UCI chess engine written in Java. Connect her to Arena, or play on the command line.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "louism33/Axolotl",
+      "repository_url": "https://github.com/louism33/Axolotl",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/louism33/Axolotl/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/louism33/Axolotl/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "badchessengine",
+      "name": "BadChessEngine",
+      "description": "UCI chess engine in C.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "Notoh/badchessengine",
+      "repository_url": "https://github.com/Notoh/badchessengine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Notoh/badchessengine/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Notoh/badchessengine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "bagatur",
+      "name": "Bagatur",
+      "description": "A Java chess engine with a UCI interface and neural-network evaluation.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "bagaturchess/Bagatur",
+      "repository_url": "https://github.com/bagaturchess/Bagatur",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/bagaturchess/Bagatur/blob/HEAD/README.md",
+      "license": {
+        "name": "Eclipse Public License 2.0",
+        "url": "https://github.com/bagaturchess/Bagatur/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "barbarossa",
+      "name": "Barbarossa",
+      "description": "Chess engine entirely written in Haskell.",
+      "language": "Haskell",
+      "repository_provider": "github",
+      "repository": "nionita/Barbarossa",
+      "repository_url": "https://github.com/nionita/Barbarossa",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/nionita/Barbarossa/blob/HEAD/README.md",
+      "license": {
+        "name": "BSD 3-Clause License",
+        "url": "https://github.com/nionita/Barbarossa/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "description": "Bit Board Chess (BBC) - The easiest to understand bitboard chess engine by Code Monkey King.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "maksimKorzh/bbc",
+      "repository_url": "https://github.com/maksimKorzh/bbc",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/maksimKorzh/bbc/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/maksimKorzh/bbc/blob/HEAD/LICENCE"
+      }
+    },
+    {
+      "id": "belette",
+      "name": "Belette",
+      "description": "An UCI compatible chess engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "vincentbab/Belette",
+      "repository_url": "https://github.com/vincentbab/Belette",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/vincentbab/Belette/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/vincentbab/Belette/blob/HEAD/LICENCE"
+      }
+    },
+    {
+      "id": "berserk",
+      "name": "Berserk",
+      "description": "UCI Chess Engine written in C.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "jhonnold/berserk",
+      "repository_url": "https://github.com/jhonnold/berserk",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jhonnold/berserk/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/jhonnold/berserk/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "bit-genie",
+      "name": "Bit-Genie",
+      "description": "UCI chess engine in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Aryan1508/Bit-Genie",
+      "repository_url": "https://github.com/Aryan1508/Bit-Genie",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Aryan1508/Bit-Genie/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Aryan1508/Bit-Genie/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "bitbit",
+      "name": "bitbit",
+      "description": "A bitboard based chess engine written in c.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "spinojara/bitbit",
+      "repository_url": "https://github.com/spinojara/bitbit",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/spinojara/bitbit/blob/HEAD/README",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "url": "https://github.com/spinojara/bitbit/blob/HEAD/COPYING"
+      }
+    },
+    {
+      "id": "black-marlin",
+      "name": "Black Marlin",
+      "description": "WIP Chess Engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "jnlt3/blackmarlin",
+      "repository_url": "https://github.com/jnlt3/blackmarlin",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jnlt3/blackmarlin/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/jnlt3/blackmarlin/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "blackcore",
+      "name": "BlackCore",
+      "description": "Powerful C++ chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "SzilBalazs/BlackCore",
+      "repository_url": "https://github.com/SzilBalazs/BlackCore",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/SzilBalazs/BlackCore/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/SzilBalazs/BlackCore/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "blank",
+      "name": "BLANK",
+      "description": "A Java Chess Engine using Object-Oriented Design.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "RyanLauQF/BLANK-Chess",
+      "repository_url": "https://github.com/RyanLauQF/BLANK-Chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/RyanLauQF/BLANK-Chess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/RyanLauQF/BLANK-Chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "blunder",
+      "name": "Blunder",
+      "description": "A UCI compatible chess engine written in Golang.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "deanmchris/blunder",
+      "repository_url": "https://github.com/deanmchris/blunder",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/deanmchris/blunder/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/deanmchris/blunder/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "blunders",
+      "name": "Blunders",
+      "description": "UCI-compatible chess engine, written from scratch in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "paulolemus/blunders",
+      "repository_url": "https://github.com/paulolemus/blunders",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/paulolemus/blunders/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/paulolemus/blunders/blob/HEAD/COPYING"
+      }
+    },
+    {
+      "id": "boychesser",
+      "name": "Boychesser",
+      "description": "A compact C# engine developed for the Tiny Chess Bots Challenge.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "analog-hors/Boychesser",
+      "repository_url": "https://github.com/analog-hors/Boychesser",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/analog-hors/Boychesser/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/analog-hors/Boychesser/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "brainlearn",
+      "name": "BrainLearn",
+      "description": "A Stockfish-derived UCI engine with position learning.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "amchess/BrainLearn",
+      "repository_url": "https://github.com/amchess/BrainLearn",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/amchess/BrainLearn/blob/HEAD/Readme.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/amchess/BrainLearn/blob/HEAD/Copying.txt"
+      }
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "description": "A chess engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Nonlinear2/Bread-Engine",
+      "repository_url": "https://github.com/Nonlinear2/Bread-Engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Nonlinear2/Bread-Engine/blob/HEAD/readme.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Nonlinear2/Bread-Engine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "byte-knight",
+      "name": "Byte-Knight",
+      "description": "A UCI compliant chess engine, written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "ptsouchlos/byte-knight",
+      "repository_url": "https://github.com/ptsouchlos/byte-knight",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ptsouchlos/byte-knight/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/ptsouchlos/byte-knight/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "cadabra",
+      "name": "Cadabra",
+      "description": "Original chess engine written in rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "JENebel/Cadabra",
+      "repository_url": "https://github.com/JENebel/Cadabra",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/JENebel/Cadabra/blob/HEAD/README.md",
+      "license": {
+        "name": "BSD 2-Clause License",
+        "url": "https://github.com/JENebel/Cadabra/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "cadie",
+      "name": "Cadie",
+      "description": "UCI Chess Engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "mwyngaarden/Cadie",
+      "repository_url": "https://github.com/mwyngaarden/Cadie",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mwyngaarden/Cadie/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/mwyngaarden/Cadie/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "caissa",
+      "name": "Caissa",
+      "description": "A chess engine using neural-network evaluation.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Witek902/Caissa",
+      "repository_url": "https://github.com/Witek902/Caissa",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Witek902/Caissa/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Witek902/Caissa/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "calvin",
+      "name": "Calvin",
+      "description": "A UCI chess engine implemented in Java.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "kelseyde/calvin-chess-engine",
+      "repository_url": "https://github.com/kelseyde/calvin-chess-engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/kelseyde/calvin-chess-engine/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/kelseyde/calvin-chess-engine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "camel",
+      "name": "Camel",
+      "description": "Chess/Chess960 engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "bdmendes/camel",
+      "repository_url": "https://github.com/bdmendes/camel",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/bdmendes/camel/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/bdmendes/camel/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "captain",
+      "name": "Captain",
+      "description": "UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "n4h/Captain-chess",
+      "repository_url": "https://github.com/n4h/Captain-chess",
+      "repository_archived": true,
+      "documentation_url": "https://github.com/n4h/Captain-chess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/n4h/Captain-chess/blob/HEAD/COPYING.txt"
+      },
+      "notes": "The upstream repository was archived when this entry was checked."
+    },
+    {
+      "id": "carp",
+      "name": "Carp",
+      "description": "Rust didactic UCI chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "dede1751/carp",
+      "repository_url": "https://github.com/dede1751/carp",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/dede1751/carp/blob/HEAD/readme.MD",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/dede1751/carp/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "casanchess",
+      "name": "CasanChess",
+      "description": "NNUE chess engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "casanche/casanchess",
+      "repository_url": "https://github.com/casanche/casanchess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/casanche/casanchess/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/casanche/casanchess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "catto",
+      "name": "Catto",
+      "description": "A working-in-progress, experimental UCI chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "nguyenphuminh/Catto",
+      "repository_url": "https://github.com/nguyenphuminh/Catto",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/nguyenphuminh/Catto/blob/HEAD/README.md",
+      "license": {
+        "name": "Apache License 2.0",
+        "url": "https://github.com/nguyenphuminh/Catto/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "chai",
+      "name": "Chai",
+      "description": "A UCI chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "jakhac/chai",
+      "repository_url": "https://github.com/jakhac/chai",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jakhac/chai/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/jakhac/chai/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "chareth",
+      "name": "Chareth",
+      "description": "Chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "mcfarljm/chareth",
+      "repository_url": "https://github.com/mcfarljm/chareth",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mcfarljm/chareth/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/mcfarljm/chareth/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "chers",
+      "name": "Chers",
+      "description": "Chess engine written in rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "giusgad/chers",
+      "repository_url": "https://github.com/giusgad/chers",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/giusgad/chers/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/giusgad/chers/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "chess-cpp",
+      "name": "chess.cpp",
+      "description": "A chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "GediminasMasaitis/chess-dot-cpp",
+      "repository_url": "https://github.com/GediminasMasaitis/chess-dot-cpp",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/GediminasMasaitis/chess-dot-cpp/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/GediminasMasaitis/chess-dot-cpp/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "chess22k",
+      "name": "chess22k",
+      "description": "Chessengine written in Java.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "sandermvdb/chess22k",
+      "repository_url": "https://github.com/sandermvdb/chess22k",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/sandermvdb/chess22k/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/sandermvdb/chess22k/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "chess4j",
+      "name": "Chess4j",
+      "description": "a Java based chess engine.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "jswaff/chess4j",
+      "repository_url": "https://github.com/jswaff/chess4j",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jswaff/chess4j/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/jswaff/chess4j/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "chessatron",
+      "name": "Chessatron",
+      "description": "A chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "dallinson/Chessatron",
+      "repository_url": "https://github.com/dallinson/Chessatron",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/dallinson/Chessatron/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/dallinson/Chessatron/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "chesser",
+      "name": "Chesser",
+      "description": "chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "achien/chesser",
+      "repository_url": "https://github.com/achien/chesser",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/achien/chesser/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/achien/chesser/blob/HEAD/LICENSE"
+      },
+      "aliases": [
+        "Chessier"
+      ]
+    },
+    {
+      "id": "chessmatrix",
+      "name": "ChessMatrix",
+      "description": "A chess engine implemented in C.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "KristianEkman/ChessMatrix",
+      "repository_url": "https://github.com/KristianEkman/ChessMatrix",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/KristianEkman/ChessMatrix/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/KristianEkman/ChessMatrix/blob/HEAD/license.txt"
+      }
+    },
+    {
+      "id": "chessplusplus",
+      "name": "chessplusplus",
+      "description": "Chess UCI engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "adajed/chessplusplus",
+      "repository_url": "https://github.com/adajed/chessplusplus",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/adajed/chessplusplus/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/adajed/chessplusplus/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "cicada",
+      "name": "Cicada",
+      "description": "A chess engine implemented in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "mkyl/cicada",
+      "repository_url": "https://github.com/mkyl/cicada",
+      "repository_archived": true,
+      "documentation_url": "https://github.com/mkyl/cicada/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/mkyl/cicada/blob/HEAD/LICENSE.txt"
+      },
+      "notes": "The upstream repository was archived when this entry was checked."
+    },
+    {
+      "id": "cinder",
+      "name": "Cinder",
+      "description": "A hobby chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "brunocodutra/cinder",
+      "repository_url": "https://github.com/brunocodutra/cinder",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/brunocodutra/cinder/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/brunocodutra/cinder/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "description": "C++ UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "gekomad/Cinnamon",
+      "repository_url": "https://github.com/gekomad/Cinnamon",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/gekomad/Cinnamon/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Lesser General Public License v3.0",
+        "url": "https://github.com/gekomad/Cinnamon/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "clarity",
+      "name": "Clarity",
+      "description": "UCI chess engine with NNUE evaluation.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Vast342/Clarity",
+      "repository_url": "https://github.com/Vast342/Clarity",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Vast342/Clarity/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Vast342/Clarity/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "clover",
+      "name": "Clover",
+      "description": "UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "lucametehau/CloverEngine",
+      "repository_url": "https://github.com/lucametehau/CloverEngine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/lucametehau/CloverEngine/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/lucametehau/CloverEngine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "clovis",
+      "name": "Clovis",
+      "description": "A chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "jonathanmcdermid/Clovis",
+      "repository_url": "https://github.com/jonathanmcdermid/Clovis",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jonathanmcdermid/Clovis/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/jonathanmcdermid/Clovis/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "coiled",
+      "name": "Coiled",
+      "description": "UCI chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "Oscar-Gavira/Coiled",
+      "repository_url": "https://github.com/Oscar-Gavira/Coiled",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Oscar-Gavira/Coiled/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Oscar-Gavira/Coiled/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "combusken",
+      "name": "Combusken",
+      "description": "A chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "mhib/combusken",
+      "repository_url": "https://github.com/mhib/combusken",
+      "repository_archived": true,
+      "documentation_url": "https://github.com/mhib/combusken/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/mhib/combusken/blob/HEAD/LICENSE"
+      },
+      "notes": "The upstream repository was archived when this entry was checked."
+    },
+    {
+      "id": "cosette",
+      "name": "Cosette",
+      "description": "UCI chess engine written in C# for .NET platform.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "Tearth/Cosette",
+      "repository_url": "https://github.com/Tearth/Cosette",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Tearth/Cosette/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/Tearth/Cosette/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "counter",
+      "name": "Counter",
+      "description": "UCI chess engine (golang).",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "ChizhovVadim/CounterGo",
+      "repository_url": "https://github.com/ChizhovVadim/CounterGo",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ChizhovVadim/CounterGo/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/ChizhovVadim/CounterGo/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "crabby",
+      "name": "Crabby",
+      "description": "Chess Engine written using the Rust programming language.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "Johnson-A/Crabby",
+      "repository_url": "https://github.com/Johnson-A/Crabby",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Johnson-A/Crabby/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "url": "https://github.com/Johnson-A/Crabby/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "crazyara",
+      "name": "CrazyAra",
+      "description": "A neural-network engine project for chess variants, including ClassicAra for standard chess.",
+      "language": "C++ / Python",
+      "repository_provider": "github",
+      "repository": "QueensGambit/CrazyAra",
+      "repository_url": "https://github.com/QueensGambit/CrazyAra",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/QueensGambit/CrazyAra/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/QueensGambit/CrazyAra/blob/HEAD/LICENSE"
+      },
+      "aliases": [
+        "ClassicAra"
+      ]
+    },
+    {
+      "id": "cwtch",
+      "name": "Cwtch",
+      "description": "A UCI chess engine written in C.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "Bastiball21/cwtch",
+      "repository_url": "https://github.com/Bastiball21/cwtch",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Bastiball21/cwtch/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Bastiball21/cwtch/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "deepov",
+      "name": "Deepov",
+      "description": "C++ Chess Engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "RomainGoussault/Deepov",
+      "repository_url": "https://github.com/RomainGoussault/Deepov",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/RomainGoussault/Deepov/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "url": "https://github.com/RomainGoussault/Deepov/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "defenchess",
+      "name": "DefenChess",
+      "description": "A chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "cetincan0/Defenchess",
+      "repository_url": "https://github.com/cetincan0/Defenchess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/cetincan0/Defenchess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/cetincan0/Defenchess/blob/HEAD/COPYING"
+      }
+    },
+    {
+      "id": "delocto",
+      "name": "Delocto",
+      "description": "Delocto Chess Engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "moterink/Delocto",
+      "repository_url": "https://github.com/moterink/Delocto",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/moterink/Delocto/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/moterink/Delocto/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "demolito",
+      "name": "Demolito",
+      "description": "UCI Chess Engine.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "lucasart/Demolito",
+      "repository_url": "https://github.com/lucasart/Demolito",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/lucasart/Demolito/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/lucasart/Demolito/blob/HEAD/license"
+      }
+    },
+    {
+      "id": "detroid",
+      "name": "Detroid",
+      "description": "A Java chess engine and framework with UCI support and parameter optimization tools.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "ViktorC/DETROID",
+      "repository_url": "https://github.com/ViktorC/DETROID",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ViktorC/DETROID/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "url": "https://github.com/ViktorC/DETROID/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "devre",
+      "name": "Devre",
+      "description": "Devre , a UCI compatible chess engine by Omer Faruk Tutkun.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "OmerFarukTutkun/Devre",
+      "repository_url": "https://github.com/OmerFarukTutkun/Devre",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/OmerFarukTutkun/Devre/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/OmerFarukTutkun/Devre/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "doctorb",
+      "name": "DoctorB",
+      "description": "UCI compatible chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "hiblom/DoctorB",
+      "repository_url": "https://github.com/hiblom/DoctorB",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/hiblom/DoctorB/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/hiblom/DoctorB/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "donna",
+      "name": "Donna",
+      "description": "Experimental UCI chess engine implemented in Go, download binaries at http://donnachess.github.io.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "michaeldv/donna",
+      "repository_url": "https://github.com/michaeldv/donna",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/michaeldv/donna/blob/HEAD/README",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/michaeldv/donna/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "dragontooth",
+      "name": "Dragontooth",
+      "description": "A Go chess engine.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "dylhunn/dragontooth",
+      "repository_url": "https://github.com/dylhunn/dragontooth",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/dylhunn/dragontooth/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/dylhunn/dragontooth/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "dreamer",
+      "name": "Dreamer",
+      "description": "DreamChess - OpenGL Chess Game.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "dreamchess/dreamchess",
+      "repository_url": "https://github.com/dreamchess/dreamchess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/dreamchess/dreamchess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/dreamchess/dreamchess/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "drofa",
+      "name": "Drofa",
+      "description": "UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "justNo4b/Drofa",
+      "repository_url": "https://github.com/justNo4b/Drofa",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/justNo4b/Drofa/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/justNo4b/Drofa/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "drosophila",
+      "name": "Drosophila",
+      "description": "A chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "gustafullberg/drosophila",
+      "repository_url": "https://github.com/gustafullberg/drosophila",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/gustafullberg/drosophila/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/gustafullberg/drosophila/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "dual",
+      "name": "Dual",
+      "description": "Chess engine in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "DSTGU/Dual",
+      "repository_url": "https://github.com/DSTGU/Dual",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/DSTGU/Dual/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/DSTGU/Dual/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "dumb",
+      "name": "Dumb",
+      "description": "A simple (but not so) stupid chess program.",
+      "language": "D",
+      "repository_provider": "github",
+      "repository": "abulmo/Dumb",
+      "repository_url": "https://github.com/abulmo/Dumb",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/abulmo/Dumb/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/abulmo/Dumb/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "echekinator",
+      "name": "Echekinator",
+      "description": "UCI-compatible chess engine written in OCaml.",
+      "language": "OCaml",
+      "repository_provider": "github",
+      "repository": "Tym972/Echekinator",
+      "repository_url": "https://github.com/Tym972/Echekinator",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Tym972/Echekinator/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Tym972/Echekinator/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "eggnog",
+      "name": "Eggnog",
+      "description": "NNUE-based chess engine by Levi Gibson.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "LeviGibson/eggnog-chess-engine",
+      "repository_url": "https://github.com/LeviGibson/eggnog-chess-engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/LeviGibson/eggnog-chess-engine/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/LeviGibson/eggnog-chess-engine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "eidolon",
+      "name": "Eidolon",
+      "description": "Chess engine written in rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "Daniel729/Eidolon",
+      "repository_url": "https://github.com/Daniel729/Eidolon",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Daniel729/Eidolon/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Daniel729/Eidolon/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "eleanor",
+      "name": "Eleanor",
+      "description": "A chess engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "rektdie/Eleanor",
+      "repository_url": "https://github.com/rektdie/Eleanor",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/rektdie/Eleanor/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/rektdie/Eleanor/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "elixir",
+      "name": "Elixir",
+      "description": "UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "ArjunBasandrai/elixir-chess-engine",
+      "repository_url": "https://github.com/ArjunBasandrai/elixir-chess-engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ArjunBasandrai/elixir-chess-engine/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/ArjunBasandrai/elixir-chess-engine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald",
+      "description": "A chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "UndefinedCpp/EmeraldChessEngine",
+      "repository_url": "https://github.com/UndefinedCpp/EmeraldChessEngine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/UndefinedCpp/EmeraldChessEngine/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/UndefinedCpp/EmeraldChessEngine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "endamat",
+      "name": "Endamat",
+      "description": "Endamat Chess is a chess program/engine written in Python as a hobby project.",
+      "language": "Python",
+      "repository_provider": "github",
+      "repository": "eligolf/Endamat-Chess",
+      "repository_url": "https://github.com/eligolf/Endamat-Chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/eligolf/Endamat-Chess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/eligolf/Endamat-Chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "eques",
+      "name": "Eques",
+      "description": "A UCI compatible chess engine.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "deanmchris/eques",
+      "repository_url": "https://github.com/deanmchris/eques",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/deanmchris/eques/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/deanmchris/eques/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "equisetum",
+      "name": "Equisetum",
+      "description": "Drofa chess engine with NNUE evaluation.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "justNo4b/Equisetum",
+      "repository_url": "https://github.com/justNo4b/Equisetum",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/justNo4b/Equisetum/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/justNo4b/Equisetum/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "ethereal",
+      "name": "Ethereal",
+      "description": "An alpha-beta UCI engine with GPL-licensed source and separately offered commercial NNUE editions.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "AndyGrant/Ethereal",
+      "repository_url": "https://github.com/AndyGrant/Ethereal",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/AndyGrant/Ethereal/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/AndyGrant/Ethereal/blob/HEAD/LICENSE"
+      },
+      "notes": "Catalogs the GPL-licensed source project. The author separately offers commercial NNUE editions; this listing does not imply those editions or their networks are freely available."
+    },
+    {
+      "id": "eubos",
+      "name": "Eubos",
+      "description": "A Java chess engine. Uses UCI protocol. Playable on lichess.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "cjbolt/EubosChess",
+      "repository_url": "https://github.com/cjbolt/EubosChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/cjbolt/EubosChess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/cjbolt/EubosChess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "euwe",
+      "name": "Euwe",
+      "description": "A UCI chess engine written in modern C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "JoostHouben/Euwe-chess-engine",
+      "repository_url": "https://github.com/JoostHouben/Euwe-chess-engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/JoostHouben/Euwe-chess-engine/blob/HEAD/README.md",
+      "license": {
+        "name": "Apache License 2.0",
+        "url": "https://github.com/JoostHouben/Euwe-chess-engine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "exacto",
+      "name": "Exacto",
+      "description": "Exacto Chess Engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "d-sparks/exacto",
+      "repository_url": "https://github.com/d-sparks/exacto",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/d-sparks/exacto/blob/HEAD/README.md",
+      "license": {
+        "name": "BSD 2-Clause License",
+        "url": "https://github.com/d-sparks/exacto/blob/HEAD/text/license.txt"
+      }
+    },
+    {
+      "id": "fabchess",
+      "name": "FabChess",
+      "description": "UCI compliant chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "fabianvdW/FabChess",
+      "repository_url": "https://github.com/fabianvdW/FabChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/fabianvdW/FabChess/blob/HEAD/README.md",
+      "license": {
+        "name": "BSD 3-Clause License",
+        "url": "https://github.com/fabianvdW/FabChess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "fairy-stockfish",
+      "name": "Fairy-Stockfish",
+      "description": "A Stockfish-derived engine supporting standard chess and many chess variants.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "fairy-stockfish/Fairy-Stockfish",
+      "repository_url": "https://github.com/fairy-stockfish/Fairy-Stockfish",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/fairy-stockfish/Fairy-Stockfish/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/fairy-stockfish/Fairy-Stockfish/blob/HEAD/Copying.txt"
+      },
+      "notes": "Supports standard chess and many variants; variant availability also depends on GUI support."
+    },
+    {
+      "id": "fatalii",
+      "name": "Fatalii",
+      "description": "A chess engine implemented in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "FitzOReilly/fatalii",
+      "repository_url": "https://github.com/FitzOReilly/fatalii",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/FitzOReilly/fatalii/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/FitzOReilly/fatalii/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "floyd",
+      "name": "Floyd",
+      "description": "Chess engine study.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "kervinck/floyd",
+      "repository_url": "https://github.com/kervinck/floyd",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/kervinck/floyd/blob/HEAD/README.md",
+      "license": {
+        "name": "BSD 2-Clause License",
+        "url": "https://github.com/kervinck/floyd/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "foxchess",
+      "name": "FoxChess",
+      "description": "A UCI chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "nfaltermeier/fox-chess",
+      "repository_url": "https://github.com/nfaltermeier/fox-chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/nfaltermeier/fox-chess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/nfaltermeier/fox-chess/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "foxsee",
+      "name": "FoxSEE",
+      "description": "UCI Chess Engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "buildingwheels/FoxSEE",
+      "repository_url": "https://github.com/buildingwheels/FoxSEE",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/buildingwheels/FoxSEE/blob/HEAD/README.md",
+      "license": {
+        "name": "Apache License 2.0",
+        "url": "https://github.com/buildingwheels/FoxSEE/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "fractal",
+      "name": "FracTal",
+      "description": "UCI-compliant chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "visanalexandru/FracTal-ChessEngine",
+      "repository_url": "https://github.com/visanalexandru/FracTal-ChessEngine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/visanalexandru/FracTal-ChessEngine/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/visanalexandru/FracTal-ChessEngine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "frankwalter",
+      "name": "FrankWalter",
+      "description": "a WB2 java chess engine.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "ljgw/frankwalter",
+      "repository_url": "https://github.com/ljgw/frankwalter",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ljgw/frankwalter/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/ljgw/frankwalter/blob/HEAD/License.txt"
+      },
+      "notes": "Uses the XBoard/WinBoard protocol rather than UCI; requires a Java runtime."
+    },
+    {
+      "id": "franky",
+      "name": "Franky",
+      "description": "Chess engine using UCI protocol to communicate with chess UIs like Arena, xBoard, WinBoard, Fritz, etc.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "frankkopp/FrankyUCIChessEngine",
+      "repository_url": "https://github.com/frankkopp/FrankyUCIChessEngine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/frankkopp/FrankyUCIChessEngine/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/frankkopp/FrankyUCIChessEngine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "frankygo",
+      "name": "FrankyGo",
+      "description": "Learning Go by implementing a Chess Engine.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "frankkopp/FrankyGo",
+      "repository_url": "https://github.com/frankkopp/FrankyGo",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/frankkopp/FrankyGo/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/frankkopp/FrankyGo/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "freda",
+      "name": "Freda",
+      "description": "Freda Chess Engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "shaunihowe/freda",
+      "repository_url": "https://github.com/shaunihowe/freda",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/shaunihowe/freda/blob/HEAD/README.md",
+      "license": {
+        "name": "BSD 2-Clause License",
+        "url": "https://github.com/shaunihowe/freda/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "frozenight",
+      "name": "Frozenight",
+      "description": "NNUE chess engine that never had an HCE.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "MinusKelvin/frozenight",
+      "repository_url": "https://github.com/MinusKelvin/frozenight",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/MinusKelvin/frozenight/blob/HEAD/README.md",
+      "license": {
+        "name": "Apache License 2.0",
+        "url": "https://github.com/MinusKelvin/frozenight/blob/HEAD/LICENSE-APACHE"
+      },
+      "notes": "The upstream repository also provides an MIT license file."
+    },
+    {
+      "id": "gladiator",
+      "name": "Gladiator",
+      "description": "Chess engine written in Java.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "dagaren/gladiator-chess",
+      "repository_url": "https://github.com/dagaren/gladiator-chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/dagaren/gladiator-chess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/dagaren/gladiator-chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "goldfish",
+      "name": "Goldfish",
+      "description": "Goldfish - Stockfish's very distant and not so bright cousin - a UCI chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "bsamseth/Goldfish",
+      "repository_url": "https://github.com/bsamseth/Goldfish",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/bsamseth/Goldfish/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/bsamseth/Goldfish/blob/HEAD/LICENCE"
+      }
+    },
+    {
+      "id": "gophercheck",
+      "name": "GopherCheck",
+      "description": "Concurrent UCI Chess Engine written in Go.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "stephenjlovell/gopher_check",
+      "repository_url": "https://github.com/stephenjlovell/gopher_check",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/stephenjlovell/gopher_check/blob/HEAD/readme.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/stephenjlovell/gopher_check/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "grail",
+      "name": "Grail",
+      "description": "Hobby UCI chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "jorgenhanssen/grail",
+      "repository_url": "https://github.com/jorgenhanssen/grail",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jorgenhanssen/grail/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/jorgenhanssen/grail/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "gunborg",
+      "name": "Gunborg",
+      "description": "UCI chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "torgnil/gunborg",
+      "repository_url": "https://github.com/torgnil/gunborg",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/torgnil/gunborg/blob/HEAD/README",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/torgnil/gunborg/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "hactar",
+      "name": "Hactar",
+      "description": "hactar is a simple chessengine written in rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "tsoj/hactar",
+      "repository_url": "https://github.com/tsoj/hactar",
+      "repository_archived": true,
+      "documentation_url": "https://github.com/tsoj/hactar/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/tsoj/hactar/blob/HEAD/LICENSE"
+      },
+      "notes": "The upstream repository was archived when this entry was checked."
+    },
+    {
+      "id": "hakkapeliitta",
+      "name": "Hakkapeliitta",
+      "description": "A chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "mAarnos/Hakkapeliitta",
+      "repository_url": "https://github.com/mAarnos/Hakkapeliitta",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mAarnos/Hakkapeliitta/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/mAarnos/Hakkapeliitta/blob/HEAD/license.txt"
+      }
+    },
+    {
+      "id": "halogen",
+      "name": "Halogen",
+      "description": "C++ chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "KierenP/Halogen",
+      "repository_url": "https://github.com/KierenP/Halogen",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/KierenP/Halogen/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/KierenP/Halogen/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "heimdall",
+      "name": "Heimdall",
+      "description": "A chess engine implemented in Nim.",
+      "language": "Nim",
+      "repository_provider": "github",
+      "repository": "nocturn9x/heimdall",
+      "repository_url": "https://github.com/nocturn9x/heimdall",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/nocturn9x/heimdall/blob/HEAD/README.md",
+      "license": {
+        "name": "Apache License 2.0",
+        "url": "https://github.com/nocturn9x/heimdall/blob/HEAD/LICENSE"
+      },
+      "notes": "This is the author's GitHub mirror; use upstream project documentation if releases are unavailable here."
+    },
+    {
+      "id": "hippocampe",
+      "name": "Hippocampe",
+      "description": "XBoard chess engine.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "rchastain/hippocampe",
+      "repository_url": "https://github.com/rchastain/hippocampe",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/rchastain/hippocampe/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/rchastain/hippocampe/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "homura",
+      "name": "Homura",
+      "description": "Development repo for Homura, A UCI Chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "RedBedHed/Homura",
+      "repository_url": "https://github.com/RedBedHed/Homura",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/RedBedHed/Homura/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/RedBedHed/Homura/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "hopper",
+      "name": "Hopper",
+      "description": "UCI compatible chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "jonathanmcdermid/Hopper-Chess-Engine",
+      "repository_url": "https://github.com/jonathanmcdermid/Hopper-Chess-Engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jonathanmcdermid/Hopper-Chess-Engine/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/jonathanmcdermid/Hopper-Chess-Engine/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "horowitz",
+      "name": "Horowitz",
+      "description": "UCI-compatible chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "lukazsdev/horowitz",
+      "repository_url": "https://github.com/lukazsdev/horowitz",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/lukazsdev/horowitz/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/lukazsdev/horowitz/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "horsie",
+      "name": "Horsie",
+      "description": "A C++ port of the Lizard chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "liamt19/Horsie",
+      "repository_url": "https://github.com/liamt19/Horsie",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/liamt19/Horsie/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/liamt19/Horsie/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "ice4",
+      "name": "ice4",
+      "description": "Chess engine in 4KB.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "MinusKelvin/ice4",
+      "repository_url": "https://github.com/MinusKelvin/ice4",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/MinusKelvin/ice4/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/MinusKelvin/ice4/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "igel",
+      "name": "Igel",
+      "description": "UCI compatible chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "vshcherbyna/igel",
+      "repository_url": "https://github.com/vshcherbyna/igel",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/vshcherbyna/igel/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/vshcherbyna/igel/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "illumina",
+      "name": "Illumina",
+      "description": "Superhuman UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Mergener/illumina",
+      "repository_url": "https://github.com/Mergener/illumina",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Mergener/illumina/blob/HEAD/readme.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Mergener/illumina/blob/HEAD/license.md"
+      }
+    },
+    {
+      "id": "inanis",
+      "name": "Inanis",
+      "description": "UCI chess engine written in Rust, the successor of Proxima b, Proxima b 2.0 and Cosette.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "Tearth/Inanis",
+      "repository_url": "https://github.com/Tearth/Inanis",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Tearth/Inanis/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Tearth/Inanis/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "invictus",
+      "name": "Invictus",
+      "description": "A chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "ed-apostol/InvictusChess",
+      "repository_url": "https://github.com/ed-apostol/InvictusChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ed-apostol/InvictusChess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/ed-apostol/InvictusChess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "izumi-chan",
+      "name": "Izumi-chan",
+      "description": "A chess engine implemented in C#.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "TomaszJaworski777/Izumi-chan",
+      "repository_url": "https://github.com/TomaszJaworski777/Izumi-chan",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/TomaszJaworski777/Izumi-chan/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/TomaszJaworski777/Izumi-chan/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "jackal",
+      "name": "Jackal",
+      "description": "Most aggressive CPU MCTS chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "TomaszJaworski777/Jackal",
+      "repository_url": "https://github.com/TomaszJaworski777/Jackal",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/TomaszJaworski777/Jackal/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/TomaszJaworski777/Jackal/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "jackychess",
+      "name": "JackyChess",
+      "description": "another opensource uci chess engine written in java.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "matthiaslang/jackychess",
+      "repository_url": "https://github.com/matthiaslang/jackychess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/matthiaslang/jackychess/blob/HEAD/readme.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/matthiaslang/jackychess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "javelin",
+      "name": "Javelin",
+      "description": "Open source UCI compatible MCTS chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "TomaszJaworski777/Javelin",
+      "repository_url": "https://github.com/TomaszJaworski777/Javelin",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/TomaszJaworski777/Javelin/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/TomaszJaworski777/Javelin/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "jet",
+      "name": "Jet",
+      "description": "ultra fast chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "rafid-dev/jet",
+      "repository_url": "https://github.com/rafid-dev/jet",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/rafid-dev/jet/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/rafid-dev/jet/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "k2",
+      "name": "K2",
+      "description": "Chess engine with UCI and Xboard interface.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "serg-meus/k2",
+      "repository_url": "https://github.com/serg-meus/k2",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/serg-meus/k2/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/serg-meus/k2/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "karballo",
+      "name": "Karballo",
+      "description": "A Kotlin Chess Engine.",
+      "language": "Kotlin",
+      "repository_provider": "github",
+      "repository": "albertoruibal/karballo",
+      "repository_url": "https://github.com/albertoruibal/karballo",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/albertoruibal/karballo/blob/HEAD/readme.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/albertoruibal/karballo/blob/HEAD/license.txt"
+      }
+    },
+    {
+      "id": "kelp",
+      "name": "Kelp",
+      "description": "A Chess Engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "gautam8404/kelp",
+      "repository_url": "https://github.com/gautam8404/kelp",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/gautam8404/kelp/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/gautam8404/kelp/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "kheprichess",
+      "name": "KhepriChess",
+      "description": "Chess engine written in TypeScript, from scratch. Browser and UCI support.",
+      "language": "TypeScript",
+      "repository_provider": "github",
+      "repository": "kurt1288/KhepriChess",
+      "repository_url": "https://github.com/kurt1288/KhepriChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/kurt1288/KhepriChess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/kurt1288/KhepriChess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "kingfisher",
+      "name": "Kingfisher",
+      "description": "UCI chess engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "eric-ycw/kingfisher",
+      "repository_url": "https://github.com/eric-ycw/kingfisher",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/eric-ycw/kingfisher/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/eric-ycw/kingfisher/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "kobra",
+      "name": "Kobra",
+      "description": "UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "jasper-sinclair/kobra",
+      "repository_url": "https://github.com/jasper-sinclair/kobra",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jasper-sinclair/kobra/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/jasper-sinclair/kobra/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "koivisto",
+      "name": "Koivisto",
+      "description": "UCI Chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Luecx/Koivisto",
+      "repository_url": "https://github.com/Luecx/Koivisto",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Luecx/Koivisto/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Luecx/Koivisto/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "kreveta",
+      "name": "Kreveta",
+      "description": "UCI-compatible chess engine written entirely in C#.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "ZlomenyMesic/Kreveta",
+      "repository_url": "https://github.com/ZlomenyMesic/Kreveta",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ZlomenyMesic/Kreveta/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/ZlomenyMesic/Kreveta/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "lambergar",
+      "name": "Lambergar",
+      "description": "UCI chess engine written in zig.",
+      "language": "Zig",
+      "repository_provider": "github",
+      "repository": "jabolcni/Lambergar",
+      "repository_url": "https://github.com/jabolcni/Lambergar",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jabolcni/Lambergar/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/jabolcni/Lambergar/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "laser",
+      "name": "Laser",
+      "description": "Laser, a UCI-compliant chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "jeffreyan11/laser-chess-engine",
+      "repository_url": "https://github.com/jeffreyan11/laser-chess-engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jeffreyan11/laser-chess-engine/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/jeffreyan11/laser-chess-engine/blob/HEAD/COPYING"
+      }
+    },
+    {
+      "id": "lazygull",
+      "name": "LazyGull",
+      "description": "A portable Gull-derived UCI engine with Lazy SMP search and Syzygy support.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "basil00/Gull",
+      "repository_url": "https://github.com/basil00/Gull",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/basil00/Gull/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License (modifications); public domain (original Gull source)",
+        "url": "https://github.com/basil00/Gull/blob/HEAD/LICENSE"
+      },
+      "aliases": [
+        "Gull"
+      ],
+      "notes": "A Gull-derived project maintained by the repository owner; the README says it is no longer maintained."
+    },
+    {
+      "id": "leandor",
+      "name": "Leandor",
+      "description": "A UCI chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "OliverLeenders/ChessEngineVS",
+      "repository_url": "https://github.com/OliverLeenders/ChessEngineVS",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/OliverLeenders/ChessEngineVS/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "url": "https://github.com/OliverLeenders/ChessEngineVS/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "leela-chess-zero",
+      "name": "Leela Chess Zero",
+      "description": "A neural-network UCI engine with CPU and GPU evaluation backends.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "LeelaChessZero/lc0",
+      "repository_url": "https://github.com/LeelaChessZero/lc0",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/LeelaChessZero/lc0/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0 with additional permission",
+        "url": "https://github.com/LeelaChessZero/lc0/blob/HEAD/COPYING"
+      },
+      "aliases": [
+        "Lc0",
+        "LCZero"
+      ],
+      "notes": "Also known as Lc0. Installation may require neural-network weights and backend-specific runtime libraries."
+    },
+    {
+      "id": "leorik",
+      "name": "Leorik",
+      "description": "Leorik is a strong, open-source UCI chess engine written in C#.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "lithander/Leorik",
+      "repository_url": "https://github.com/lithander/Leorik",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/lithander/Leorik/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/lithander/Leorik/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "lishex",
+      "name": "Lishex",
+      "description": "A UCI chess-engine built in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "MKJM2/lishex",
+      "repository_url": "https://github.com/MKJM2/lishex",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/MKJM2/lishex/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/MKJM2/lishex/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "little-wing",
+      "name": "Little Wing",
+      "description": "Chess engine written in Rust ♛.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "vinc/littlewing",
+      "repository_url": "https://github.com/vinc/littlewing",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/vinc/littlewing/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/vinc/littlewing/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "lizard",
+      "name": "Lizard",
+      "description": "A C# chess engine using alpha-beta search.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "liamt19/Lizard",
+      "repository_url": "https://github.com/liamt19/Lizard",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/liamt19/Lizard/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/liamt19/Lizard/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "description": "C++17 chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "BimmerBass/Loki",
+      "repository_url": "https://github.com/BimmerBass/Loki",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/BimmerBass/Loki/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/BimmerBass/Loki/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "lumac0",
+      "name": "Lumac0",
+      "description": "Lumac0 chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "dbenson42/Lumac0",
+      "repository_url": "https://github.com/dbenson42/Lumac0",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/dbenson42/Lumac0/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/dbenson42/Lumac0/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "luna",
+      "name": "Luna",
+      "description": "A UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Mergener/lunachess",
+      "repository_url": "https://github.com/Mergener/lunachess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Mergener/lunachess/blob/HEAD/readme.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Mergener/lunachess/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "lux",
+      "name": "Lux",
+      "description": "UCI-Compatible Chess Engine Built in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Sidhant-Roymoulik/Lux",
+      "repository_url": "https://github.com/Sidhant-Roymoulik/Lux",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Sidhant-Roymoulik/Lux/blob/HEAD/ReadMe.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Sidhant-Roymoulik/Lux/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "lxna",
+      "name": "Lxna",
+      "description": "Bitboard chess engine with zero dependencies written in C#.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "Lxdovic/Lxna",
+      "repository_url": "https://github.com/Lxdovic/Lxna",
+      "repository_archived": true,
+      "documentation_url": "https://github.com/Lxdovic/Lxna/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Lxdovic/Lxna/blob/HEAD/LICENSE"
+      },
+      "notes": "The upstream repository was archived when this entry was checked."
+    },
+    {
+      "id": "lynx",
+      "name": "Lynx",
+      "description": "HCE Chess Engine, written in C#.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "lynx-chess/Lynx",
+      "repository_url": "https://github.com/lynx-chess/Lynx",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/lynx-chess/Lynx/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/lynx-chess/Lynx/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "madchess",
+      "name": "MadChess",
+      "description": "UCI chess engine implemented in C# with bitboards.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "ekmadsen/MadChess",
+      "repository_url": "https://github.com/ekmadsen/MadChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ekmadsen/MadChess/blob/HEAD/docs/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/ekmadsen/MadChess/blob/HEAD/docs/LICENSE.md"
+      }
+    },
+    {
+      "id": "maelstrom",
+      "name": "Maelstrom",
+      "description": "a UCI chess engine written in Go.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "saisree27/Maelstrom",
+      "repository_url": "https://github.com/saisree27/Maelstrom",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/saisree27/Maelstrom/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/saisree27/Maelstrom/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "magog",
+      "name": "Magog",
+      "description": "UCI-compatible chess engine in Golang.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "macsmol/magog",
+      "repository_url": "https://github.com/macsmol/magog",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/macsmol/magog/blob/HEAD/readme.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/macsmol/magog/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "mantissa",
+      "name": "Mantissa",
+      "description": "A chess engine implemented in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "jtheardw/mantissa",
+      "repository_url": "https://github.com/jtheardw/mantissa",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jtheardw/mantissa/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/jtheardw/mantissa/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "marvin",
+      "name": "Marvin",
+      "description": "Marvin - An UCI/XBoard compatible chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "bmdanielsson/marvin-chess",
+      "repository_url": "https://github.com/bmdanielsson/marvin-chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/bmdanielsson/marvin-chess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/bmdanielsson/marvin-chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "megalodon",
+      "name": "Megalodon",
+      "description": "Chess engine with the UCI protocol.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "megalodon-chess/megalodon",
+      "repository_url": "https://github.com/megalodon-chess/megalodon",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/megalodon-chess/megalodon/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/megalodon-chess/megalodon/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "meltdown",
+      "name": "Meltdown",
+      "description": "C++23 UCI compliant Chess Engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "hansbinderup/meltdown-chess-engine",
+      "repository_url": "https://github.com/hansbinderup/meltdown-chess-engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/hansbinderup/meltdown-chess-engine/blob/HEAD/README.md",
+      "license": {
+        "name": "Apache License 2.0",
+        "url": "https://github.com/hansbinderup/meltdown-chess-engine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "mess",
+      "name": "Mess",
+      "description": "A Messy Chess Engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "raklaptudirm/mess",
+      "repository_url": "https://github.com/raklaptudirm/mess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/raklaptudirm/mess/blob/HEAD/README.md",
+      "license": {
+        "name": "Apache License 2.0",
+        "url": "https://github.com/raklaptudirm/mess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "midnight",
+      "name": "Midnight",
+      "description": "A superhuman uci chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "archishou/MidnightChessEngine",
+      "repository_url": "https://github.com/archishou/MidnightChessEngine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/archishou/MidnightChessEngine/blob/HEAD/ReadMe.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/archishou/MidnightChessEngine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "minic",
+      "name": "Minic",
+      "description": "A simple chess engine to learn and play with.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "tryingsomestuff/Minic",
+      "repository_url": "https://github.com/tryingsomestuff/Minic",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/tryingsomestuff/Minic/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/tryingsomestuff/Minic/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "minimalchess",
+      "name": "MinimalChess",
+      "description": "A compact UCI chess engine implemented in C#.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "lithander/MinimalChessEngine",
+      "repository_url": "https://github.com/lithander/MinimalChessEngine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/lithander/MinimalChessEngine/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/lithander/MinimalChessEngine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "minke",
+      "name": "Minke",
+      "description": "A chess engine using neural-network evaluation.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "enfmarinho/Minke",
+      "repository_url": "https://github.com/enfmarinho/Minke",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/enfmarinho/Minke/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/enfmarinho/Minke/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "minnow",
+      "name": "Minnow",
+      "description": "A smallish and weak UCI chess engine written in C99.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "tm512/minnow",
+      "repository_url": "https://github.com/tm512/minnow",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/tm512/minnow/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/tm512/minnow/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "mister-queen",
+      "name": "Mister Queen",
+      "description": "A chess engine written in C.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "fogleman/MisterQueen",
+      "repository_url": "https://github.com/fogleman/MisterQueen",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/fogleman/MisterQueen/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/fogleman/MisterQueen/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "molybdenum",
+      "name": "Molybdenum",
+      "description": "Molybdenum is a chess engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "rn5f107s2/Molybdenum",
+      "repository_url": "https://github.com/rn5f107s2/Molybdenum",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/rn5f107s2/Molybdenum/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/rn5f107s2/Molybdenum/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "monchester",
+      "name": "Monchester",
+      "description": "Monchester, chess engine for CECP interfaces and console.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "unserializable/monchester",
+      "repository_url": "https://github.com/unserializable/monchester",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/unserializable/monchester/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/unserializable/monchester/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "monolith",
+      "name": "Monolith",
+      "description": "UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "cimarronOST/Monolith",
+      "repository_url": "https://github.com/cimarronOST/Monolith",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/cimarronOST/Monolith/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/cimarronOST/Monolith/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "monty",
+      "name": "Monty",
+      "description": "A free and strong CPU MCTS UCI chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "official-monty/Monty",
+      "repository_url": "https://github.com/official-monty/Monty",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/official-monty/Monty/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/official-monty/Monty/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "mora",
+      "name": "MORA",
+      "description": "A UCI chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "gonzaloarro/MORA-CHESS-ENGINE",
+      "repository_url": "https://github.com/gonzaloarro/MORA-CHESS-ENGINE",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/gonzaloarro/MORA-CHESS-ENGINE/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/gonzaloarro/MORA-CHESS-ENGINE/blob/HEAD/COPYING"
+      }
+    },
+    {
+      "id": "mrbob",
+      "name": "MrBob",
+      "description": "Chess engine in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "bobsquared/Mr_Bob_Chess",
+      "repository_url": "https://github.com/bobsquared/Mr_Bob_Chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/bobsquared/Mr_Bob_Chess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/bobsquared/Mr_Bob_Chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "mufasa",
+      "name": "Mufasa",
+      "description": "UCI compatible bitboard chess engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "mononices/mufasa",
+      "repository_url": "https://github.com/mononices/mufasa",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mononices/mufasa/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/mononices/mufasa/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "napoleon",
+      "name": "Napoleon",
+      "description": "Re-designed Chess engine and converted in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "crybot/Napoleon",
+      "repository_url": "https://github.com/crybot/Napoleon",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/crybot/Napoleon/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/crybot/Napoleon/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "nawito",
+      "name": "Nawito",
+      "description": "A UCI chess engine derived from Danasah.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "etorresf/Nawito64Bit",
+      "repository_url": "https://github.com/etorresf/Nawito64Bit",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/etorresf/Nawito64Bit/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/etorresf/Nawito64Bit/blob/HEAD/GPL-LICENSE.txt"
+      }
+    },
+    {
+      "id": "nectar",
+      "name": "Nectar",
+      "description": "NNUE Chess Engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "Dragjon/Nectar",
+      "repository_url": "https://github.com/Dragjon/Nectar",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Dragjon/Nectar/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Dragjon/Nectar/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "neocortex",
+      "name": "Neocortex",
+      "description": "A UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "codeandkey/neocortex",
+      "repository_url": "https://github.com/codeandkey/neocortex",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/codeandkey/neocortex/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/codeandkey/neocortex/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "neuromancer",
+      "name": "Neuromancer",
+      "description": "A chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "mateoxh/neuromancer",
+      "repository_url": "https://github.com/mateoxh/neuromancer",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mateoxh/neuromancer/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/mateoxh/neuromancer/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "noragrace",
+      "name": "NoraGrace",
+      "description": "NoraGrace Chess Engine by Eric Oldre.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "ericoldre/NoraGrace-Chess",
+      "repository_url": "https://github.com/ericoldre/NoraGrace-Chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ericoldre/NoraGrace-Chess/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/ericoldre/NoraGrace-Chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "nuclearchess",
+      "name": "NuclearChess",
+      "description": "A chess engine implemented in C#.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "michabay05/NuclearChess",
+      "repository_url": "https://github.com/michabay05/NuclearChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/michabay05/NuclearChess/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/michabay05/NuclearChess/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "description": "An UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "gab8192/Obsidian",
+      "repository_url": "https://github.com/gab8192/Obsidian",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/gab8192/Obsidian/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/gab8192/Obsidian/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "odonata",
+      "name": "Odonata",
+      "description": "Odonata is a chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "akanalytics/odonata",
+      "repository_url": "https://github.com/akanalytics/odonata",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/akanalytics/odonata/blob/HEAD/docs/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/akanalytics/odonata/blob/HEAD/license.txt"
+      }
+    },
+    {
+      "id": "oxide",
+      "name": "Oxide",
+      "description": "Oxide is a chess Engine written in Rust, UCI compliant, focused on legibility whilst mantaining efficiency.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "Miguevrgo/Oxide",
+      "repository_url": "https://github.com/Miguevrgo/Oxide",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Miguevrgo/Oxide/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Miguevrgo/Oxide/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "panda",
+      "name": "Panda",
+      "description": "Chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "all-c-a-p-s/Panda",
+      "repository_url": "https://github.com/all-c-a-p-s/Panda",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/all-c-a-p-s/Panda/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/all-c-a-p-s/Panda/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "patricia",
+      "name": "Patricia",
+      "description": "Super aggressive chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Adam-Kulju/Patricia",
+      "repository_url": "https://github.com/Adam-Kulju/Patricia",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Adam-Kulju/Patricia/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Adam-Kulju/Patricia/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "paulchen332",
+      "name": "paulchen332",
+      "description": "A simple UCI chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "hannahlenk/paulchen332",
+      "repository_url": "https://github.com/hannahlenk/paulchen332",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/hannahlenk/paulchen332/blob/HEAD/README.md",
+      "license": {
+        "name": "BSD 2-Clause License",
+        "url": "https://github.com/hannahlenk/paulchen332/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "pawnocchio",
+      "name": "pawnocchio",
+      "description": "chess engine, goal is to make it strong. currently plays good chess.",
+      "language": "Zig",
+      "repository_provider": "github",
+      "repository": "JonathanHallstrom/pawnocchio",
+      "repository_url": "https://github.com/JonathanHallstrom/pawnocchio",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/JonathanHallstrom/pawnocchio/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/JonathanHallstrom/pawnocchio/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "peacekeeper",
+      "name": "Peacekeeper",
+      "description": "A UCI chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Sazgr/peacekeeper",
+      "repository_url": "https://github.com/Sazgr/peacekeeper",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Sazgr/peacekeeper/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Sazgr/peacekeeper/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "pedantic",
+      "name": "Pedantic",
+      "description": "An ongoing refactor/rewrite of the Pedantic chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "JoAnnP38/PedanticRF",
+      "repository_url": "https://github.com/JoAnnP38/PedanticRF",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/JoAnnP38/PedanticRF/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT No Attribution",
+        "url": "https://github.com/JoAnnP38/PedanticRF/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "description": "UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "TheRealGioviok/Perseus-Engine",
+      "repository_url": "https://github.com/TheRealGioviok/Perseus-Engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/TheRealGioviok/Perseus-Engine/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/TheRealGioviok/Perseus-Engine/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "pigeon",
+      "name": "Pigeon",
+      "description": "Pigeon Chess Engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "StuartRiffle/pigeon",
+      "repository_url": "https://github.com/StuartRiffle/pigeon",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/StuartRiffle/pigeon/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/StuartRiffle/pigeon/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "pingu",
+      "name": "Pingu",
+      "description": "UCI Chess Engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "WillChing01/Pingu",
+      "repository_url": "https://github.com/WillChing01/Pingu",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/WillChing01/Pingu/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/WillChing01/Pingu/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "pirarucu",
+      "name": "Pirarucu",
+      "description": "A Kotlin Chess Engine.",
+      "language": "Kotlin",
+      "repository_provider": "github",
+      "repository": "ratosh/pirarucu",
+      "repository_url": "https://github.com/ratosh/pirarucu",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ratosh/pirarucu/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/ratosh/pirarucu/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "plentychess",
+      "name": "PlentyChess",
+      "description": "A UCI chess engine using neural-network position evaluation.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Yoshie2000/PlentyChess",
+      "repository_url": "https://github.com/Yoshie2000/PlentyChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Yoshie2000/PlentyChess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Yoshie2000/PlentyChess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "plisco",
+      "name": "Plisco",
+      "description": "Plisco is a chess library for Perl and also ships with the chess engine plisco.",
+      "language": "Perl",
+      "repository_provider": "github",
+      "repository": "gflohr/Chess-Plisco",
+      "repository_url": "https://github.com/gflohr/Chess-Plisco",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/gflohr/Chess-Plisco/blob/HEAD/README.md",
+      "license": {
+        "name": "Do What The F*ck You Want To Public License v2",
+        "url": "https://github.com/gflohr/Chess-Plisco/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "pluto",
+      "name": "Pluto",
+      "description": "UCI Chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "Lxdovic/pluto",
+      "repository_url": "https://github.com/Lxdovic/pluto",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Lxdovic/pluto/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Lxdovic/pluto/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "polarchess",
+      "name": "PolarChess",
+      "description": "A chessprogram for playing chess.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "OGMalin/Polarchess",
+      "repository_url": "https://github.com/OGMalin/Polarchess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/OGMalin/Polarchess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/OGMalin/Polarchess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "polaris",
+      "name": "Polaris",
+      "description": "UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Ciekce/Polaris",
+      "repository_url": "https://github.com/Ciekce/Polaris",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Ciekce/Polaris/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Ciekce/Polaris/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "potential",
+      "name": "Potential",
+      "description": "A chess engine written in C.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "ProgramciDusunur/Potential",
+      "repository_url": "https://github.com/ProgramciDusunur/Potential",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ProgramciDusunur/Potential/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/ProgramciDusunur/Potential/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "pounce",
+      "name": "pounce",
+      "description": "A chess engine in rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "0xflick/pounce",
+      "repository_url": "https://github.com/0xflick/pounce",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/0xflick/pounce/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/0xflick/pounce/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "priessnitz",
+      "name": "Priessnitz",
+      "description": "A UCI chess engine by Kevin Feske.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "kfeske/Priessnitz",
+      "repository_url": "https://github.com/kfeske/Priessnitz",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/kfeske/Priessnitz/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/kfeske/Priessnitz/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "princhess",
+      "name": "Princhess",
+      "description": "A UCI compatible chess engine, that uses CPU only MCTS, written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "princesslana/princhess",
+      "repository_url": "https://github.com/princesslana/princhess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/princesslana/princhess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/princesslana/princhess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "prophet3",
+      "name": "Prophet3",
+      "description": "a C based chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "jswaff/prophet3",
+      "repository_url": "https://github.com/jswaff/prophet3",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jswaff/prophet3/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/jswaff/prophet3/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "prune",
+      "name": "Prune",
+      "description": "UCI chess engine written in c++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "tgirolami09/Prune",
+      "repository_url": "https://github.com/tgirolami09/Prune",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/tgirolami09/Prune/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/tgirolami09/Prune/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "publius",
+      "name": "Publius",
+      "description": "A teaching chess engine using bitboards and documented as public domain by its author.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "nescitus/publius",
+      "repository_url": "https://github.com/nescitus/publius",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/nescitus/publius/blob/HEAD/README.md",
+      "license": {
+        "name": "Public domain (author declaration)",
+        "url": "https://github.com/nescitus/publius/blob/HEAD/README.md"
+      }
+    },
+    {
+      "id": "puffin",
+      "name": "Puffin",
+      "description": "A C# chess engine.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "kurt1288/Puffin",
+      "repository_url": "https://github.com/kurt1288/Puffin",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/kurt1288/Puffin/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/kurt1288/Puffin/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "pulse",
+      "name": "Pulse",
+      "description": "A Didactic Multi-language Chess Engine.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "fluxroot/pulse",
+      "repository_url": "https://github.com/fluxroot/pulse",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/fluxroot/pulse/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/fluxroot/pulse/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "purple-haze",
+      "name": "Purple Haze",
+      "description": "0x88 chess engine written in C++ ♘.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "vinc/purplehaze",
+      "repository_url": "https://github.com/vinc/purplehaze",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/vinc/purplehaze/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/vinc/purplehaze/blob/HEAD/COPYING"
+      }
+    },
+    {
+      "id": "pzchessbot",
+      "name": "PZChessBot",
+      "description": "\"Strong\" chess engine made in C++.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "kevlu8/PZChessBot",
+      "repository_url": "https://github.com/kevlu8/PZChessBot",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/kevlu8/PZChessBot/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/kevlu8/PZChessBot/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "qapla",
+      "name": "Qapla",
+      "description": "Qapla chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Mangar2/Qapla",
+      "repository_url": "https://github.com/Mangar2/Qapla",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Mangar2/Qapla/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/Mangar2/Qapla/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "quanticade",
+      "name": "Quanticade",
+      "description": "A strong UCI compatible chess engine.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "Quanticade/Quanticade",
+      "repository_url": "https://github.com/Quanticade/Quanticade",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Quanticade/Quanticade/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Quanticade/Quanticade/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "quirky",
+      "name": "Quirky",
+      "description": "Yet another chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Wind-Eagle/Quirky",
+      "repository_url": "https://github.com/Wind-Eagle/Quirky",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Wind-Eagle/Quirky/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Wind-Eagle/Quirky/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "quokka",
+      "name": "Quokka",
+      "description": "A UCI chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "mattbruv/Quokka",
+      "repository_url": "https://github.com/mattbruv/Quokka",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mattbruv/Quokka/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/mattbruv/Quokka/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "radiance",
+      "name": "Radiance",
+      "description": "UCI Chess Engine written in Zig.",
+      "language": "Zig",
+      "repository_provider": "github",
+      "repository": "ppipelin/radiance",
+      "repository_url": "https://github.com/ppipelin/radiance",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ppipelin/radiance/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/ppipelin/radiance/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "raphael",
+      "name": "Raphael",
+      "description": "Superhuman chess engine and GUI coded in C++ and SFML.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Orbital-Web/Raphael",
+      "repository_url": "https://github.com/Orbital-Web/Raphael",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Orbital-Web/Raphael/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/Orbital-Web/Raphael/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "rasch",
+      "name": "Rasch",
+      "description": "chess engine in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "Ingo60/rasch",
+      "repository_url": "https://github.com/Ingo60/rasch",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Ingo60/rasch/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Ingo60/rasch/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "raven",
+      "name": "Raven",
+      "description": "Raven Chess Engine.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "sgriffin53/raven",
+      "repository_url": "https://github.com/sgriffin53/raven",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/sgriffin53/raven/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/sgriffin53/raven/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "reckless",
+      "name": "Reckless",
+      "description": "Competitive chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "codedeliveryservice/Reckless",
+      "repository_url": "https://github.com/codedeliveryservice/Reckless",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/codedeliveryservice/Reckless/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/codedeliveryservice/Reckless/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "renegade",
+      "name": "Renegade",
+      "description": "A strong chess engine which uses a neural network to evaluate positions.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "pkrisz99/Renegade",
+      "repository_url": "https://github.com/pkrisz99/Renegade",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/pkrisz99/Renegade/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/pkrisz99/Renegade/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "reyna",
+      "name": "Reyna",
+      "description": "Reyna is a UCI chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "renztarga/Reyna",
+      "repository_url": "https://github.com/renztarga/Reyna",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/renztarga/Reyna/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/renztarga/Reyna/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "description": "C++ UCI Chess Engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "rafid-dev/rice",
+      "repository_url": "https://github.com/rafid-dev/rice",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/rafid-dev/rice/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/rafid-dev/rice/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "robocide",
+      "name": "Robocide",
+      "description": "Robocide is a free, open-source UCI chess engine written in C from scratch.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "DanielWhite94/robocide",
+      "repository_url": "https://github.com/DanielWhite94/robocide",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/DanielWhite94/robocide/blob/HEAD/Readme.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/DanielWhite94/robocide/blob/HEAD/Copying.txt"
+      }
+    },
+    {
+      "id": "rodent-iv",
+      "name": "Rodent IV",
+      "description": "A configurable chess engine with selectable playing personalities.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "nescitus/rodent-iv",
+      "repository_url": "https://github.com/nescitus/rodent-iv",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/nescitus/rodent-iv/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/nescitus/rodent-iv/blob/HEAD/LICENSE"
+      },
+      "aliases": [
+        "Rodent"
+      ]
+    },
+    {
+      "id": "rodent-v",
+      "name": "Rodent V",
+      "description": "A Go rewrite of Rodent with neural-network evaluation and configurable personalities.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "nescitus/Rodent-V",
+      "repository_url": "https://github.com/nescitus/Rodent-V",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/nescitus/Rodent-V/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/nescitus/Rodent-V/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "ronja",
+      "name": "Ronja",
+      "description": "An XBoard/WinBoard chess engine written in Java.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "dykstrom/ronja",
+      "repository_url": "https://github.com/dykstrom/ronja",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/dykstrom/ronja/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/dykstrom/ronja/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "rubichess",
+      "name": "RubiChess",
+      "description": "Another chess engine.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "Matthies/RubiChess",
+      "repository_url": "https://github.com/Matthies/RubiChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Matthies/RubiChess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Matthies/RubiChess/blob/HEAD/copying"
+      }
+    },
+    {
+      "id": "rudim",
+      "name": "Rudim",
+      "description": "UCI compliant Rust chess engine using Efficiently Updatable Neural Networks (NNUE).",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "znxftw/rudim",
+      "repository_url": "https://github.com/znxftw/rudim",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/znxftw/rudim/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/znxftw/rudim/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "rukchess",
+      "name": "RukChess",
+      "description": "Chess engine with terminal user interface, UCI support and NNUE evaluation function.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "Ilya-Ruk/RukChess",
+      "repository_url": "https://github.com/Ilya-Ruk/RukChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Ilya-Ruk/RukChess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Ilya-Ruk/RukChess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "rustic",
+      "name": "Rustic",
+      "description": "A chess engine written from scratch in Rust, maintained on Codeberg.",
+      "language": "Rust",
+      "repository_provider": "codeberg",
+      "repository": "mvanthoor/rustic",
+      "repository_url": "https://codeberg.org/mvanthoor/rustic",
+      "repository_archived": false,
+      "documentation_url": "https://codeberg.org/mvanthoor/rustic/src/branch/master/readme.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://codeberg.org/mvanthoor/rustic/src/branch/master/LICENSE"
+      },
+      "notes": "The author moved development from GitHub to Codeberg; this entry points to the current upstream project."
+    },
+    {
+      "id": "rusty-rival",
+      "name": "Rusty Rival",
+      "description": "A UCI chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "chris-moreton/rusty-rival",
+      "repository_url": "https://github.com/chris-moreton/rusty-rival",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/chris-moreton/rusty-rival/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/chris-moreton/rusty-rival/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "sapeli",
+      "name": "Sapeli",
+      "description": "Linux UCI Chess960 engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "SamuraiDangyo/sapeli-final",
+      "repository_url": "https://github.com/SamuraiDangyo/sapeli-final",
+      "repository_archived": true,
+      "documentation_url": "https://github.com/SamuraiDangyo/sapeli-final/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/SamuraiDangyo/sapeli-final/blob/HEAD/LICENSE"
+      },
+      "notes": "The upstream repository was archived when this entry was checked."
+    },
+    {
+      "id": "sapling",
+      "name": "Sapling",
+      "description": "A strong dotnet UCI Chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "Timmoth/Sapling",
+      "repository_url": "https://github.com/Timmoth/Sapling",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Timmoth/Sapling/blob/HEAD/README.md",
+      "license": {
+        "name": "Apache License 2.0",
+        "url": "https://github.com/Timmoth/Sapling/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "saruman",
+      "name": "Saruman",
+      "description": "Chess Engine and GUI.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "ConorGriffin37/chess",
+      "repository_url": "https://github.com/ConorGriffin37/chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ConorGriffin37/chess/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/ConorGriffin37/chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "sayuri",
+      "name": "Sayuri",
+      "description": "A UCI chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "MetalPhaeton/sayuri",
+      "repository_url": "https://github.com/MetalPhaeton/sayuri",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/MetalPhaeton/sayuri/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/MetalPhaeton/sayuri/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "schneckbert",
+      "name": "Schneckbert",
+      "description": "a UCI Chess Engine in C#.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "CommanderKugel/Schneckbert",
+      "repository_url": "https://github.com/CommanderKugel/Schneckbert",
+      "repository_archived": false,
+      "documentation_url": null,
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/CommanderKugel/Schneckbert/blob/HEAD/License"
+      }
+    },
+    {
+      "id": "scoria",
+      "name": "Scoria",
+      "description": "An Open Source UCI Java Chess Engine.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "iannathan-k/scoria",
+      "repository_url": "https://github.com/iannathan-k/scoria",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/iannathan-k/scoria/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/iannathan-k/scoria/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "seawall",
+      "name": "Seawall",
+      "description": "An UCI chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "petur/seawall",
+      "repository_url": "https://github.com/petur/seawall",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/petur/seawall/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/petur/seawall/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "seer",
+      "name": "Seer",
+      "description": "UCI chess engine using neural networks for position evaluation.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "connormcmonigle/seer-nnue",
+      "repository_url": "https://github.com/connormcmonigle/seer-nnue",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/connormcmonigle/seer-nnue/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/connormcmonigle/seer-nnue/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel",
+      "description": "A chess engine implemented in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "DanSamek/Sentinel",
+      "repository_url": "https://github.com/DanSamek/Sentinel",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/DanSamek/Sentinel/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/DanSamek/Sentinel/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "serendipity",
+      "name": "Serendipity",
+      "description": "Java Chess Engine.",
+      "language": "Java",
+      "repository_provider": "github",
+      "repository": "xu-shawn/Serendipity",
+      "repository_url": "https://github.com/xu-shawn/Serendipity",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/xu-shawn/Serendipity/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/xu-shawn/Serendipity/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "shallowblue",
+      "name": "ShallowBlue",
+      "description": "UCI Chess engine written in C++11.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "GunshipPenguin/shallow-blue",
+      "repository_url": "https://github.com/GunshipPenguin/shallow-blue",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/GunshipPenguin/shallow-blue/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/GunshipPenguin/shallow-blue/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "shallowguess",
+      "name": "ShallowGuess",
+      "description": "A chess engine with neural-network evaluation trained on game results.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "buildingwheels/ShallowGuess",
+      "repository_url": "https://github.com/buildingwheels/ShallowGuess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/buildingwheels/ShallowGuess/blob/HEAD/README.md",
+      "license": {
+        "name": "Apache License 2.0",
+        "url": "https://github.com/buildingwheels/ShallowGuess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "shashchess",
+      "name": "ShashChess",
+      "description": "A Stockfish-derived engine exploring Alexander Shashin's chess theory.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "amchess/ShashChess",
+      "repository_url": "https://github.com/amchess/ShashChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/amchess/ShashChess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/amchess/ShashChess/blob/HEAD/Copying.txt"
+      }
+    },
+    {
+      "id": "shuffle",
+      "name": "Shuffle",
+      "description": "A C chess engine with UCI, alpha-beta search and Zobrist hashing.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "ArjunBasandrai/shuffle-chess-engine",
+      "repository_url": "https://github.com/ArjunBasandrai/shuffle-chess-engine",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/ArjunBasandrai/shuffle-chess-engine/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/ArjunBasandrai/shuffle-chess-engine/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "simbelmyne",
+      "name": "Simbelmyne",
+      "description": "A somewhat UCI compliant chess engine that could probably beat you.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "sroelants/simbelmyne",
+      "repository_url": "https://github.com/sroelants/simbelmyne",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/sroelants/simbelmyne/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/sroelants/simbelmyne/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "sloppy",
+      "name": "Sloppy",
+      "description": "Chess engine using the XBoard chess protocol.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "cutechess/sloppy",
+      "repository_url": "https://github.com/cutechess/sloppy",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/cutechess/sloppy/blob/HEAD/README",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/cutechess/sloppy/blob/HEAD/COPYING"
+      }
+    },
+    {
+      "id": "smallbrain",
+      "name": "Smallbrain",
+      "description": "A UCI chess engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Disservin/Smallbrain",
+      "repository_url": "https://github.com/Disservin/Smallbrain",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Disservin/Smallbrain/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Disservin/Smallbrain/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "smallpotato",
+      "name": "SmallPotato",
+      "description": "Chess engine. Works with Xboard/Winboard and any interface that talks that protocol.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "alito/smallpotato",
+      "repository_url": "https://github.com/alito/smallpotato",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/alito/smallpotato/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "url": "https://github.com/alito/smallpotato/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "snail-chess",
+      "name": "Snail Chess",
+      "description": "A UCI chess engine written in Snail with handcrafted evaluation.",
+      "language": "Snail",
+      "repository_provider": "github",
+      "repository": "CodeAdopter/Snail-Chess",
+      "repository_url": "https://github.com/CodeAdopter/Snail-Chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/CodeAdopter/Snail-Chess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/CodeAdopter/Snail-Chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "snowy",
+      "name": "Snowy",
+      "description": "UCI chess engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "JasonCreighton/snowy",
+      "repository_url": "https://github.com/JasonCreighton/snowy",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/JasonCreighton/snowy/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/JasonCreighton/snowy/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "sofcheck",
+      "name": "SoFCheck",
+      "description": "Just another chess engine on magic bitboards. Written in C++17.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "alex65536/sofcheck",
+      "repository_url": "https://github.com/alex65536/sofcheck",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/alex65536/sofcheck/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/alex65536/sofcheck/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "spacedog",
+      "name": "SpaceDog",
+      "description": "Chess engine based on VICE, written in C.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "thorsilver/SpaceDog",
+      "repository_url": "https://github.com/thorsilver/SpaceDog",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/thorsilver/SpaceDog/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/thorsilver/SpaceDog/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "starzix",
+      "name": "Starzix",
+      "description": "A strong C++ chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "zzzzz151/Starzix",
+      "repository_url": "https://github.com/zzzzz151/Starzix",
+      "repository_archived": true,
+      "documentation_url": "https://github.com/zzzzz151/Starzix/blob/HEAD/README.md",
+      "license": {
+        "name": "Do What The F*ck You Want To Public License",
+        "url": "https://github.com/zzzzz151/Starzix/blob/HEAD/LICENSE"
+      },
+      "notes": "The upstream repository was archived when this entry was checked."
+    },
+    {
+      "id": "stash",
+      "name": "Stash",
+      "description": "A UCI chess engine developed from scratch.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "mhouppin/stash-bot",
+      "repository_url": "https://github.com/mhouppin/stash-bot",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mhouppin/stash-bot/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/mhouppin/stash-bot/blob/HEAD/LICENSE"
+      },
+      "notes": "This is the author's GitHub mirror of the GitLab project at https://gitlab.com/mhouppin/stash-bot."
+    },
+    {
+      "id": "stellar",
+      "name": "Stellar",
+      "description": "A UCI chess engine using bitboard representation.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "DimitrijeDobrota/stellar",
+      "repository_url": "https://github.com/DimitrijeDobrota/stellar",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/DimitrijeDobrota/stellar/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/DimitrijeDobrota/stellar/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "stockdory",
+      "name": "StockDory",
+      "description": "Strong Neural Network Chess Engine written in Modern C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "TheBlackPlague/StockDory",
+      "repository_url": "https://github.com/TheBlackPlague/StockDory",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/TheBlackPlague/StockDory/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/TheBlackPlague/StockDory/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "stockfish",
+      "name": "Stockfish",
+      "description": "A UCI engine using alpha-beta search and NNUE evaluation.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "official-stockfish/Stockfish",
+      "repository_url": "https://github.com/official-stockfish/Stockfish",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/official-stockfish/Stockfish/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/official-stockfish/Stockfish/blob/HEAD/Copying.txt"
+      }
+    },
+    {
+      "id": "stocknemo",
+      "name": "StockNemo",
+      "description": "A C# Chess Engine Finding Good Moves.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "TheBlackPlague/StockNemo",
+      "repository_url": "https://github.com/TheBlackPlague/StockNemo",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/TheBlackPlague/StockNemo/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Lesser General Public License v3.0",
+        "url": "https://github.com/TheBlackPlague/StockNemo/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "stormphrax",
+      "name": "Stormphrax",
+      "description": "A UCI engine with NNUE evaluation trained from zero knowledge.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Ciekce/Stormphrax",
+      "repository_url": "https://github.com/Ciekce/Stormphrax",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Ciekce/Stormphrax/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Ciekce/Stormphrax/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "sturddle",
+      "name": "Sturddle",
+      "description": "A C++ chess engine with neural-network evaluation.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "cristivlas/sturddle-2",
+      "repository_url": "https://github.com/cristivlas/sturddle-2",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/cristivlas/sturddle-2/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/cristivlas/sturddle-2/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "sunfish",
+      "name": "Sunfish",
+      "description": "A compact Python chess engine with a UCI interface.",
+      "language": "Python",
+      "repository_provider": "github",
+      "repository": "thomasahle/sunfish",
+      "repository_url": "https://github.com/thomasahle/sunfish",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/thomasahle/sunfish/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/thomasahle/sunfish/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "supernova",
+      "name": "Supernova",
+      "description": "UCI chess engine.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "MichaeltheCoder7/Supernova",
+      "repository_url": "https://github.com/MichaeltheCoder7/Supernova",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/MichaeltheCoder7/Supernova/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/MichaeltheCoder7/Supernova/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "superultra",
+      "name": "Superultra",
+      "description": "NNUE Chess Engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "A1exL1ang/Superultra",
+      "repository_url": "https://github.com/A1exL1ang/Superultra",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/A1exL1ang/Superultra/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/A1exL1ang/Superultra/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "svart",
+      "name": "Svart",
+      "description": "UCI Chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "1337crisis/svart",
+      "repository_url": "https://github.com/1337crisis/svart",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/1337crisis/svart/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/1337crisis/svart/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "taltos",
+      "name": "Taltos",
+      "description": "Experimental chess engine for learning and fun.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "GBuella/Taltos",
+      "repository_url": "https://github.com/GBuella/Taltos",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/GBuella/Taltos/blob/HEAD/README.md",
+      "license": {
+        "name": "BSD 2-Clause License",
+        "url": "https://github.com/GBuella/Taltos/blob/HEAD/COPYING"
+      }
+    },
+    {
+      "id": "tarnished",
+      "name": "Tarnished",
+      "description": "UCI Chess Engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Bobingstern/Tarnished",
+      "repository_url": "https://github.com/Bobingstern/Tarnished",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Bobingstern/Tarnished/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Bobingstern/Tarnished/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "tcheran",
+      "name": "Tcheran",
+      "description": "A chess engine implemented in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "tcheran-chess/tcheran",
+      "repository_url": "https://github.com/tcheran-chess/tcheran",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/tcheran-chess/tcheran/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/tcheran-chess/tcheran/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "teki",
+      "name": "Teki",
+      "description": "A free UCI-compliant chess engine in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Mk-Chan/Teki",
+      "repository_url": "https://github.com/Mk-Chan/Teki",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Mk-Chan/Teki/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Mk-Chan/Teki/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "texel",
+      "name": "Texel",
+      "description": "Texel chess engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "peterosterlund2/texel",
+      "repository_url": "https://github.com/peterosterlund2/texel",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/peterosterlund2/texel/blob/HEAD/readme.txt",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/peterosterlund2/texel/blob/HEAD/COPYING"
+      }
+    },
+    {
+      "id": "tinman",
+      "name": "Tinman",
+      "description": "A Rusty Chess Engine.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "mikeleany/tinman",
+      "repository_url": "https://github.com/mikeleany/tinman",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mikeleany/tinman/blob/HEAD/README.md",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "url": "https://github.com/mikeleany/tinman/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "titan",
+      "name": "Titan",
+      "description": "A terminal based chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "jeff-pow/Titan",
+      "repository_url": "https://github.com/jeff-pow/Titan",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/jeff-pow/Titan/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/jeff-pow/Titan/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "toad",
+      "name": "Toad",
+      "description": "A UCI compatible chess engine.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "dannyhammer/toad",
+      "repository_url": "https://github.com/dannyhammer/toad",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/dannyhammer/toad/blob/HEAD/README.md",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "url": "https://github.com/dannyhammer/toad/blob/HEAD/LICENSE.txt"
+      }
+    },
+    {
+      "id": "tofiks",
+      "name": "Tofiks",
+      "description": "UCI chess engine written in Go.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "likeawizard/tofiks",
+      "repository_url": "https://github.com/likeawizard/tofiks",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/likeawizard/tofiks/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/likeawizard/tofiks/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "tomitankchess",
+      "name": "tomitankChess",
+      "description": "Hungarian JavaScript Chess Engine.",
+      "language": "JavaScript",
+      "repository_provider": "github",
+      "repository": "tomitank/tomitankChess",
+      "repository_url": "https://github.com/tomitank/tomitankChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/tomitank/tomitankChess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/tomitank/tomitankChess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "topas",
+      "name": "Topas",
+      "description": "A UCI chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "samcn8/topas",
+      "repository_url": "https://github.com/samcn8/topas",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/samcn8/topas/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/samcn8/topas/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "topple",
+      "name": "Topple",
+      "description": "UCI chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "konsolas/ToppleChess",
+      "repository_url": "https://github.com/konsolas/ToppleChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/konsolas/ToppleChess/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/konsolas/ToppleChess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "trinket",
+      "name": "Trinket",
+      "description": "A chess engine implemented in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "DkeRee/Trinket",
+      "repository_url": "https://github.com/DkeRee/Trinket",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/DkeRee/Trinket/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/DkeRee/Trinket/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "triumviratus",
+      "name": "Triumviratus",
+      "description": "A C++ UCI chess engine with NNUE evaluation, alpha-beta search and Syzygy tablebase support.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "Tors3/Triumviratus",
+      "repository_url": "https://github.com/Tors3/Triumviratus",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Tors3/Triumviratus/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Tors3/Triumviratus/blob/HEAD/COPYING"
+      }
+    },
+    {
+      "id": "tucano",
+      "name": "Tucano",
+      "description": "Tucano Chess Engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "alcides-schulz/Tucano",
+      "repository_url": "https://github.com/alcides-schulz/Tucano",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/alcides-schulz/Tucano/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/alcides-schulz/Tucano/blob/HEAD/copying.txt"
+      }
+    },
+    {
+      "id": "tunguska",
+      "name": "Tunguska",
+      "description": "UCI compliant chess Engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "fernandotenorio/Tunguska",
+      "repository_url": "https://github.com/fernandotenorio/Tunguska",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/fernandotenorio/Tunguska/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/fernandotenorio/Tunguska/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "vajolet2",
+      "name": "Vajolet2",
+      "description": "A UCI chess engine using alpha-beta search.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "elcabesa/vajolet",
+      "repository_url": "https://github.com/elcabesa/vajolet",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/elcabesa/vajolet/blob/HEAD/ReadMe.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/elcabesa/vajolet/blob/HEAD/copying.txt"
+      }
+    },
+    {
+      "id": "vault",
+      "name": "Vault",
+      "description": "A derivative of Stash, my other chess engine project.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "mhouppin/vault",
+      "repository_url": "https://github.com/mhouppin/vault",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mhouppin/vault/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/mhouppin/vault/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "velvet",
+      "name": "Velvet",
+      "description": "Velvet Chess Engine - written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "mhonert/velvet-chess",
+      "repository_url": "https://github.com/mhonert/velvet-chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mhonert/velvet-chess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/mhonert/velvet-chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "vice",
+      "name": "Vice",
+      "description": "Repo for the Vice chess engine series on YouTube.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "bluefeversoft/vice",
+      "repository_url": "https://github.com/bluefeversoft/vice",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/bluefeversoft/vice/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/bluefeversoft/vice/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "viridithas",
+      "name": "Viridithas",
+      "description": "A Rust chess engine with neural-network evaluation.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "cosmobobak/viridithas",
+      "repository_url": "https://github.com/cosmobobak/viridithas",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/cosmobobak/viridithas/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/cosmobobak/viridithas/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "wahoo",
+      "name": "Wahoo",
+      "description": "A chess engine implemented in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "spamdrew128/Wahoo",
+      "repository_url": "https://github.com/spamdrew128/Wahoo",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/spamdrew128/Wahoo/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/spamdrew128/Wahoo/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "walleye",
+      "name": "Walleye",
+      "description": "A chess engine written from scratch in Rust ♞.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "MitchelPaulin/Walleye",
+      "repository_url": "https://github.com/MitchelPaulin/Walleye",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/MitchelPaulin/Walleye/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/MitchelPaulin/Walleye/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "wasabi",
+      "name": "Wasabi",
+      "description": "Wasabi Chess Engine - written in AssemblyScript.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "mhonert/chess",
+      "repository_url": "https://github.com/mhonert/chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/mhonert/chess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/mhonert/chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "weasel",
+      "name": "Weasel",
+      "description": "A chess engine written in Go! Currently in beta testing.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "WeaselFOSS/Chess",
+      "repository_url": "https://github.com/WeaselFOSS/Chess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/WeaselFOSS/Chess/blob/HEAD/docs/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/WeaselFOSS/Chess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "weiawaga",
+      "name": "Weiawaga",
+      "description": "A UCI chess engine written in Rust.",
+      "language": "Rust",
+      "repository_provider": "github",
+      "repository": "Heiaha/Weiawaga",
+      "repository_url": "https://github.com/Heiaha/Weiawaga",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Heiaha/Weiawaga/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Heiaha/Weiawaga/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "weiss",
+      "name": "Weiss",
+      "description": "Weiss - a UCI chess engine.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "TerjeKir/weiss",
+      "repository_url": "https://github.com/TerjeKir/weiss",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/TerjeKir/weiss/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/TerjeKir/weiss/blob/HEAD/COPYING.txt"
+      }
+    },
+    {
+      "id": "willow",
+      "name": "Willow",
+      "description": "A chess engine using mailbox board representation and neural-network evaluation.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "Adam-Kulju/Willow",
+      "repository_url": "https://github.com/Adam-Kulju/Willow",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Adam-Kulju/Willow/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/Adam-Kulju/Willow/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "winter",
+      "name": "Winter",
+      "description": "UCI Chess Engine.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "rosenthj/Winter",
+      "repository_url": "https://github.com/rosenthj/Winter",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/rosenthj/Winter/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/rosenthj/Winter/blob/HEAD/Copying.txt"
+      }
+    },
+    {
+      "id": "wowl",
+      "name": "Wowl",
+      "description": "UCI chess engine written in C++.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "eric-ycw/wowl",
+      "repository_url": "https://github.com/eric-ycw/wowl",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/eric-ycw/wowl/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/eric-ycw/wowl/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "wuttang",
+      "name": "Wuttang",
+      "description": "A high performance chess engine and a smart chessboard application.",
+      "language": "C++",
+      "repository_provider": "github",
+      "repository": "lokesh58/wuttang",
+      "repository_url": "https://github.com/lokesh58/wuttang",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/lokesh58/wuttang/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/lokesh58/wuttang/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "wyldchess",
+      "name": "WyldChess",
+      "description": "A UCI/Xboard compatible chess engine in C.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "Mk-Chan/WyldChess",
+      "repository_url": "https://github.com/Mk-Chan/WyldChess",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Mk-Chan/WyldChess/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/Mk-Chan/WyldChess/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "xiphos",
+      "name": "Xiphos",
+      "description": "UCI chess engine.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "milostatarevic/xiphos",
+      "repository_url": "https://github.com/milostatarevic/xiphos",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/milostatarevic/xiphos/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/milostatarevic/xiphos/blob/HEAD/LICENSE.md"
+      }
+    },
+    {
+      "id": "yakka",
+      "name": "Yakka",
+      "description": "Yakka is a UCI Chess Engine written in Delphi.",
+      "language": "Pascal",
+      "repository_provider": "github",
+      "repository": "CJDalrymple/Yakka",
+      "repository_url": "https://github.com/CJDalrymple/Yakka",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/CJDalrymple/Yakka/blob/HEAD/readme.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/CJDalrymple/Yakka/blob/HEAD/readme.md#license"
+      }
+    },
+    {
+      "id": "zagreus",
+      "name": "Zagreus",
+      "description": "A UCI chess engine.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "Dannyj1/Zagreus",
+      "repository_url": "https://github.com/Dannyj1/Zagreus",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/Dannyj1/Zagreus/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://github.com/Dannyj1/Zagreus/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "zahak",
+      "name": "Zahak",
+      "description": "A UCI compatible chess AI in Go.",
+      "language": "Go",
+      "repository_provider": "github",
+      "repository": "amanjpro/zahak",
+      "repository_url": "https://github.com/amanjpro/zahak",
+      "repository_archived": true,
+      "documentation_url": "https://github.com/amanjpro/zahak/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/amanjpro/zahak/blob/HEAD/LICENSE"
+      },
+      "notes": "The upstream repository was archived when this entry was checked."
+    },
+    {
+      "id": "zct",
+      "name": "ZCT",
+      "description": "ZCT, my old chess program.",
+      "language": null,
+      "repository_provider": "github",
+      "repository": "zwegner/zct",
+      "repository_url": "https://github.com/zwegner/zct",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/zwegner/zct/blob/HEAD/README.txt",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/zwegner/zct/blob/HEAD/COPYING.txt"
+      }
+    },
+    {
+      "id": "zevra",
+      "name": "Zevra",
+      "description": "A chess engine implemented in C.",
+      "language": "C",
+      "repository_provider": "github",
+      "repository": "sovaz1997/Zevra2",
+      "repository_url": "https://github.com/sovaz1997/Zevra2",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/sovaz1997/Zevra2/blob/HEAD/README.md",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "url": "https://github.com/sovaz1997/Zevra2/blob/HEAD/LICENSE"
+      }
+    },
+    {
+      "id": "zoomies",
+      "name": "Zoomies",
+      "description": "A multithreaded C# UCI chess engine with NNUE evaluation.",
+      "language": "C#",
+      "repository_provider": "github",
+      "repository": "CodeAdopter/Zoomies",
+      "repository_url": "https://github.com/CodeAdopter/Zoomies",
+      "repository_archived": false,
+      "documentation_url": "https://github.com/CodeAdopter/Zoomies/blob/HEAD/README.md",
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/CodeAdopter/Zoomies/blob/HEAD/LICENSE.txt"
+      }
+    }
+  ]
+}
