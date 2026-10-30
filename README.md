@@ -2,6 +2,8 @@
 
 A list of chess engine repositories ([engines.json](engines.json)) and a collection of opening books ([books.json](books.json)) that applications can install.
 
+This repository is multi-licensed: the licence depends on the file. See [Licensing](#licensing).
+
 ## Opening books
 
 The [books/](books/) folder holds 63 opening and test-position books. Each is a zip archive containing a single EPD or PGN file.
@@ -45,3 +47,18 @@ Unbalanced books (UHO and similar) give one side an advantage, so play each open
 1. Put the zip under `books/<collection>/`, named `<file_name>.zip` and containing only that file.
 2. Add or edit its entry in `books.json`: `id`, `name`, `description`, `collection`, `category`, `variant`, `format`, `file_name`, `path`, `author`, `source`, `license` and optional `notes`.
 3. Run `python scripts/update_books.py` to recompute `url`, `archive`, `content` and `positions`. Use `--check` to verify `books.json` without rewriting it.
+
+## Licensing
+
+Which licence applies depends on the file:
+
+| Files | Licence |
+| --- | --- |
+| This project's own files: `engines.json`, `engines.txt`, `books.json`, `scripts/`, this README | [CC0 1.0](LICENSE), a public-domain dedication. Use them for anything, no attribution required. |
+| [books/stockfish/](books/stockfish/) | CC0 1.0, as published by [official-stockfish/books](https://github.com/official-stockfish/books) ([LICENSE](books/stockfish/LICENSE)). |
+| [books/uho-2024/](books/uho-2024/) | © 2024 Stefan Pohl. No licence is stated; the author offers the sets as a free download at [sp-cc.de](https://www.sp-cc.de/uho_2024.htm) ([README.txt](books/uho-2024/README.txt)). **Not covered by this repository's CC0 dedication.** |
+| Engines listed in `engines.json` | Not included here. Each engine is under its own licence, given in its `license` field. |
+
+The root [LICENSE](LICENSE) covers only this project's own files. Third-party files keep their upstream terms.
+
+Applications should read the licence per item: every book in `books.json` and every engine in `engines.json` has a `license` field. A book's `license.spdx_id` is `null` when upstream states no licence, so check those terms before redistributing the book.
