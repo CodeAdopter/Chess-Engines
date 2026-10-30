@@ -1,0 +1,2612 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "description": "Catalog of opening and test-position books hosted in this repository. Each book is a zip archive holding a single EPD or PGN file.",
+  "base_url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/",
+  "metadata_notes": {
+    "path": "Archive location relative to the repository root and to base_url.",
+    "url": "Direct download URL of the archive (base_url + path).",
+    "archive": "The zip archive as downloaded. It contains exactly one member named file_name; check size and sha256 before extracting.",
+    "content": "Size and SHA-256 of the extracted file, byte for byte.",
+    "format": "epd: one position per line (FEN, optionally followed by EPD operations). pgn: move sequences from the standard starting position, or from a FEN tag.",
+    "variant": "standard, or chess960 for Fischer Random and Double Fischer Random positions; engines need UCI_Chess960 and match runners a Chess960/fischerandom variant.",
+    "category": "openings: starting points for engine matches. endgames: late-game positions. stalemates: positions for testing stalemate detection.",
+    "positions": "Counts by side to move at the end of each line. Ply is the half-move number of that position (0 = starting position); min_ply and max_ply are null when the file does not record move numbers.",
+    "author": "Person credited upstream with creating the book; null when not documented.",
+    "source": "Where the archive came from. download_url is the exact upstream file; archive_member is set when the book was extracted from a larger archive and rezipped on its own, with the file itself unchanged.",
+    "license": "License of the book as declared upstream. spdx_id is null when no license is stated; check the upstream terms before redistributing those books."
+  },
+  "books": [
+    {
+      "id": "2moves-v1",
+      "name": "2 Moves v1",
+      "description": "Opening positions after two moves per side (4 plies) from the standard starting position. An early Stockfish testing book.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "2moves_v1.epd",
+      "path": "books/stockfish/2moves_v1.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/2moves_v1.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 283018,
+        "sha256": "d816b8b97f2050ca728502f1dd84f556ee09c2e5b36527783de5930eaff39dd6"
+      },
+      "content": {
+        "size": 2530049,
+        "sha256": "dc91f225bc93e7ec091095bf8264595da33d36b9d3ac97ddd2dd54bc3a094fa4"
+      },
+      "positions": {
+        "total": 40457,
+        "white_to_move": 40457,
+        "black_to_move": 0,
+        "min_ply": 4,
+        "max_ply": 4
+      },
+      "author": null,
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/2moves_v1.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "2moves-v2",
+      "name": "2 Moves v2",
+      "description": "Two-move opening lines (4 plies), given as move sequences from the standard starting position. An early Stockfish testing book.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "pgn",
+      "file_name": "2moves_v2.pgn",
+      "path": "books/stockfish/2moves_v2.pgn.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/2moves_v2.pgn.zip",
+      "archive": {
+        "format": "zip",
+        "size": 57325,
+        "sha256": "e31a105d07bbad4248eedab6ee2b91b95968eebf36c3d166b2f5ff370a181ea5"
+      },
+      "content": {
+        "size": 1510748,
+        "sha256": "c70ba59a743c75cbf0b24fe5e8e330e518e4978382dedff6988c6082bedc3a46"
+      },
+      "positions": {
+        "total": 12092,
+        "white_to_move": 12092,
+        "black_to_move": 0,
+        "min_ply": 4,
+        "max_ply": 4
+      },
+      "author": null,
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/2moves_v2.pgn.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "3moves-frc",
+      "name": "Chess960 3 Moves",
+      "description": "Chess960 starting positions followed by three moves per side (6 plies).",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "chess960",
+      "format": "epd",
+      "file_name": "3moves_FRC.epd",
+      "path": "books/stockfish/3moves_FRC.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/3moves_FRC.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 1111710,
+        "sha256": "fdd0af9da8ab9d7c8f601858446eb21312b32c2d8bcb8d2e6490493d5f053941"
+      },
+      "content": {
+        "size": 8403663,
+        "sha256": "5aa1e4400acbdc5e22fc75f6993fa1e720058a32c7fa49912b80f05e9aeb499b"
+      },
+      "positions": {
+        "total": 126113,
+        "white_to_move": 126113,
+        "black_to_move": 0,
+        "min_ply": 6,
+        "max_ply": 6
+      },
+      "author": null,
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/3moves_FRC.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      },
+      "notes": "Originally from the OpenBench testing framework."
+    },
+    {
+      "id": "4mvs-90-99",
+      "name": "UHO 4 Moves (+0.90 to +0.99)",
+      "description": "Stefan Pohl's Unbalanced Human Openings: 4-move lines (8 plies) from human games, kept where the final position favours White by +0.90 to +0.99.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "4mvs_+90_+99.epd",
+      "path": "books/stockfish/4mvs_+90_+99.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/4mvs_%2B90_%2B99.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 7399,
+        "sha256": "733be6809d849e75d590e1fce7dea1540aecac5b2d89b15cda50969e269c1989"
+      },
+      "content": {
+        "size": 42679,
+        "sha256": "9b4d9fb7eda778377a36f67c93b6913b67c6b4db9a51e1b7d9bf6bff5cdf8e8e"
+      },
+      "positions": {
+        "total": 635,
+        "white_to_move": 635,
+        "black_to_move": 0,
+        "min_ply": 8,
+        "max_ply": 8
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/4mvs_+90_+99.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "6mvs-90-99",
+      "name": "UHO 6 Moves (+0.90 to +0.99)",
+      "description": "Stefan Pohl's Unbalanced Human Openings: 6-move lines (12 plies) from human games, kept where the final position favours White by +0.90 to +0.99.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "6mvs_+90_+99.epd",
+      "path": "books/stockfish/6mvs_+90_+99.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/6mvs_%2B90_%2B99.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 40804,
+        "sha256": "0c2f4472bba97491d858fe1c7c1ed8d825bc5c7f5463568cc1faa1f707ca2f69"
+      },
+      "content": {
+        "size": 200263,
+        "sha256": "58ee2c5071aa8f120f0b02a286bd5c13c3a63ab3269947a00c9c46cac0f51d0e"
+      },
+      "positions": {
+        "total": 2933,
+        "white_to_move": 2933,
+        "black_to_move": 0,
+        "min_ply": 12,
+        "max_ply": 12
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/6mvs_+90_+99.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "8moves-v3",
+      "name": "8 Moves v3",
+      "description": "Balanced eight-move opening lines (16 plies) from the standard starting position. A long-standing Stockfish testing book.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "pgn",
+      "file_name": "8moves_v3.pgn",
+      "path": "books/stockfish/8moves_v3.pgn.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/8moves_v3.pgn.zip",
+      "archive": {
+        "format": "zip",
+        "size": 807558,
+        "sha256": "7e1e9dd118b4bb97d8a8b5b8a790c86e21f8509d59a27d2883767d94477be02e"
+      },
+      "content": {
+        "size": 8037438,
+        "sha256": "5835239f88cc2c7511b177c32392a69f3ede21819cf0616f80a7f907cd21d17e"
+      },
+      "positions": {
+        "total": 34700,
+        "white_to_move": 34700,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": null,
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/8moves_v3.pgn.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "8mvs-90-99",
+      "name": "UHO 8 Moves (+0.90 to +0.99)",
+      "description": "Stefan Pohl's Unbalanced Human Openings: 8-move lines (16 plies) from human games, kept where the final position favours White by +0.90 to +0.99.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "8mvs_+90_+99.epd",
+      "path": "books/stockfish/8mvs_+90_+99.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/8mvs_%2B90_%2B99.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 133781,
+        "sha256": "795a4201b7ae4e060dbdc0e7c96fc238299238e73e74e1a8594ba511ec0a16a2"
+      },
+      "content": {
+        "size": 582229,
+        "sha256": "e4ccf9297520743bb44705908b510ae45f817a146418c7773aaf44bed2cf8428"
+      },
+      "positions": {
+        "total": 8533,
+        "white_to_move": 8533,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/8mvs_+90_+99.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "8mvs-big-80-109",
+      "name": "UHO 8 Moves Big (+0.80 to +1.09)",
+      "description": "Stefan Pohl's Unbalanced Human Openings (larger set with a wider window): 8-move lines (16 plies) from human games, kept where the final position favours White by +0.80 to +1.09.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "8mvs_big_+80_+109.epd",
+      "path": "books/stockfish/8mvs_big_+80_+109.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/8mvs_big_%2B80_%2B109.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 404301,
+        "sha256": "751624dcfa5579b046c09b1ead79e2fe899daf8e42aa03c9dc05db8475cfab3d"
+      },
+      "content": {
+        "size": 1764501,
+        "sha256": "afa3871d1b05740158adfefa9d9c6182f54fa20b035b3639c786e07657de3cac"
+      },
+      "positions": {
+        "total": 25857,
+        "white_to_move": 25857,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/8mvs_big_+80_+109.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "bjbraams-chessdb-198350-lines",
+      "name": "Braams chessdb 198,350 Lines",
+      "description": "198,350 opening lines of up to eight moves from human master play. In each line the side to move at the end has an advantage of 0.40 to 1.40 pawns according to chessdb (chessdb.cn).",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "pgn",
+      "file_name": "bjbraams_chessdb_198350_lines.pgn",
+      "path": "books/stockfish/bjbraams_chessdb_198350_lines.pgn.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/bjbraams_chessdb_198350_lines.pgn.zip",
+      "archive": {
+        "format": "zip",
+        "size": 2813926,
+        "sha256": "14d9bc9fce1fd96b58d2814fe7ab5b0967109c8411570a0d114558e13ad28fce"
+      },
+      "content": {
+        "size": 16415163,
+        "sha256": "7b3ede8b13736df09c7c8560a16dd0068c7247cf8cbdec4052073329fff3fb0e"
+      },
+      "positions": {
+        "total": 198350,
+        "white_to_move": 154148,
+        "black_to_move": 44202,
+        "min_ply": 1,
+        "max_ply": 16
+      },
+      "author": "Bastiaan Braams",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/bjbraams_chessdb_198350_lines.pgn.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      },
+      "notes": "Background data: http://chessopeningsforengines.wikidot.com/"
+    },
+    {
+      "id": "closedpos",
+      "name": "Closed Positions",
+      "description": "Closed positions taken at ply 8 from long-time-control fishtest games: at least four blocked pawns, at least 26 pieces on the board and a small move tree (perft 5 below 40 million).",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "closedpos.epd",
+      "path": "books/stockfish/closedpos.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/closedpos.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 2520143,
+        "sha256": "43e06dece4516038a40004b454fb2d594079134cba1d507a6e7bd56c6c15392d"
+      },
+      "content": {
+        "size": 11348968,
+        "sha256": "f59ae1b17e042a5ceb3c751673a54eb1503dfe1b67abd9b51027c38362424b25"
+      },
+      "positions": {
+        "total": 165735,
+        "white_to_move": 165735,
+        "black_to_move": 0,
+        "min_ply": 8,
+        "max_ply": 8
+      },
+      "author": "Joost VandeVondele",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/closedpos.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "dfrc-4852-v1",
+      "name": "DFRC 48-52 v1",
+      "description": "Double Fischer Random positions with 0 to 3 plies played, kept where Stockfish 17.1 at depth 22 predicts a draw rate between 48% and 52%.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "chess960",
+      "format": "epd",
+      "file_name": "DFRC_4852_v1.epd",
+      "path": "books/stockfish/DFRC_4852_v1.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/DFRC_4852_v1.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 3325812,
+        "sha256": "32d01b648a921877bd30cffb6a9299a989f8c638f9a76e7136e3b0d1a2911967"
+      },
+      "content": {
+        "size": 17787181,
+        "sha256": "781a754f362827144d3044ae6384d5c7a3d0e84dd51d8d469539a9132add377a"
+      },
+      "positions": {
+        "total": 294466,
+        "white_to_move": 160639,
+        "black_to_move": 133827,
+        "min_ply": 0,
+        "max_ply": 3
+      },
+      "author": "Robert Nürnberg",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/DFRC_4852_v1.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "dfrc-openings",
+      "name": "DFRC Start Positions",
+      "description": "All 921,600 Double Fischer Random Chess starting positions (independent Chess960 setups for White and Black).",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "chess960",
+      "format": "epd",
+      "file_name": "DFRC_openings.epd",
+      "path": "books/stockfish/DFRC_openings.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/DFRC_openings.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 3388655,
+        "sha256": "d0d0db1839444289a49891373b3c4e9d1a220d29578d6931624dd79bd290cc89"
+      },
+      "content": {
+        "size": 52531200,
+        "sha256": "e4f328c312aedc4edb7933c22e5acb7496f7b2faf90ff20d20075be7cab268e7"
+      },
+      "positions": {
+        "total": 921600,
+        "white_to_move": 921600,
+        "black_to_move": 0,
+        "min_ply": 0,
+        "max_ply": 0
+      },
+      "author": null,
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/DFRC_openings.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      },
+      "notes": "Many of these positions are unbalanced by nature."
+    },
+    {
+      "id": "drawkiller-balanced-big",
+      "name": "Drawkiller Balanced Big",
+      "description": "Stefan Pohl's Drawkiller openings, balanced large set: constructed positions with the kings in opposite corners, designed to lower the draw rate in engine matches.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "Drawkiller_balanced_big.epd",
+      "path": "books/stockfish/Drawkiller_balanced_big.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/Drawkiller_balanced_big.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 100367,
+        "sha256": "c20483ecca07676c10ad3fb5acad6370fc75a5e6bf3935a7255bb2a73fe8deac"
+      },
+      "content": {
+        "size": 1041902,
+        "sha256": "34d3899af6db56dd11b3429e73f2772013caaa8ec3ff7e9b276d9b9c8c79f1f8"
+      },
+      "positions": {
+        "total": 15962,
+        "white_to_move": 15962,
+        "black_to_move": 0,
+        "min_ply": 28,
+        "max_ply": 28
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/Drawkiller_balanced_big.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "endgames",
+      "name": "Endgames",
+      "description": "About 158,000 endgame and late-middlegame positions from decisive long-time-control fishtest games, with little non-pawn material and an evaluation that is neither an easy win nor an easy draw.",
+      "collection": "stockfish",
+      "category": "endgames",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "endgames.epd",
+      "path": "books/stockfish/endgames.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/endgames.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 2930382,
+        "sha256": "4bfbf7c07c0f9822751c2557a4ebedb76e6f49daa781b00abec0401b6d988467"
+      },
+      "content": {
+        "size": 7977081,
+        "sha256": "71c7477ca8c8fb097bb565794d8b5ed8754532f8fb499e9d8b1d397692302a6a"
+      },
+      "positions": {
+        "total": 157846,
+        "white_to_move": 74355,
+        "black_to_move": 83491,
+        "min_ply": 23,
+        "max_ply": 652
+      },
+      "author": "Joost VandeVondele",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/endgames.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "endgames-cdb95105",
+      "name": "Endgames chessdb 0.95-1.05",
+      "description": "107,828 endgame positions from the 2025-11-15 chessdb dump with little non-pawn material, kept where Stockfish's absolute evaluation is between 0.95 and 1.05 pawns.",
+      "collection": "stockfish",
+      "category": "endgames",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "endgames_cdb95105.epd",
+      "path": "books/stockfish/endgames_cdb95105.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/endgames_cdb95105.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 1699798,
+        "sha256": "c778240d87cce3dce0a1d6681bab77a58ab8312714c6dfc7a1d1f03a4df9ed8d"
+      },
+      "content": {
+        "size": 5193815,
+        "sha256": "1c478ddc2758714a25aeb3f8b1f8410466ba4b8a269ee76f96629a9327591fb8"
+      },
+      "positions": {
+        "total": 107828,
+        "white_to_move": 53306,
+        "black_to_move": 54522,
+        "min_ply": 24,
+        "max_ply": 423
+      },
+      "author": "Torsten Hellwig",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/endgames_cdb95105.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "frc-openings",
+      "name": "Chess960 Start Positions",
+      "description": "All 960 Chess960 (Fischer Random) starting positions.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "chess960",
+      "format": "epd",
+      "file_name": "FRC_openings.epd",
+      "path": "books/stockfish/FRC_openings.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/FRC_openings.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 6426,
+        "sha256": "bba1d68af0234334052d872c8b0e4445579454aa082f398674f6952284ecca84"
+      },
+      "content": {
+        "size": 54720,
+        "sha256": "5909d5b346b80f216ad3996033918e2264e54d9a98b7ba5e9abe43da7661a8ba"
+      },
+      "positions": {
+        "total": 960,
+        "white_to_move": 960,
+        "black_to_move": 0,
+        "min_ply": 0,
+        "max_ply": 0
+      },
+      "author": null,
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/FRC_openings.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "hybrid-book-beta",
+      "name": "Hybrid Book Beta",
+      "description": "An early experimental Stockfish testing book. The upstream repository does not document how it was built.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "hybrid_book_beta.epd",
+      "path": "books/stockfish/hybrid_book_beta.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/hybrid_book_beta.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 179880,
+        "sha256": "9efcfa15b809108d73cbffcb01ee0a2cb7f35425c8fb407fc4174bda1f82390f"
+      },
+      "content": {
+        "size": 1691717,
+        "sha256": "1ba62f950ada69a22c255661f7a676a1fbd854aaadeb3946582f014a34e81000"
+      },
+      "positions": {
+        "total": 28054,
+        "white_to_move": 28054,
+        "black_to_move": 0,
+        "min_ply": null,
+        "max_ply": null
+      },
+      "author": null,
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/hybrid_book_beta.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "noob-2moves",
+      "name": "Noob 2 Moves",
+      "description": "Opening positions after 2 moves per side (4 plies) from the standard starting position.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "noob_2moves.epd",
+      "path": "books/stockfish/noob_2moves.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/noob_2moves.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 35998,
+        "sha256": "9baaf064b6c5433aa519a86825903eaec84e08ca56789f8a820cb0dbd7215646"
+      },
+      "content": {
+        "size": 462246,
+        "sha256": "2bb9eb7bb238dde96b15d8948cd42d5e4a8f09ca67360856ac7f0ebb81276b9b"
+      },
+      "positions": {
+        "total": 7314,
+        "white_to_move": 7314,
+        "black_to_move": 0,
+        "min_ply": 4,
+        "max_ply": 4
+      },
+      "author": "noobpwnftw",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/noob_2moves.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "noob-3moves",
+      "name": "Noob 3 Moves",
+      "description": "Opening positions after 3 moves per side (6 plies) from the standard starting position.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "noob_3moves.epd",
+      "path": "books/stockfish/noob_3moves.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/noob_3moves.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 785119,
+        "sha256": "68fe2691e0876d0de54fffb68c797e752138d5ed363beab2ac6ca34be68ee9f3"
+      },
+      "content": {
+        "size": 9839116,
+        "sha256": "2011193b4854e9a8cfdc05312ca2dbaffa6ceae3abbdee20e2ead2a18a603347"
+      },
+      "positions": {
+        "total": 150932,
+        "white_to_move": 150932,
+        "black_to_move": 0,
+        "min_ply": 6,
+        "max_ply": 6
+      },
+      "author": "noobpwnftw",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/noob_3moves.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "noob-4moves",
+      "name": "Noob 4 Moves",
+      "description": "Opening positions after 4 moves per side (8 plies) from the standard starting position.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "noob_4moves.epd",
+      "path": "books/stockfish/noob_4moves.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/noob_4moves.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 10081701,
+        "sha256": "ca8e161fc207e79abfc6fd0e2df3cddfe4b2614a3d871135150ff1c8e1bd9802"
+      },
+      "content": {
+        "size": 122475877,
+        "sha256": "4d836bffa2bf698bd8f38584ed865288f7a27e3c28cbe7767d1d45a8af7564ae"
+      },
+      "positions": {
+        "total": 1837365,
+        "white_to_move": 1837365,
+        "black_to_move": 0,
+        "min_ply": 8,
+        "max_ply": 8
+      },
+      "author": "noobpwnftw",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/noob_4moves.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "noob-5moves",
+      "name": "Noob 5 Moves",
+      "description": "Opening positions after 5 moves per side (10 plies) from the standard starting position.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "noob_5moves.epd",
+      "path": "books/stockfish/noob_5moves.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/noob_5moves.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 4825521,
+        "sha256": "9466898fd3a470ba7fc970bba4f1aa5c1d5aab4f0d53184fbd7ce505f84fc42a"
+      },
+      "content": {
+        "size": 30682144,
+        "sha256": "06e384cac42a06e6d80efc5676ca96e978f5e3bb523a3bd853cf91a42b9fc8f5"
+      },
+      "positions": {
+        "total": 455287,
+        "white_to_move": 455287,
+        "black_to_move": 0,
+        "min_ply": 10,
+        "max_ply": 10
+      },
+      "author": "noobpwnftw",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/noob_5moves.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "popularpos-lichess",
+      "name": "Popular Positions Lichess v1",
+      "description": "The 200,000 most frequent positions in rated Lichess games from January 2020 (both players above 1800, time control over 60 seconds), each game read up to its first novelty.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "popularpos_lichess.epd",
+      "path": "books/stockfish/popularpos_lichess.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/popularpos_lichess.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 2377388,
+        "sha256": "b51d86273e23aea14e0639b325174494cdb127ce1e600dcf5b83c9a36368ef40"
+      },
+      "content": {
+        "size": 12737904,
+        "sha256": "aaff4943ed436256d28ac96e252838caf9141132c3fb90369ac43a395a1447de"
+      },
+      "positions": {
+        "total": 200000,
+        "white_to_move": 99953,
+        "black_to_move": 100047,
+        "min_ply": null,
+        "max_ply": null
+      },
+      "author": "Joost VandeVondele",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/popularpos_lichess.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "popularpos-lichess-v2",
+      "name": "Popular Positions Lichess v2",
+      "description": "As Popular Positions Lichess v1, but restricted to games where both players are rated above 2200.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "popularpos_lichess_v2.epd",
+      "path": "books/stockfish/popularpos_lichess_v2.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/popularpos_lichess_v2.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 2627987,
+        "sha256": "47ed0c3d202cdd295ccd93e366568f78dfeff1a4a0772267f2c030370cab0bb6"
+      },
+      "content": {
+        "size": 12766293,
+        "sha256": "5346e97f2639c2c35a72deb68708bbc928d5a2511ac9115882d205ee589d12f1"
+      },
+      "positions": {
+        "total": 200000,
+        "white_to_move": 100440,
+        "black_to_move": 99560,
+        "min_ply": null,
+        "max_ply": null
+      },
+      "author": "Joost VandeVondele",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/popularpos_lichess_v2.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "popularpos-lichess-v3",
+      "name": "Popular Positions Lichess v3",
+      "description": "200,000 positions ranked by how often they occur both in Lichess games (players above 1800) and in long-time-control fishtest games.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "popularpos_lichess_v3.epd",
+      "path": "books/stockfish/popularpos_lichess_v3.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/popularpos_lichess_v3.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 2295341,
+        "sha256": "fb0abb3638ad0bf0f7fd21ab4ad75cf53606d50970d55822fd8da89bf67f360a"
+      },
+      "content": {
+        "size": 12953047,
+        "sha256": "542db5bc35b2f51ebbfb2e091683e3d714fc56b9c6c8c07cb7eaab4a1bce9375"
+      },
+      "positions": {
+        "total": 200000,
+        "white_to_move": 102952,
+        "black_to_move": 97048,
+        "min_ply": null,
+        "max_ply": null
+      },
+      "author": "Joost VandeVondele",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/popularpos_lichess_v3.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "stalemates-200d30-v1",
+      "name": "Stalemate Traps v1",
+      "description": "10,796 positions from fishtest games that ended in stalemate, although Stockfish 16 at depth 30 evaluates them as clearly winning (above +2.00). Used to test stalemate detection.",
+      "collection": "stockfish",
+      "category": "stalemates",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "stalemates_200d30_v1.epd",
+      "path": "books/stockfish/stalemates_200d30_v1.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/stalemates_200d30_v1.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 193251,
+        "sha256": "de107618b7cc2325a6d25f4ee8ff0604568b62db82155ecf31a6862bd1f9b9f2"
+      },
+      "content": {
+        "size": 487548,
+        "sha256": "b976cc3d33bd44eb01550bfa3174e2f662b60483d339dd73a2bcd735cb769d1c"
+      },
+      "positions": {
+        "total": 10796,
+        "white_to_move": 7978,
+        "black_to_move": 2818,
+        "min_ply": 12,
+        "max_ply": 479
+      },
+      "author": "Robert Nürnberg",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/stalemates_200d30_v1.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      },
+      "notes": "Lines carry EPD c0/c1 comments with the original and Stockfish 16 evaluations."
+    },
+    {
+      "id": "startpos",
+      "name": "Start Position",
+      "description": "The standard chess starting position only.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "startpos.epd",
+      "path": "books/stockfish/startpos.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/startpos.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 216,
+        "sha256": "2aff83ce57d25fff9ac6f5d7d750a98d76bfff7b3f8c2a82521efbc8bd5e5662"
+      },
+      "content": {
+        "size": 57,
+        "sha256": "6c47d197300802706c715ba25b5e03e3808b31bd18af918af0acaf3451f88af1"
+      },
+      "positions": {
+        "total": 1,
+        "white_to_move": 1,
+        "black_to_move": 0,
+        "min_ply": 0,
+        "max_ply": 0
+      },
+      "author": null,
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/startpos.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "transpositions-cdb95105",
+      "name": "Transpositions chessdb 0.95-1.05",
+      "description": "200,866 opening positions from the 2026-07-02 chessdb dump with verified transpositions along the principal variation, kept where Stockfish's absolute evaluation is between 0.95 and 1.05 pawns.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "transpositions_cdb95105.epd",
+      "path": "books/stockfish/transpositions_cdb95105.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/transpositions_cdb95105.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 3861864,
+        "sha256": "7426c157b2273436a5b840fc9a8d4de5cfae3573082272d0c0a38ea8a17cfef8"
+      },
+      "content": {
+        "size": 13933799,
+        "sha256": "98f94668ee28dde934b2e66219c7c272a4b425d1862d3d36fc006bfee5ea32df"
+      },
+      "positions": {
+        "total": 200866,
+        "white_to_move": 110870,
+        "black_to_move": 89996,
+        "min_ply": 4,
+        "max_ply": 40
+      },
+      "author": "Torsten Hellwig",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/transpositions_cdb95105.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-4060-v1",
+      "name": "UHO 40-60 v1",
+      "description": "Positions from Stefan Pohl's Unbalanced Human Openings, rescored by Stockfish at depth 22 and kept where the predicted win rate is between 40% and 60%.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_4060_v1.epd",
+      "path": "books/stockfish/UHO_4060_v1.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_4060_v1.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 3190013,
+        "sha256": "98df048653ce6fac70314249a3b18b805261322c30e4bc4bcf1f1dffffe61b9c"
+      },
+      "content": {
+        "size": 16590553,
+        "sha256": "85601466d7b51d9c79189c4b521ddeb91deadd2ea87af036ead688a4223aa152"
+      },
+      "positions": {
+        "total": 246759,
+        "white_to_move": 246759,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Joost VandeVondele, from Stefan Pohl's UHO sets",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_4060_v1.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-4060-v2",
+      "name": "UHO 40-60 v2",
+      "description": "UHO 40-60 v1 with some duplicate positions removed.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_4060_v2.epd",
+      "path": "books/stockfish/UHO_4060_v2.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_4060_v2.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 3768469,
+        "sha256": "a936d3e749900aa7f22c30e82afe7dd55f11c60969ea52c3df4ed5271458f45f"
+      },
+      "content": {
+        "size": 15315200,
+        "sha256": "36f2ec751ab78def6be1307430cbe2cd2ba65ade8d2aaae8f10e3df7d0ea83e1"
+      },
+      "positions": {
+        "total": 242201,
+        "white_to_move": 242201,
+        "black_to_move": 0,
+        "min_ply": null,
+        "max_ply": null
+      },
+      "author": "Joost VandeVondele, from Stefan Pohl's UHO sets",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_4060_v2.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      },
+      "notes": "This version has no move counters, so ply depth is not recorded."
+    },
+    {
+      "id": "uho-4060-v3",
+      "name": "UHO 40-60 v3",
+      "description": "UHO 40-60 v2 with move counters restored.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_4060_v3.epd",
+      "path": "books/stockfish/UHO_4060_v3.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_4060_v3.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 3953338,
+        "sha256": "62fe32cda02f605acd5938887d574730c91208812f2bb1e839f28eee10869af8"
+      },
+      "content": {
+        "size": 16284233,
+        "sha256": "419844f8c43a9c1fa3e279518bb79e89a5ed3d181f27c180ea9eb7444a1b9885"
+      },
+      "positions": {
+        "total": 242201,
+        "white_to_move": 242201,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Joost VandeVondele, from Stefan Pohl's UHO sets",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_4060_v3.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-4060-v4",
+      "name": "UHO 40-60 v4",
+      "description": "UHO 40-60 v3 with duplicate positions removed.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_4060_v4.epd",
+      "path": "books/stockfish/UHO_4060_v4.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_4060_v4.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 3903223,
+        "sha256": "a97424c5b98b42f8c27ff450f0681ad11696148548c975752350e98417ead11d"
+      },
+      "content": {
+        "size": 16226151,
+        "sha256": "3f499996ff0b674a04f85f2634811d102dd53b5115841e8f11d18e1f550ba2ca"
+      },
+      "positions": {
+        "total": 241670,
+        "white_to_move": 241670,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Joost VandeVondele, from Stefan Pohl's UHO sets",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_4060_v4.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-lichess-4852-v1",
+      "name": "UHO Lichess 48-52 v1",
+      "description": "About 2.6 million positions seen at least twice within the first 16 plies of Lichess games from January to September 2023, kept where Stockfish predicts a draw rate between 48% and 52%. Either side may have the advantage, typically around one pawn.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_Lichess_4852_v1.epd",
+      "path": "books/stockfish/UHO_Lichess_4852_v1.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_Lichess_4852_v1.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 42877788,
+        "sha256": "4e298f11e8acfa106babe02968f2e61582145e7874c59284690b20b9650e0e07"
+      },
+      "content": {
+        "size": 174889110,
+        "sha256": "7a7f6470615a69c6cf23d565417701d38732876f480af90d67b42abade35644a"
+      },
+      "positions": {
+        "total": 2632036,
+        "white_to_move": 1457270,
+        "black_to_move": 1174766,
+        "min_ply": 2,
+        "max_ply": 16
+      },
+      "author": "Joost VandeVondele",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_Lichess_4852_v1.epd.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-mega-2022-110-149",
+      "name": "UHO MEGA 2022 (+1.10 to +1.49)",
+      "description": "Stefan Pohl's UHO MEGA 2022: eight-move human opening lines (16 plies) whose final position favours White by +1.10 to +1.49 according to Komodo Dragon 2.6.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "pgn",
+      "file_name": "UHO_MEGA_2022_+110_+149.pgn",
+      "path": "books/stockfish/UHO_MEGA_2022_+110_+149.pgn.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_MEGA_2022_%2B110_%2B149.pgn.zip",
+      "archive": {
+        "format": "zip",
+        "size": 17022071,
+        "sha256": "f3425922ca5bf1e7324f59595de89302fc9b2d7cd6e215f44298539ab3ee57c7"
+      },
+      "content": {
+        "size": 106017344,
+        "sha256": "1ac989b728400cb9c368478f756eab6af3d98ff17891e543716c5a0435ea2a28"
+      },
+      "positions": {
+        "total": 321412,
+        "white_to_move": 321412,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_MEGA_2022_+110_+149.pgn.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-xxl-080-109",
+      "name": "UHO XXL (+0.80 to +1.09)",
+      "description": "Stefan Pohl's UHO XXL: eight-move human opening lines (16 plies) whose final position favours White by +0.80 to +1.09.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "pgn",
+      "file_name": "UHO_XXL_+0.80_+1.09.pgn",
+      "path": "books/stockfish/UHO_XXL_+0.80_+1.09.pgn.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_XXL_%2B0.80_%2B1.09.pgn.zip",
+      "archive": {
+        "format": "zip",
+        "size": 8079312,
+        "sha256": "741e2eef804b1bf48dc5501f2e52701f5652e9f6d9aa553e6bebe6b5c05d704c"
+      },
+      "content": {
+        "size": 69472223,
+        "sha256": "1a367d5c33af0c9e45b5fa00fcab26ff4585fc93c9d9e6016b256a3eff8a5611"
+      },
+      "positions": {
+        "total": 261028,
+        "white_to_move": 261028,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_XXL_+0.80_+1.09.pgn.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-xxl-090-119",
+      "name": "UHO XXL (+0.90 to +1.19)",
+      "description": "Stefan Pohl's UHO XXL: eight-move human opening lines (16 plies) whose final position favours White by +0.90 to +1.19.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "pgn",
+      "file_name": "UHO_XXL_+0.90_+1.19.pgn",
+      "path": "books/stockfish/UHO_XXL_+0.90_+1.19.pgn.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_XXL_%2B0.90_%2B1.19.pgn.zip",
+      "archive": {
+        "format": "zip",
+        "size": 6910934,
+        "sha256": "315c9f596c992c0b6c65c7a014ce0bc2422be1b48429fcb7160eb84babc617ae"
+      },
+      "content": {
+        "size": 59362332,
+        "sha256": "791b006c4ccac4c01e8673d4d927e887587ba1f59ef002225a3a3df468ee6649"
+      },
+      "positions": {
+        "total": 223070,
+        "white_to_move": 223070,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_XXL_+0.90_+1.19.pgn.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-xxl-100-129",
+      "name": "UHO XXL (+1.00 to +1.29)",
+      "description": "Stefan Pohl's UHO XXL: eight-move human opening lines (16 plies) whose final position favours White by +1.00 to +1.29.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "pgn",
+      "file_name": "UHO_XXL_+1.00_+1.29.pgn",
+      "path": "books/stockfish/UHO_XXL_+1.00_+1.29.pgn.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_XXL_%2B1.00_%2B1.29.pgn.zip",
+      "archive": {
+        "format": "zip",
+        "size": 5769253,
+        "sha256": "39258bba331536e44995ebcb703079acad4a4c00468c06aace61ff40f842249f"
+      },
+      "content": {
+        "size": 49519413,
+        "sha256": "6e072ecf6edad7842c529ffd782e7b52d01a6ff9b4e9facfca0fd909418089e4"
+      },
+      "positions": {
+        "total": 186098,
+        "white_to_move": 186098,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_XXL_+1.00_+1.29.pgn.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-xxl-2022-100-129",
+      "name": "UHO XXL 2022 (+1.00 to +1.29)",
+      "description": "Stefan Pohl's UHO XXL 2022: eight-move human opening lines (16 plies) whose final position favours White by +1.00 to +1.29 according to Komodo Dragon 2.6.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "pgn",
+      "file_name": "UHO_XXL_2022_+100_+129.pgn",
+      "path": "books/stockfish/UHO_XXL_2022_+100_+129.pgn.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_XXL_2022_%2B100_%2B129.pgn.zip",
+      "archive": {
+        "format": "zip",
+        "size": 15067646,
+        "sha256": "13ebc6b8e7401d8f1a4d083b1b0d0c61c77a1537dab1c5afdf8fddc6951802cb"
+      },
+      "content": {
+        "size": 93743512,
+        "sha256": "814e4682ff7b1a6cf0e85f0ed646973abba47eaa74f5720d78f757880067d657"
+      },
+      "positions": {
+        "total": 284035,
+        "white_to_move": 284035,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_XXL_2022_+100_+129.pgn.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-xxl-2022-110-139",
+      "name": "UHO XXL 2022 (+1.10 to +1.39)",
+      "description": "Stefan Pohl's UHO XXL 2022: eight-move human opening lines (16 plies) whose final position favours White by +1.10 to +1.39 according to Komodo Dragon 2.6.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "pgn",
+      "file_name": "UHO_XXL_2022_+110_+139.pgn",
+      "path": "books/stockfish/UHO_XXL_2022_+110_+139.pgn.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_XXL_2022_%2B110_%2B139.pgn.zip",
+      "archive": {
+        "format": "zip",
+        "size": 13493339,
+        "sha256": "ec01af72184b732dddf066db437af3315e171d11fe62e0bd36ad03ac16494a62"
+      },
+      "content": {
+        "size": 83749735,
+        "sha256": "6b139346216701830d358e18effd8737afbba09f60972dccf863b19fc5455c3d"
+      },
+      "positions": {
+        "total": 253847,
+        "white_to_move": 253847,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_XXL_2022_+110_+139.pgn.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-xxl-2022-120-149",
+      "name": "UHO XXL 2022 (+1.20 to +1.49)",
+      "description": "Stefan Pohl's UHO XXL 2022: eight-move human opening lines (16 plies) whose final position favours White by +1.20 to +1.49 according to Komodo Dragon 2.6.",
+      "collection": "stockfish",
+      "category": "openings",
+      "variant": "standard",
+      "format": "pgn",
+      "file_name": "UHO_XXL_2022_+120_+149.pgn",
+      "path": "books/stockfish/UHO_XXL_2022_+120_+149.pgn.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/stockfish/UHO_XXL_2022_%2B120_%2B149.pgn.zip",
+      "archive": {
+        "format": "zip",
+        "size": 12060794,
+        "sha256": "84d11def18218ea278d3067d07c3a58960bc376dbbe9d1883a4681195e55ab44"
+      },
+      "content": {
+        "size": 74734596,
+        "sha256": "eab33e5c0e3105ace0d92fe4f68e039207dc67ce6c4228a9cec70f0ac9da6a55"
+      },
+      "positions": {
+        "total": 226629,
+        "white_to_move": 226629,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "official-stockfish/books",
+        "url": "https://github.com/official-stockfish/books",
+        "download_url": "https://github.com/official-stockfish/books/raw/a804a97e709f40aa75a00f9d19e84915b7a3a45c/UHO_XXL_2022_+120_+149.pgn.zip",
+        "revision": "a804a97e709f40aa75a00f9d19e84915b7a3a45c",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://github.com/official-stockfish/books/blob/master/LICENSE"
+      }
+    },
+    {
+      "id": "uho-2024-6mvs-085-094",
+      "name": "UHO 2024 6 Moves (+0.85 to +0.94)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 6-move lines (12 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +0.85 to +0.94 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_6mvs_+085_+094.epd",
+      "path": "books/uho-2024/UHO_2024_6mvs_+085_+094.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_6mvs_%2B085_%2B094.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 93085,
+        "sha256": "4b17a05f10874e63caf5088a97b45b33d076c2e627d48e37b36ff3eb51438c57"
+      },
+      "content": {
+        "size": 477607,
+        "sha256": "18105fa54c506a9151990b1177f5754b456c4e310c4026cc2add1d38750fb990"
+      },
+      "positions": {
+        "total": 6996,
+        "white_to_move": 6996,
+        "black_to_move": 0,
+        "min_ply": 12,
+        "max_ply": 12
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+085_+094/UHO_2024_6mvs_+085_+094.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      },
+      "notes": "The author recommends starting with the +0.85 to +0.94 sets and moving to a higher band if the draw rate exceeds about 60%; each band lowers it by about 5%."
+    },
+    {
+      "id": "uho-2024-6mvs-090-099",
+      "name": "UHO 2024 6 Moves (+0.90 to +0.99)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 6-move lines (12 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +0.90 to +0.99 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_6mvs_+090_+099.epd",
+      "path": "books/uho-2024/UHO_2024_6mvs_+090_+099.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_6mvs_%2B090_%2B099.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 83633,
+        "sha256": "763183e4eff0a28f01bbdaa3c420f5284e3464b862e085bf90bda884c8bfab69"
+      },
+      "content": {
+        "size": 429593,
+        "sha256": "04d48a8d8770e7637478d0633967ed9fd6fbab353e631eea18d9b95ab52b73ce"
+      },
+      "positions": {
+        "total": 6292,
+        "white_to_move": 6292,
+        "black_to_move": 0,
+        "min_ply": 12,
+        "max_ply": 12
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+090_+099/UHO_2024_6mvs_+090_+099.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-6mvs-095-104",
+      "name": "UHO 2024 6 Moves (+0.95 to +1.04)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 6-move lines (12 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +0.95 to +1.04 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_6mvs_+095_+104.epd",
+      "path": "books/uho-2024/UHO_2024_6mvs_+095_+104.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_6mvs_%2B095_%2B104.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 69546,
+        "sha256": "aacc2de36660c696bdc7bff7005f71684fedf6ea4bb678d39aec7aeeb1807556"
+      },
+      "content": {
+        "size": 357846,
+        "sha256": "ab1a96c21df07b908002bfd40e95acf5d04a75b7b839e5091d789e4cd3893b85"
+      },
+      "positions": {
+        "total": 5238,
+        "white_to_move": 5238,
+        "black_to_move": 0,
+        "min_ply": 12,
+        "max_ply": 12
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+095_+104/UHO_2024_6mvs_+095_+104.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-6mvs-100-109",
+      "name": "UHO 2024 6 Moves (+1.00 to +1.09)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 6-move lines (12 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.00 to +1.09 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_6mvs_+100_+109.epd",
+      "path": "books/uho-2024/UHO_2024_6mvs_+100_+109.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_6mvs_%2B100_%2B109.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 62928,
+        "sha256": "59d25890b7dc014e0f395af2fad029bb6ac601dd66f786af41596f97a8decada"
+      },
+      "content": {
+        "size": 323858,
+        "sha256": "e44da437c0b41565de2da19e3a3602272643d22923619f78e9798768f45f13ba"
+      },
+      "positions": {
+        "total": 4740,
+        "white_to_move": 4740,
+        "black_to_move": 0,
+        "min_ply": 12,
+        "max_ply": 12
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+100_+109/UHO_2024_6mvs_+100_+109.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-6mvs-105-114",
+      "name": "UHO 2024 6 Moves (+1.05 to +1.14)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 6-move lines (12 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.05 to +1.14 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_6mvs_+105_+114.epd",
+      "path": "books/uho-2024/UHO_2024_6mvs_+105_+114.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_6mvs_%2B105_%2B114.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 55158,
+        "sha256": "c39ef580c2e535b8f7ebeaa99966b149bbe54b2a8dad8726adc39f2efd7679da"
+      },
+      "content": {
+        "size": 281527,
+        "sha256": "5df8bdc90fc2ae2c30c4c2c3ec37abc8821ebdf88dc9fdda2d748e31f563abdd"
+      },
+      "positions": {
+        "total": 4125,
+        "white_to_move": 4125,
+        "black_to_move": 0,
+        "min_ply": 12,
+        "max_ply": 12
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+105_+114/UHO_2024_6mvs_+105_+114.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-6mvs-110-119",
+      "name": "UHO 2024 6 Moves (+1.10 to +1.19)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 6-move lines (12 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.10 to +1.19 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_6mvs_+110_+119.epd",
+      "path": "books/uho-2024/UHO_2024_6mvs_+110_+119.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_6mvs_%2B110_%2B119.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 46698,
+        "sha256": "8e3c869838e28716b1c04686942a78ffed9d651bb21829dd5a182a5ccf1229d3"
+      },
+      "content": {
+        "size": 236006,
+        "sha256": "95eb2c97403add144f99d126a0cc90db79a2e3183e5e5c0723f3c0399fa56a6f"
+      },
+      "positions": {
+        "total": 3460,
+        "white_to_move": 3460,
+        "black_to_move": 0,
+        "min_ply": 12,
+        "max_ply": 12
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+110_+119/UHO_2024_6mvs_+110_+119.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-6mvs-115-124",
+      "name": "UHO 2024 6 Moves (+1.15 to +1.24)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 6-move lines (12 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.15 to +1.24 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_6mvs_+115_+124.epd",
+      "path": "books/uho-2024/UHO_2024_6mvs_+115_+124.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_6mvs_%2B115_%2B124.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 42805,
+        "sha256": "13997f19364fbfc01d0a681b190f78f513f15b8a3d0e5dd125bf7898040b7e43"
+      },
+      "content": {
+        "size": 215596,
+        "sha256": "c991cd06a30bc227f9d7549f4a263df0dd899e402200a933d753a9d57511c7d4"
+      },
+      "positions": {
+        "total": 3161,
+        "white_to_move": 3161,
+        "black_to_move": 0,
+        "min_ply": 12,
+        "max_ply": 12
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+115_+124/UHO_2024_6mvs_+115_+124.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-6mvs-120-129",
+      "name": "UHO 2024 6 Moves (+1.20 to +1.29)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 6-move lines (12 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.20 to +1.29 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_6mvs_+120_+129.epd",
+      "path": "books/uho-2024/UHO_2024_6mvs_+120_+129.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_6mvs_%2B120_%2B129.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 37183,
+        "sha256": "8f4a5b8c8bc3877784ce93687d10943ba72586cd9fc323db945e3ab7531d9870"
+      },
+      "content": {
+        "size": 185685,
+        "sha256": "617ec83b6bd64feb5245426db1e932b2ba0304963de8015b74268ca24e2ef5c9"
+      },
+      "positions": {
+        "total": 2717,
+        "white_to_move": 2717,
+        "black_to_move": 0,
+        "min_ply": 12,
+        "max_ply": 12
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+120_+129/UHO_2024_6mvs_+120_+129.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-085-094",
+      "name": "UHO 2024 8 Moves (+0.85 to +0.94)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +0.85 to +0.94 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_+085_+094.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_+085_+094.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_%2B085_%2B094.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 294810,
+        "sha256": "3ce4d3dae2afa7526fad23ad789b33e1c42a6e8cc497a852243876fe86e0cca0"
+      },
+      "content": {
+        "size": 1318889,
+        "sha256": "0a42493cf2fa4ef96f63795637e3de0fe92d7c62740c6e2e743b7420368e77ee"
+      },
+      "positions": {
+        "total": 19303,
+        "white_to_move": 19303,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+085_+094/UHO_2024_8mvs_+085_+094.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      },
+      "notes": "The author recommends starting with the +0.85 to +0.94 sets and moving to a higher band if the draw rate exceeds about 60%; each band lowers it by about 5%."
+    },
+    {
+      "id": "uho-2024-8mvs-090-099",
+      "name": "UHO 2024 8 Moves (+0.90 to +0.99)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +0.90 to +0.99 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_+090_+099.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_+090_+099.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_%2B090_%2B099.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 261659,
+        "sha256": "6aceaa29844b2df4ecf1ea16501766cc7d7a5f7916c17fd5e283a4cdec0d509e"
+      },
+      "content": {
+        "size": 1171626,
+        "sha256": "67dfe315da78a9b5da63a5860faf0bdce5855f71fa6ec8592a14389a9dbcf767"
+      },
+      "positions": {
+        "total": 17145,
+        "white_to_move": 17145,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+090_+099/UHO_2024_8mvs_+090_+099.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-095-104",
+      "name": "UHO 2024 8 Moves (+0.95 to +1.04)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +0.95 to +1.04 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_+095_+104.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_+095_+104.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_%2B095_%2B104.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 218263,
+        "sha256": "16a939dc3439a4518ef463712f236ab846623476cf15d7777229b0811d3cf5e2"
+      },
+      "content": {
+        "size": 974377,
+        "sha256": "12716c02dc17f0c122d82e0c51b9f90016a464f20aca345e9546fda881958675"
+      },
+      "positions": {
+        "total": 14256,
+        "white_to_move": 14256,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+095_+104/UHO_2024_8mvs_+095_+104.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-100-109",
+      "name": "UHO 2024 8 Moves (+1.00 to +1.09)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.00 to +1.09 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_+100_+109.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_+100_+109.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_%2B100_%2B109.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 203737,
+        "sha256": "f655e2d932680c8b8ffc3d7e12a54b4f80202c4ea424d60ecc966f8ee5497ce3"
+      },
+      "content": {
+        "size": 904432,
+        "sha256": "ba849a8b2831bc7fad755b9d3c308a4d1358537bd3f0eabac6e9dcad4aa34490"
+      },
+      "positions": {
+        "total": 13227,
+        "white_to_move": 13227,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+100_+109/UHO_2024_8mvs_+100_+109.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-105-114",
+      "name": "UHO 2024 8 Moves (+1.05 to +1.14)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.05 to +1.14 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_+105_+114.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_+105_+114.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_%2B105_%2B114.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 179906,
+        "sha256": "55797a006ed36e3aeff7e3a7458ac2861ddd55353721e5db3c5e80e508578595"
+      },
+      "content": {
+        "size": 797652,
+        "sha256": "7830d20c19b47d8b2043e8d2854088eef838b33ba4d74debd65c28803107ac37"
+      },
+      "positions": {
+        "total": 11660,
+        "white_to_move": 11660,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+105_+114/UHO_2024_8mvs_+105_+114.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-110-119",
+      "name": "UHO 2024 8 Moves (+1.10 to +1.19)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.10 to +1.19 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_+110_+119.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_+110_+119.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_%2B110_%2B119.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 148692,
+        "sha256": "296d9d1f08383ab26fa57134daaab0ce68b398bd2cc07ce056df875b59f70849"
+      },
+      "content": {
+        "size": 657050,
+        "sha256": "e76a8236273d743f08963328fab09f2ac3075538f38b120c2707f42177ca3f2f"
+      },
+      "positions": {
+        "total": 9601,
+        "white_to_move": 9601,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+110_+119/UHO_2024_8mvs_+110_+119.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-115-124",
+      "name": "UHO 2024 8 Moves (+1.15 to +1.24)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.15 to +1.24 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_+115_+124.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_+115_+124.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_%2B115_%2B124.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 139137,
+        "sha256": "23cfeff624a47ab747ceed21b1cf2dd57882795f2f7b145c9276d7f0076d3b19"
+      },
+      "content": {
+        "size": 612261,
+        "sha256": "b8f9314dd0dad95c3455253a31a3259c6115b29f8a5ccc147efc2a28591e49c5"
+      },
+      "positions": {
+        "total": 8940,
+        "white_to_move": 8940,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+115_+124/UHO_2024_8mvs_+115_+124.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-120-129",
+      "name": "UHO 2024 8 Moves (+1.20 to +1.29)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.20 to +1.29 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_+120_+129.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_+120_+129.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_%2B120_%2B129.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 121992,
+        "sha256": "ec4592f9a68e6609ee7e87816a89f2289372ef328164ce7c217a789e8ae821ab"
+      },
+      "content": {
+        "size": 538911,
+        "sha256": "390d8a5f47c6efede8c4e128e92bac6139ba8b96b37d3e581b1da9999c14b2e0"
+      },
+      "positions": {
+        "total": 7869,
+        "white_to_move": 7869,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+120_+129/UHO_2024_8mvs_+120_+129.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-big-080-099",
+      "name": "UHO 2024 8 Moves Big (+0.80 to +0.99)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024, larger set with a wider window: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +0.80 to +0.99 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_big_+080_+099.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_big_+080_+099.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_big_%2B080_%2B099.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 573068,
+        "sha256": "d04fefc6a65a67b6907dcbd1f2eb9d256590abcfbbfe75ace1d92f2145ca4cfe"
+      },
+      "content": {
+        "size": 2570245,
+        "sha256": "ea551448214e533b5fe6ed30518a325d9863379b57820406d7f6f8e4148abf3d"
+      },
+      "positions": {
+        "total": 37622,
+        "white_to_move": 37622,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+085_+094/UHO_2024_8mvs_big_+080_+099.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      },
+      "notes": "The author recommends starting with the +0.85 to +0.94 sets and moving to a higher band if the draw rate exceeds about 60%; each band lowers it by about 5%."
+    },
+    {
+      "id": "uho-2024-8mvs-big-085-104",
+      "name": "UHO 2024 8 Moves Big (+0.85 to +1.04)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024, larger set with a wider window: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +0.85 to +1.04 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_big_+085_+104.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_big_+085_+104.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_big_%2B085_%2B104.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 511627,
+        "sha256": "46fc5086f07c2b64f8e42022d7d484408d808bdc8e2573a5ea947cb264468b68"
+      },
+      "content": {
+        "size": 2293266,
+        "sha256": "be93aab0eb74472b267835eef7bd33dca8db08f9fd91484349953b2f7eec3861"
+      },
+      "positions": {
+        "total": 33559,
+        "white_to_move": 33559,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+090_+099/UHO_2024_8mvs_big_+085_+104.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-big-090-109",
+      "name": "UHO 2024 8 Moves Big (+0.90 to +1.09)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024, larger set with a wider window: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +0.90 to +1.09 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_big_+090_+109.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_big_+090_+109.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_big_%2B090_%2B109.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 463883,
+        "sha256": "92e6af175976b7baec446ea5ba129c3d95ae10a2fd0c6e2888e2104fadd20cd4"
+      },
+      "content": {
+        "size": 2076058,
+        "sha256": "45445bb0d54c87de035dfd87afbf0048476656e594408f3b2e555a3dae90c963"
+      },
+      "positions": {
+        "total": 30372,
+        "white_to_move": 30372,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+095_+104/UHO_2024_8mvs_big_+090_+109.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-big-095-114",
+      "name": "UHO 2024 8 Moves Big (+0.95 to +1.14)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024, larger set with a wider window: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +0.95 to +1.14 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_big_+095_+114.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_big_+095_+114.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_big_%2B095_%2B114.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 396947,
+        "sha256": "9153602218429f8701ca16483b19e8a0ed5db059634481c65726da2d86d5aee2"
+      },
+      "content": {
+        "size": 1772029,
+        "sha256": "8b2b70373bd9bd8df23cb38fafe7ace11e688129ee49493de6ba476c63340f11"
+      },
+      "positions": {
+        "total": 25916,
+        "white_to_move": 25916,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+100_+109/UHO_2024_8mvs_big_+095_+114.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-big-100-119",
+      "name": "UHO 2024 8 Moves Big (+1.00 to +1.19)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024, larger set with a wider window: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.00 to +1.19 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_big_+100_+119.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_big_+100_+119.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_big_%2B100_%2B119.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 351021,
+        "sha256": "7b8c2155d80ee2ed1b56e34c6af13bdafb831853e4c0ef315dac3ab101d7c23f"
+      },
+      "content": {
+        "size": 1561482,
+        "sha256": "62217759ea3be78809d387307a6f3e9ab34c5205c841be32e0d015fd85ce0dd9"
+      },
+      "positions": {
+        "total": 22828,
+        "white_to_move": 22828,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+105_+114/UHO_2024_8mvs_big_+100_+119.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-big-105-124",
+      "name": "UHO 2024 8 Moves Big (+1.05 to +1.24)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024, larger set with a wider window: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.05 to +1.24 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_big_+105_+124.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_big_+105_+124.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_big_%2B105_%2B124.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 317009,
+        "sha256": "bd5f9a79925e13310668699989c59323f38916c5108e92b567e78ff1b210c91b"
+      },
+      "content": {
+        "size": 1409913,
+        "sha256": "6e7c9130db2bd12012b62ea8765c6aa26abb18b20480697a13bc9b4b1e87b41f"
+      },
+      "positions": {
+        "total": 20600,
+        "white_to_move": 20600,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+110_+119/UHO_2024_8mvs_big_+105_+124.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-big-110-129",
+      "name": "UHO 2024 8 Moves Big (+1.10 to +1.29)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024, larger set with a wider window: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.10 to +1.29 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_big_+110_+129.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_big_+110_+129.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_big_%2B110_%2B129.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 269142,
+        "sha256": "ff54a5ffe2f5b79f5482e3108a5414d71f7274ef48f5fceb438f8d3794ecc6df"
+      },
+      "content": {
+        "size": 1195961,
+        "sha256": "b0960f516d44cbc9d5553aed526acadf21fc3fe1e1d06552bbe43107a8d4eb45"
+      },
+      "positions": {
+        "total": 17470,
+        "white_to_move": 17470,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+115_+124/UHO_2024_8mvs_big_+110_+129.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    },
+    {
+      "id": "uho-2024-8mvs-big-115-134",
+      "name": "UHO 2024 8 Moves Big (+1.15 to +1.34)",
+      "description": "Stefan Pohl's Unbalanced Human Openings 2024, larger set with a wider window: 8-move lines (16 plies) from ChessBase Megabase 2024 games where both players were rated 2200 or more, with unique end positions that still have both queens, kept where Komodo Dragon 3.3 evaluates the final position at +1.15 to +1.34 for White.",
+      "collection": "uho-2024",
+      "category": "openings",
+      "variant": "standard",
+      "format": "epd",
+      "file_name": "UHO_2024_8mvs_big_+115_+134.epd",
+      "path": "books/uho-2024/UHO_2024_8mvs_big_+115_+134.epd.zip",
+      "url": "https://raw.githubusercontent.com/CodeAdopter/Chess-Engines/main/books/uho-2024/UHO_2024_8mvs_big_%2B115_%2B134.epd.zip",
+      "archive": {
+        "format": "zip",
+        "size": 239144,
+        "sha256": "9c145c01353152336c237d3efce1bc2c070ad4af7d043f55b6563a8d1745940e"
+      },
+      "content": {
+        "size": 1058640,
+        "sha256": "999fd6738d9f965454c5a0cdb4dea710221ae265e15a2260aca74ffc309e407c"
+      },
+      "positions": {
+        "total": 15464,
+        "white_to_move": 15464,
+        "black_to_move": 0,
+        "min_ply": 16,
+        "max_ply": 16
+      },
+      "author": "Stefan Pohl",
+      "source": {
+        "name": "Stefan Pohl Computer Chess",
+        "url": "https://www.sp-cc.de/uho_2024.htm",
+        "download_url": "https://www.sp-cc.de/files/uho_2024.7z",
+        "archive_member": "UHO_2024/UHO_2024_+120_+129/UHO_2024_8mvs_big_+115_+134.epd",
+        "retrieved_at": "2026-10-30"
+      },
+      "license": {
+        "name": "No license stated; (C) 2024 Stefan Pohl, offered as a free download",
+        "spdx_id": null,
+        "url": "https://www.sp-cc.de/uho_2024.htm"
+      }
+    }
+  ]
+}
