@@ -1,0 +1,4 @@
+# Engines to add to engines.json, one per line: the name, then the GitHub repository.
+#   Stockfish official-stockfish/Stockfish
+#   Leela Chess Zero https://github.com/LeelaChessZero/lc0
+# python scripts/update.py adds them and takes their lines out. A line it can't add stays, with the reason after it.

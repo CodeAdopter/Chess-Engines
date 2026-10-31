@@ -1,0 +1,4 @@
+# kept on this machine: the local updater and its logs, and update.py's saved CCRL lists
+/local/
+/.cache/
+__pycache__/
