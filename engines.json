@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04",
+  "updated_at": "2026-11-05",
   "description": "Catalog of open-source chess engine projects. Fetch available releases from each upstream repository on demand.",
   "metadata_notes": {
     "scope": "One entry per source project; no engine versions, release assets, download endpoints or external ratings are stored.",
@@ -24,11 +24,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 15,
         "forks": 5,
         "commits": 488,
-        "commits_last_year": 183,
+        "commits_last_year": 181,
         "contributors": 4,
         "releases": 12,
         "created_at": "2024-08-08",
@@ -51,7 +51,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 69,
         "forks": 22,
         "commits": 280,
@@ -78,7 +78,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 24,
         "forks": 7,
         "commits": 208,
@@ -106,7 +106,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 1,
         "commits": 141,
@@ -133,15 +133,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 0,
         "commits": 295,
-        "commits_last_year": 124,
+        "commits_last_year": 123,
         "contributors": 1,
         "releases": 14,
         "created_at": "2023-04-07",
-        "pushed_at": "2026-10-25"
+        "pushed_at": "2026-11-04"
       },
       "documentation_url": "https://github.com/gabtar/aconcagua/blob/HEAD/README.md",
       "license": {
@@ -160,7 +160,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 2,
         "commits": 14,
@@ -187,7 +187,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 88,
         "forks": 6,
         "commits": 250,
@@ -214,7 +214,7 @@
       "repository_archived": true,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 1306,
@@ -242,7 +242,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 14,
         "forks": 1,
         "commits": 2225,
@@ -269,7 +269,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 152,
         "forks": 27,
         "commits": 942,
@@ -296,7 +296,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 18,
@@ -323,7 +323,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 1,
         "commits": 26,
@@ -350,7 +350,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 59,
         "forks": 3,
         "commits": 841,
@@ -377,7 +377,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 219,
@@ -407,7 +407,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 1,
         "commits": 264,
@@ -434,7 +434,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 44,
         "forks": 8,
         "commits": 296,
@@ -461,7 +461,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 1,
         "commits": 35,
@@ -488,7 +488,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 2,
         "commits": 81,
@@ -516,7 +516,7 @@
       "repository_archived": true,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 45,
@@ -544,7 +544,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 0,
         "commits": 102,
@@ -571,7 +571,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 1,
         "commits": 215,
@@ -598,15 +598,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 191,
         "forks": 38,
-        "commits": 3255,
-        "commits_last_year": 249,
+        "commits": 3257,
+        "commits_last_year": 251,
         "contributors": 8,
         "releases": 5,
         "created_at": "2013-05-22",
-        "pushed_at": "2026-11-03"
+        "pushed_at": "2026-11-04"
       },
       "documentation_url": "https://github.com/jdart1/arasan-chess/blob/HEAD/README.md",
       "license": {
@@ -625,7 +625,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 1,
         "commits": 911,
@@ -652,7 +652,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 0,
         "commits": 809,
@@ -679,7 +679,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 31,
         "forks": 1,
         "commits": 247,
@@ -706,7 +706,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 12,
         "forks": 2,
         "commits": 405,
@@ -733,7 +733,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 0,
         "commits": 155,
@@ -760,7 +760,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 15,
         "forks": 1,
         "commits": 353,
@@ -787,7 +787,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 133,
@@ -814,7 +814,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 114,
         "forks": 7,
         "commits": 638,
@@ -841,7 +841,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 531,
@@ -868,7 +868,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 34,
@@ -895,7 +895,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 85,
         "forks": 17,
         "commits": 3285,
@@ -922,7 +922,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 54,
         "forks": 8,
         "commits": 626,
@@ -949,7 +949,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 115,
         "forks": 14,
         "commits": 111,
@@ -976,7 +976,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 2,
         "commits": 154,
@@ -1003,15 +1003,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 296,
         "forks": 44,
-        "commits": 814,
-        "commits_last_year": 18,
+        "commits": 815,
+        "commits_last_year": 19,
         "contributors": 9,
         "releases": 33,
         "created_at": "2021-02-14",
-        "pushed_at": "2026-11-04"
+        "pushed_at": "2026-11-05"
       },
       "documentation_url": "https://github.com/jhonnold/berserk/blob/HEAD/README.md",
       "license": {
@@ -1030,7 +1030,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 30,
         "forks": 4,
         "commits": 422,
@@ -1057,7 +1057,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 0,
         "commits": 796,
@@ -1084,7 +1084,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 104,
         "forks": 8,
         "commits": 982,
@@ -1111,7 +1111,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 17,
         "forks": 3,
         "commits": 490,
@@ -1138,7 +1138,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 10,
         "forks": 0,
         "commits": 69,
@@ -1165,7 +1165,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 275,
         "forks": 19,
         "commits": 240,
@@ -1192,7 +1192,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 67,
@@ -1219,7 +1219,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 93,
         "forks": 3,
         "commits": 271,
@@ -1246,7 +1246,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 41,
         "forks": 15,
         "commits": 131,
@@ -1273,15 +1273,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 15,
         "forks": 2,
-        "commits": 541,
+        "commits": 542,
         "commits_last_year": 246,
         "contributors": 1,
         "releases": 24,
         "created_at": "2024-06-05",
-        "pushed_at": "2026-11-02"
+        "pushed_at": "2026-11-04"
       },
       "documentation_url": "https://github.com/Nonlinear2/Bread-Engine/blob/HEAD/readme.md",
       "license": {
@@ -1300,7 +1300,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 19,
         "forks": 0,
         "commits": 930,
@@ -1327,7 +1327,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 0,
         "commits": 3,
@@ -1354,7 +1354,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 12,
@@ -1381,15 +1381,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 121,
         "forks": 13,
-        "commits": 942,
-        "commits_last_year": 182,
+        "commits": 943,
+        "commits_last_year": 183,
         "contributors": 3,
         "releases": 37,
         "created_at": "2021-03-22",
-        "pushed_at": "2026-11-01"
+        "pushed_at": "2026-11-04"
       },
       "documentation_url": "https://github.com/Witek902/Caissa/blob/HEAD/README.md",
       "license": {
@@ -1408,7 +1408,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 41,
         "forks": 5,
         "commits": 1122,
@@ -1435,7 +1435,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 31,
         "forks": 0,
         "commits": 1043,
@@ -1462,7 +1462,7 @@
       "repository_archived": true,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 437,
@@ -1490,7 +1490,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 50,
         "forks": 1,
         "commits": 230,
@@ -1517,7 +1517,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 12,
         "forks": 2,
         "commits": 645,
@@ -1544,7 +1544,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 2,
         "commits": 59,
@@ -1571,7 +1571,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 199,
@@ -1598,7 +1598,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 182,
@@ -1625,7 +1625,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 95,
@@ -1652,7 +1652,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 18,
         "forks": 2,
         "commits": 262,
@@ -1679,7 +1679,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 34,
         "forks": 9,
         "commits": 17,
@@ -1706,7 +1706,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 17,
         "forks": 2,
         "commits": 1049,
@@ -1733,7 +1733,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 2,
         "commits": 481,
@@ -1760,7 +1760,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 0,
         "commits": 83,
@@ -1790,7 +1790,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 437,
@@ -1817,7 +1817,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 230,
@@ -1844,7 +1844,7 @@
       "repository_archived": true,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 33,
         "forks": 3,
         "commits": 43,
@@ -1872,7 +1872,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 22,
         "forks": 3,
         "commits": 1581,
@@ -1899,7 +1899,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 37,
         "forks": 7,
         "commits": 98,
@@ -1926,7 +1926,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 65,
         "forks": 9,
         "commits": 278,
@@ -1953,9 +1953,9 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 98,
-        "forks": 9,
+        "forks": 10,
         "commits": 1061,
         "commits_last_year": 0,
         "contributors": 10,
@@ -1980,7 +1980,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 2,
         "commits": 632,
@@ -2007,7 +2007,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 107,
@@ -2034,7 +2034,7 @@
       "repository_archived": true,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 14,
         "forks": 3,
         "commits": 527,
@@ -2062,7 +2062,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 28,
         "forks": 4,
         "commits": 770,
@@ -2089,7 +2089,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 66,
         "forks": 15,
         "commits": 425,
@@ -2116,7 +2116,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 44,
         "forks": 4,
         "commits": 191,
@@ -2143,11 +2143,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 295,
         "forks": 44,
         "commits": 1539,
-        "commits_last_year": 4,
+        "commits_last_year": 3,
         "contributors": 12,
         "releases": 30,
         "created_at": "2018-09-09",
@@ -2173,7 +2173,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 2,
         "commits": 40,
@@ -2200,7 +2200,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 78,
         "forks": 17,
         "commits": 1039,
@@ -2227,7 +2227,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 25,
         "forks": 5,
         "commits": 8,
@@ -2254,7 +2254,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 57,
@@ -2281,7 +2281,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 55,
         "forks": 9,
         "commits": 710,
@@ -2308,7 +2308,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 747,
@@ -2335,7 +2335,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 22,
         "forks": 1,
         "commits": 326,
@@ -2362,7 +2362,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 72,
@@ -2389,7 +2389,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 147,
         "forks": 14,
         "commits": 969,
@@ -2416,7 +2416,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 2,
         "commits": 45,
@@ -2443,7 +2443,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 100,
         "forks": 27,
         "commits": 722,
@@ -2470,7 +2470,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 45,
         "forks": 6,
         "commits": 948,
@@ -2497,7 +2497,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 0,
         "commits": 372,
@@ -2524,7 +2524,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 1,
         "commits": 193,
@@ -2551,7 +2551,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 20,
         "forks": 0,
         "commits": 127,
@@ -2578,15 +2578,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 0,
         "forks": 0,
-        "commits": 155,
-        "commits_last_year": 71,
+        "commits": 157,
+        "commits_last_year": 72,
         "contributors": 2,
         "releases": 3,
         "created_at": "2025-01-24",
-        "pushed_at": "2026-11-01"
+        "pushed_at": "2026-11-05"
       },
       "documentation_url": "https://github.com/Tym972/Echekinator/blob/HEAD/README.md",
       "license": {
@@ -2605,7 +2605,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 3,
         "commits": 329,
@@ -2632,7 +2632,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 213,
@@ -2659,11 +2659,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 18,
         "forks": 2,
         "commits": 877,
-        "commits_last_year": 195,
+        "commits_last_year": 194,
         "contributors": 1,
         "releases": 5,
         "created_at": "2024-02-26",
@@ -2686,7 +2686,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 19,
         "forks": 2,
         "commits": 364,
@@ -2713,7 +2713,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 49,
@@ -2740,7 +2740,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 1,
         "commits": 4,
@@ -2767,7 +2767,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 83,
@@ -2794,7 +2794,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 25,
         "forks": 3,
         "commits": 77,
@@ -2821,7 +2821,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 445,
         "forks": 87,
         "commits": 1440,
@@ -2849,7 +2849,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 20,
         "forks": 3,
         "commits": 2450,
@@ -2876,7 +2876,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 1,
         "commits": 605,
@@ -2903,7 +2903,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 4,
@@ -2930,7 +2930,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 31,
         "forks": 6,
         "commits": 474,
@@ -2957,15 +2957,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
-        "stars": 925,
+        "checked_at": "2026-11-05",
+        "stars": 926,
         "forks": 289,
-        "commits": 6683,
-        "commits_last_year": 45,
+        "commits": 6686,
+        "commits_last_year": 47,
         "contributors": 187,
         "releases": 11,
         "created_at": "2018-06-22",
-        "pushed_at": "2026-11-03"
+        "pushed_at": "2026-11-04"
       },
       "documentation_url": "https://github.com/fairy-stockfish/Fairy-Stockfish/blob/HEAD/README.md",
       "license": {
@@ -2985,7 +2985,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 22,
         "forks": 0,
         "commits": 332,
@@ -3012,7 +3012,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 7,
         "commits": 409,
@@ -3039,11 +3039,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 372,
-        "commits_last_year": 134,
+        "commits_last_year": 133,
         "contributors": 1,
         "releases": 3,
         "created_at": "2024-12-26",
@@ -3066,7 +3066,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 2,
         "commits": 476,
@@ -3093,7 +3093,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 106,
@@ -3120,7 +3120,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 19,
@@ -3148,7 +3148,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 2,
         "commits": 509,
@@ -3175,7 +3175,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 15,
         "forks": 2,
         "commits": 318,
@@ -3202,7 +3202,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 27,
@@ -3229,7 +3229,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 29,
         "forks": 3,
         "commits": 298,
@@ -3257,7 +3257,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 46,
@@ -3284,7 +3284,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 12,
         "forks": 2,
         "commits": 673,
@@ -3311,7 +3311,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 1,
         "commits": 242,
@@ -3338,15 +3338,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 1,
-        "commits": 535,
-        "commits_last_year": 343,
+        "commits": 536,
+        "commits_last_year": 344,
         "contributors": 1,
         "releases": 9,
         "created_at": "2024-12-25",
-        "pushed_at": "2026-11-03"
+        "pushed_at": "2026-11-04"
       },
       "documentation_url": "https://github.com/jorgenhanssen/grail/blob/HEAD/README.md",
       "license": {
@@ -3365,7 +3365,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 3,
         "commits": 182,
@@ -3392,7 +3392,7 @@
       "repository_archived": true,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 81,
@@ -3420,7 +3420,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 31,
         "forks": 7,
         "commits": 655,
@@ -3447,7 +3447,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 154,
         "forks": 17,
         "commits": 1513,
@@ -3474,11 +3474,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 19,
         "forks": 6,
         "commits": 953,
-        "commits_last_year": 256,
+        "commits_last_year": 255,
         "contributors": 2,
         "releases": 0,
         "created_at": "2024-06-18",
@@ -3502,7 +3502,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 16,
@@ -3529,7 +3529,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 7,
         "forks": 0,
         "commits": 73,
@@ -3556,7 +3556,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 148,
@@ -3583,7 +3583,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 105,
@@ -3610,7 +3610,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 1,
         "commits": 124,
@@ -3637,7 +3637,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 40,
         "forks": 8,
         "commits": 346,
@@ -3664,15 +3664,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 119,
         "forks": 11,
-        "commits": 297,
-        "commits_last_year": 59,
+        "commits": 298,
+        "commits_last_year": 60,
         "contributors": 1,
         "releases": 40,
         "created_at": "2018-02-25",
-        "pushed_at": "2026-11-03"
+        "pushed_at": "2026-11-05"
       },
       "documentation_url": "https://github.com/vshcherbyna/igel/blob/HEAD/README.md",
       "license": {
@@ -3691,7 +3691,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 2,
         "commits": 1157,
@@ -3718,7 +3718,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 34,
         "forks": 1,
         "commits": 756,
@@ -3745,7 +3745,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 11,
         "forks": 3,
         "commits": 79,
@@ -3772,7 +3772,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 1,
         "commits": 142,
@@ -3799,7 +3799,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 21,
         "forks": 1,
         "commits": 13,
@@ -3826,7 +3826,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 1,
         "commits": 1776,
@@ -3853,7 +3853,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 246,
@@ -3880,7 +3880,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 12,
         "forks": 2,
         "commits": 133,
@@ -3907,7 +3907,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 2,
         "commits": 950,
@@ -3934,7 +3934,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 17,
         "forks": 4,
         "commits": 45,
@@ -3961,7 +3961,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 22,
         "forks": 1,
         "commits": 108,
@@ -3988,7 +3988,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 20,
         "forks": 4,
         "commits": 190,
@@ -4015,7 +4015,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 1,
         "commits": 59,
@@ -4042,7 +4042,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 249,
@@ -4069,7 +4069,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 167,
         "forks": 33,
         "commits": 1163,
@@ -4096,11 +4096,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 11,
         "forks": 1,
         "commits": 298,
-        "commits_last_year": 190,
+        "commits_last_year": 189,
         "contributors": 2,
         "releases": 12,
         "created_at": "2025-03-04",
@@ -4123,7 +4123,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 11,
         "forks": 2,
         "commits": 45,
@@ -4150,7 +4150,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 60,
         "forks": 26,
         "commits": 894,
@@ -4177,7 +4177,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 29,
         "forks": 16,
         "commits": 33,
@@ -4208,7 +4208,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 74,
@@ -4235,11 +4235,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
-        "stars": 3271,
+        "checked_at": "2026-11-05",
+        "stars": 3270,
         "forks": 616,
         "commits": 1827,
-        "commits_last_year": 84,
+        "commits_last_year": 83,
         "contributors": 117,
         "releases": 89,
         "created_at": "2018-05-30",
@@ -4267,7 +4267,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 43,
         "forks": 7,
         "commits": 360,
@@ -4294,7 +4294,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 210,
@@ -4321,7 +4321,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 47,
         "forks": 2,
         "commits": 579,
@@ -4348,7 +4348,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 56,
         "forks": 7,
         "commits": 690,
@@ -4375,7 +4375,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 10,
         "forks": 4,
         "commits": 320,
@@ -4402,7 +4402,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 31,
@@ -4429,7 +4429,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 10,
         "forks": 0,
         "commits": 267,
@@ -4456,7 +4456,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 0,
         "commits": 289,
@@ -4483,7 +4483,7 @@
       "repository_archived": true,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 63,
@@ -4511,15 +4511,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 79,
         "forks": 10,
-        "commits": 1987,
-        "commits_last_year": 357,
+        "commits": 1988,
+        "commits_last_year": 356,
         "contributors": 3,
         "releases": 47,
         "created_at": "2021-04-01",
-        "pushed_at": "2026-11-04"
+        "pushed_at": "2026-11-05"
       },
       "documentation_url": "https://github.com/lynx-chess/Lynx/blob/HEAD/README.md",
       "license": {
@@ -4538,7 +4538,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 49,
         "forks": 7,
         "commits": 176,
@@ -4565,7 +4565,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 0,
         "commits": 212,
@@ -4592,7 +4592,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 0,
         "forks": 0,
         "commits": 129,
@@ -4619,7 +4619,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 19,
         "forks": 2,
         "commits": 300,
@@ -4646,7 +4646,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 16,
         "forks": 3,
         "commits": 503,
@@ -4673,7 +4673,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 15,
         "forks": 0,
         "commits": 2333,
@@ -4700,7 +4700,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 12,
         "forks": 0,
         "commits": 396,
@@ -4727,7 +4727,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 21,
         "forks": 2,
         "commits": 328,
@@ -4754,7 +4754,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 24,
         "forks": 3,
         "commits": 507,
@@ -4781,7 +4781,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 139,
         "forks": 12,
         "commits": 2438,
@@ -4808,7 +4808,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 62,
         "forks": 6,
         "commits": 129,
@@ -4835,9 +4835,9 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
-        "forks": 1,
+        "forks": 2,
         "commits": 1021,
         "commits_last_year": 316,
         "contributors": 1,
@@ -4862,7 +4862,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 1,
         "commits": 115,
@@ -4889,7 +4889,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 164,
         "forks": 34,
         "commits": 94,
@@ -4916,7 +4916,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 7,
         "forks": 2,
         "commits": 324,
@@ -4943,7 +4943,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 1,
         "commits": 9,
@@ -4970,7 +4970,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 12,
         "forks": 1,
         "commits": 260,
@@ -4997,7 +4997,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 73,
         "forks": 13,
         "commits": 383,
@@ -5024,7 +5024,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 1,
         "commits": 5,
@@ -5051,7 +5051,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 3,
         "commits": 700,
@@ -5078,7 +5078,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 0,
         "commits": 23,
@@ -5105,7 +5105,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 13,
         "forks": 3,
         "commits": 132,
@@ -5132,7 +5132,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 101,
@@ -5159,7 +5159,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 1,
         "commits": 128,
@@ -5186,7 +5186,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 1,
         "commits": 162,
@@ -5213,7 +5213,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 0,
         "commits": 16,
@@ -5240,7 +5240,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 10,
         "forks": 3,
         "commits": 531,
@@ -5267,7 +5267,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 36,
@@ -5294,7 +5294,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 142,
         "forks": 16,
         "commits": 598,
@@ -5321,7 +5321,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 23,
         "forks": 0,
         "commits": 1263,
@@ -5348,7 +5348,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 10,
         "forks": 0,
         "commits": 215,
@@ -5375,7 +5375,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 2,
         "commits": 508,
@@ -5402,8 +5402,8 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
-        "stars": 274,
+        "checked_at": "2026-11-05",
+        "stars": 275,
         "forks": 27,
         "commits": 621,
         "commits_last_year": 76,
@@ -5429,7 +5429,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 0,
         "commits": 13,
@@ -5456,11 +5456,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 80,
         "forks": 8,
         "commits": 1143,
-        "commits_last_year": 281,
+        "commits_last_year": 278,
         "contributors": 3,
         "releases": 26,
         "created_at": "2024-11-08",
@@ -5483,7 +5483,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 26,
         "forks": 1,
         "commits": 499,
@@ -5510,7 +5510,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 7,
         "forks": 2,
         "commits": 284,
@@ -5537,7 +5537,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 37,
         "forks": 7,
         "commits": 310,
@@ -5564,7 +5564,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 11,
         "forks": 2,
         "commits": 85,
@@ -5591,7 +5591,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 0,
         "commits": 213,
@@ -5618,7 +5618,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 40,
         "forks": 3,
         "commits": 626,
@@ -5645,15 +5645,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 162,
         "forks": 14,
         "commits": 684,
-        "commits_last_year": 93,
+        "commits_last_year": 90,
         "contributors": 4,
         "releases": 23,
         "created_at": "2023-11-20",
-        "pushed_at": "2026-11-03"
+        "pushed_at": "2026-11-05"
       },
       "documentation_url": "https://github.com/Yoshie2000/PlentyChess/blob/HEAD/README.md",
       "license": {
@@ -5672,11 +5672,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 7,
         "forks": 1,
         "commits": 979,
-        "commits_last_year": 457,
+        "commits_last_year": 439,
         "contributors": 2,
         "releases": 5,
         "created_at": "2021-09-19",
@@ -5699,7 +5699,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 150,
@@ -5726,7 +5726,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 320,
@@ -5753,7 +5753,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 31,
         "forks": 1,
         "commits": 255,
@@ -5780,7 +5780,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 22,
         "forks": 14,
         "commits": 829,
@@ -5807,7 +5807,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 174,
@@ -5834,7 +5834,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 0,
         "commits": 188,
@@ -5861,7 +5861,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 47,
         "forks": 4,
         "commits": 539,
@@ -5888,7 +5888,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 55,
@@ -5915,11 +5915,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 2,
         "commits": 1438,
-        "commits_last_year": 810,
+        "commits_last_year": 808,
         "contributors": 2,
         "releases": 14,
         "created_at": "2025-07-10",
@@ -5942,7 +5942,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 11,
         "forks": 3,
         "commits": 396,
@@ -5969,7 +5969,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 0,
         "commits": 216,
@@ -5996,7 +5996,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 50,
         "forks": 24,
         "commits": 666,
@@ -6023,7 +6023,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 14,
         "forks": 0,
         "commits": 392,
@@ -6050,11 +6050,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 25,
         "forks": 6,
         "commits": 766,
-        "commits_last_year": 248,
+        "commits_last_year": 244,
         "contributors": 5,
         "releases": 15,
         "created_at": "2022-11-23",
@@ -6077,7 +6077,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 854,
@@ -6085,7 +6085,7 @@
         "contributors": 1,
         "releases": 10,
         "created_at": "2021-01-02",
-        "pushed_at": "2026-11-03"
+        "pushed_at": "2026-11-05"
       },
       "documentation_url": "https://github.com/Mangar2/Qapla/blob/HEAD/README.md",
       "license": {
@@ -6104,11 +6104,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 75,
         "forks": 12,
         "commits": 842,
-        "commits_last_year": 184,
+        "commits_last_year": 182,
         "contributors": 11,
         "releases": 13,
         "created_at": "2023-08-16",
@@ -6131,7 +6131,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 1,
         "commits": 20,
@@ -6158,7 +6158,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 7,
         "forks": 0,
         "commits": 19,
@@ -6185,8 +6185,8 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
-        "stars": 14,
+        "checked_at": "2026-11-05",
+        "stars": 15,
         "forks": 0,
         "commits": 193,
         "commits_last_year": 133,
@@ -6212,9 +6212,9 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 25,
-        "forks": 3,
+        "forks": 4,
         "commits": 605,
         "commits_last_year": 383,
         "contributors": 2,
@@ -6239,7 +6239,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 0,
         "forks": 0,
         "commits": 292,
@@ -6266,7 +6266,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 16,
         "forks": 3,
         "commits": 383,
@@ -6293,11 +6293,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
-        "stars": 681,
+        "checked_at": "2026-11-05",
+        "stars": 682,
         "forks": 79,
         "commits": 1811,
-        "commits_last_year": 534,
+        "commits_last_year": 532,
         "contributors": 22,
         "releases": 15,
         "created_at": "2022-12-31",
@@ -6320,7 +6320,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 65,
         "forks": 5,
         "commits": 692,
@@ -6347,7 +6347,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 0,
         "forks": 0,
         "commits": 9,
@@ -6374,7 +6374,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 26,
         "forks": 7,
         "commits": 291,
@@ -6401,7 +6401,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 1,
         "commits": 412,
@@ -6428,7 +6428,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 27,
         "forks": 17,
         "commits": 137,
@@ -6458,7 +6458,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 4,
         "commits": 513,
@@ -6485,7 +6485,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 0,
         "commits": 89,
@@ -6512,7 +6512,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 225,
         "forks": 20,
         "commits": 1062,
@@ -6539,7 +6539,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 19,
         "forks": 5,
         "commits": 642,
@@ -6566,15 +6566,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
-        "forks": 0,
-        "commits": 327,
-        "commits_last_year": 44,
+        "forks": 1,
+        "commits": 335,
+        "commits_last_year": 52,
         "contributors": 1,
         "releases": 13,
         "created_at": "2022-08-31",
-        "pushed_at": "2026-11-03"
+        "pushed_at": "2026-11-04"
       },
       "documentation_url": "https://github.com/Ilya-Ruk/RukChess/blob/HEAD/README.md",
       "license": {
@@ -6609,7 +6609,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 0,
         "commits": 1401,
@@ -6636,7 +6636,7 @@
       "repository_archived": true,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 1,
         "commits": 3,
@@ -6664,7 +6664,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 48,
         "forks": 3,
         "commits": 219,
@@ -6691,7 +6691,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 9,
         "forks": 1,
         "commits": 312,
@@ -6718,7 +6718,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 17,
         "forks": 6,
         "commits": 2200,
@@ -6745,7 +6745,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 7,
         "forks": 2,
         "commits": 140,
@@ -6772,11 +6772,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 175,
-        "commits_last_year": 7,
+        "commits_last_year": 6,
         "contributors": 1,
         "releases": 4,
         "created_at": "2025-01-02",
@@ -6799,7 +6799,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 1,
         "commits": 329,
@@ -6826,7 +6826,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 145,
         "forks": 14,
         "commits": 480,
@@ -6853,7 +6853,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 0,
         "commits": 163,
@@ -6880,7 +6880,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 31,
         "forks": 4,
         "commits": 293,
@@ -6907,7 +6907,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 78,
         "forks": 13,
         "commits": 455,
@@ -6934,7 +6934,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 0,
         "commits": 37,
@@ -6961,15 +6961,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
-        "stars": 174,
+        "checked_at": "2026-11-05",
+        "stars": 175,
         "forks": 32,
         "commits": 268,
         "commits_last_year": 12,
         "contributors": 1,
         "releases": 91,
         "created_at": "2018-07-27",
-        "pushed_at": "2026-11-03"
+        "pushed_at": "2026-11-04"
       },
       "documentation_url": "https://github.com/amchess/ShashChess/blob/HEAD/README.md",
       "license": {
@@ -6988,7 +6988,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 5,
         "forks": 3,
         "commits": 320,
@@ -7015,7 +7015,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 25,
         "forks": 1,
         "commits": 628,
@@ -7042,7 +7042,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 2,
         "commits": 55,
@@ -7069,7 +7069,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 68,
         "forks": 10,
         "commits": 629,
@@ -7096,7 +7096,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 70,
@@ -7123,7 +7123,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 0,
         "forks": 0,
         "commits": 37,
@@ -7150,7 +7150,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 2,
         "commits": 89,
@@ -7177,7 +7177,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 14,
         "forks": 0,
         "commits": 814,
@@ -7204,7 +7204,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 7,
         "forks": 0,
         "commits": 45,
@@ -7231,7 +7231,7 @@
       "repository_archived": true,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 12,
         "forks": 1,
         "commits": 336,
@@ -7259,7 +7259,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 69,
         "forks": 10,
         "commits": 648,
@@ -7287,7 +7287,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 192,
@@ -7314,7 +7314,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 12,
         "forks": 9,
         "commits": 195,
@@ -7341,9 +7341,9 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
-        "stars": 17230,
-        "forks": 3132,
+        "checked_at": "2026-11-05",
+        "stars": 17247,
+        "forks": 3135,
         "commits": 7326,
         "commits_last_year": 488,
         "contributors": 279,
@@ -7368,7 +7368,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 69,
         "forks": 9,
         "commits": 253,
@@ -7395,7 +7395,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 157,
         "forks": 19,
         "commits": 971,
@@ -7403,7 +7403,7 @@
         "contributors": 5,
         "releases": 9,
         "created_at": "2023-07-01",
-        "pushed_at": "2026-10-01"
+        "pushed_at": "2026-11-04"
       },
       "documentation_url": "https://github.com/Ciekce/Stormphrax/blob/HEAD/README.md",
       "license": {
@@ -7422,11 +7422,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 1,
         "commits": 2517,
-        "commits_last_year": 793,
+        "commits_last_year": 791,
         "contributors": 1,
         "releases": 10,
         "created_at": "2023-01-29",
@@ -7449,9 +7449,9 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
-        "stars": 3309,
-        "forks": 582,
+        "checked_at": "2026-11-05",
+        "stars": 3308,
+        "forks": 583,
         "commits": 886,
         "commits_last_year": 624,
         "contributors": 20,
@@ -7476,7 +7476,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 1,
         "commits": 403,
@@ -7503,7 +7503,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 7,
         "forks": 3,
         "commits": 71,
@@ -7530,7 +7530,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 32,
         "forks": 3,
         "commits": 298,
@@ -7557,7 +7557,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 3,
         "forks": 0,
         "commits": 246,
@@ -7584,11 +7584,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 19,
         "forks": 6,
         "commits": 535,
-        "commits_last_year": 100,
+        "commits_last_year": 96,
         "contributors": 4,
         "releases": 13,
         "created_at": "2025-04-29",
@@ -7611,15 +7611,15 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 16,
         "forks": 3,
-        "commits": 1578,
-        "commits_last_year": 730,
-        "contributors": 1,
+        "commits": 1582,
+        "commits_last_year": 728,
+        "contributors": 2,
         "releases": 22,
         "created_at": "2022-01-04",
-        "pushed_at": "2026-11-03"
+        "pushed_at": "2026-11-04"
       },
       "documentation_url": "https://github.com/tcheran-chess/tcheran/blob/HEAD/README.md",
       "license": {
@@ -7638,7 +7638,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 10,
         "forks": 3,
         "commits": 144,
@@ -7665,7 +7665,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 66,
         "forks": 5,
         "commits": 1537,
@@ -7692,7 +7692,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 96,
@@ -7719,7 +7719,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 17,
         "forks": 1,
         "commits": 921,
@@ -7746,7 +7746,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 7,
         "forks": 1,
         "commits": 170,
@@ -7773,7 +7773,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 27,
         "forks": 0,
         "commits": 152,
@@ -7800,7 +7800,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 32,
         "forks": 5,
         "commits": 343,
@@ -7827,7 +7827,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 52,
@@ -7854,7 +7854,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 17,
         "forks": 3,
         "commits": 167,
@@ -7881,7 +7881,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 0,
         "commits": 464,
@@ -7908,13 +7908,13 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 17,
         "forks": 4,
-        "commits": 629,
-        "commits_last_year": 564,
+        "commits": 636,
+        "commits_last_year": 571,
         "contributors": 2,
-        "releases": 15,
+        "releases": 16,
         "created_at": "2024-01-22",
         "pushed_at": "2026-11-04"
       },
@@ -7935,7 +7935,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 31,
         "forks": 5,
         "commits": 260,
@@ -7962,7 +7962,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 8,
         "forks": 3,
         "commits": 152,
@@ -7989,11 +7989,11 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 17,
         "forks": 8,
         "commits": 1508,
-        "commits_last_year": 72,
+        "commits_last_year": 68,
         "contributors": 1,
         "releases": 12,
         "created_at": "2015-03-22",
@@ -8016,7 +8016,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 0,
         "forks": 0,
         "commits": 8,
@@ -8043,8 +8043,8 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
-        "stars": 66,
+        "checked_at": "2026-11-05",
+        "stars": 67,
         "forks": 2,
         "commits": 601,
         "commits_last_year": 0,
@@ -8070,7 +8070,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 81,
         "forks": 18,
         "commits": 32,
@@ -8097,7 +8097,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 260,
         "forks": 19,
         "commits": 2506,
@@ -8124,7 +8124,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 17,
         "forks": 0,
         "commits": 596,
@@ -8151,7 +8151,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 135,
         "forks": 6,
         "commits": 220,
@@ -8178,7 +8178,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 109,
         "forks": 15,
         "commits": 198,
@@ -8205,7 +8205,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 23,
         "forks": 1,
         "commits": 122,
@@ -8232,7 +8232,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 61,
         "forks": 2,
         "commits": 436,
@@ -8259,7 +8259,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 123,
         "forks": 21,
         "commits": 782,
@@ -8286,7 +8286,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 47,
         "forks": 4,
         "commits": 653,
@@ -8313,7 +8313,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 100,
         "forks": 13,
         "commits": 322,
@@ -8340,7 +8340,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 81,
@@ -8367,7 +8367,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 1,
         "forks": 0,
         "commits": 23,
@@ -8394,7 +8394,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 6,
         "forks": 0,
         "commits": 472,
@@ -8421,7 +8421,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 79,
         "forks": 19,
         "commits": 118,
@@ -8448,7 +8448,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 0,
         "commits": 26,
@@ -8475,7 +8475,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 0,
         "commits": 663,
@@ -8502,7 +8502,7 @@
       "repository_archived": true,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 32,
         "forks": 13,
         "commits": 1031,
@@ -8530,7 +8530,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 2,
         "forks": 1,
         "commits": 8,
@@ -8557,7 +8557,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 4,
         "forks": 0,
         "commits": 418,
@@ -8584,7 +8584,7 @@
       "repository_archived": false,
       "repository_available": true,
       "repository_stats": {
-        "checked_at": "2026-11-04",
+        "checked_at": "2026-11-05",
         "stars": 0,
         "forks": 1,
         "commits": 146,
