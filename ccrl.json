@@ -11,16 +11,16 @@
       "name": "CCRL 40/15",
       "url": "https://computerchess.org.uk/ccrl/4040/",
       "selection": "Open source single-CPU engines, best versions only",
-      "computed_at": "2026-10-30",
-      "fetched_at": "2026-10-31",
-      "engines_listed": 477
+      "computed_at": "2026-11-07",
+      "fetched_at": "2026-11-07",
+      "engines_listed": 478
     },
     "blitz": {
       "name": "CCRL Blitz",
       "url": "https://computerchess.org.uk/ccrl/404/",
       "selection": "Open source single-CPU engines, best versions only",
-      "computed_at": "2026-10-27",
-      "fetched_at": "2026-10-31",
+      "computed_at": "2026-10-31",
+      "fetched_at": "2026-11-07",
       "engines_listed": 574
     }
   },
@@ -38,7 +38,7 @@
         "40/15": {
           "rating": 3078,
           "margin": 19,
-          "rank": 214,
+          "rank": 216,
           "games": 580,
           "version": "4kc 9.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=4kc%209.0%2064-bit"
@@ -46,7 +46,7 @@
         "blitz": {
           "rating": 3085,
           "margin": 12,
-          "rank": 195,
+          "rank": 196,
           "games": 2530,
           "version": "4kc 9.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=4kc%209.0%2064-bit"
@@ -59,9 +59,9 @@
       "ccrl_name": "4ku",
       "ratings": {
         "40/15": {
-          "rating": 3028,
+          "rating": 3029,
           "margin": 14,
-          "rank": 227,
+          "rank": 229,
           "games": 1191,
           "version": "4ku 4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=4ku%204.0%2064-bit"
@@ -69,7 +69,7 @@
         "blitz": {
           "rating": 3058,
           "margin": 13,
-          "rank": 199,
+          "rank": 200,
           "games": 1641,
           "version": "4ku 5.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=4ku%205.1%2064-bit"
@@ -84,7 +84,7 @@
         "40/15": {
           "rating": 2258,
           "margin": 12,
-          "rank": 388,
+          "rank": 390,
           "games": 1889,
           "version": "Absolute Zero 2.4.7.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Absolute%20Zero%202.4.7.2%2064-bit"
@@ -92,7 +92,7 @@
         "blitz": {
           "rating": 2286,
           "margin": 12,
-          "rank": 352,
+          "rank": 353,
           "games": 2554,
           "version": "Absolute Zero 3.3.2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Absolute%20Zero%203.3.2.0%2064-bit"
@@ -107,15 +107,15 @@
         "40/15": {
           "rating": 2155,
           "margin": 22,
-          "rank": 405,
+          "rank": 406,
           "games": 572,
           "version": "Achillees 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Achillees%201.0%2064-bit"
         },
         "blitz": {
-          "rating": 2144,
+          "rating": 2143,
           "margin": 17,
-          "rank": 382,
+          "rank": 383,
           "games": 1192,
           "version": "Achillees 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Achillees%201.0%2064-bit"
@@ -128,18 +128,18 @@
       "ccrl_name": "Aconcagua",
       "ratings": {
         "40/15": {
-          "rating": 2825,
-          "margin": 22,
-          "rank": 270,
-          "games": 599,
+          "rating": 2821,
+          "margin": 21,
+          "rank": 275,
+          "games": 629,
           "version": "Aconcagua 5.2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Aconcagua%205.2.0%2064-bit"
         },
         "blitz": {
-          "rating": 2817,
+          "rating": 2816,
           "margin": 16,
-          "rank": 247,
-          "games": 1096,
+          "rank": 248,
+          "games": 1098,
           "version": "Aconcagua 5.2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Aconcagua%205.2.0%2064-bit"
         }
@@ -151,17 +151,17 @@
       "ccrl_name": "AdaChess",
       "ratings": {
         "40/15": {
-          "rating": 2053,
+          "rating": 2054,
           "margin": 27,
-          "rank": 420,
+          "rank": 421,
           "games": 409,
           "version": "AdaChess 4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=AdaChess%204.0%2064-bit"
         },
         "blitz": {
-          "rating": 1935,
+          "rating": 1934,
           "margin": 18,
-          "rank": 428,
+          "rank": 429,
           "games": 1123,
           "version": "AdaChess 4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=AdaChess%204.0%2064-bit"
@@ -182,9 +182,9 @@
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=akimbo%201.0.0%2064-bit"
         },
         "blitz": {
-          "rating": 3567,
+          "rating": 3566,
           "margin": 10,
-          "rank": 60,
+          "rank": 61,
           "games": 3335,
           "version": "akimbo 1.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=akimbo%201.0.0%2064-bit"
@@ -199,7 +199,7 @@
         "blitz": {
           "rating": 3068,
           "margin": 14,
-          "rank": 197,
+          "rank": 198,
           "games": 1234,
           "version": "Aku 2025.7.9 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Aku%202025.7.9%2064-bit"
@@ -214,7 +214,7 @@
         "blitz": {
           "rating": 2008,
           "margin": 20,
-          "rank": 411,
+          "rank": 412,
           "games": 852,
           "version": "Alcibiades 0.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Alcibiades%200.3.0%2064-bit"
@@ -227,18 +227,18 @@
       "ccrl_name": "Alexandria",
       "ratings": {
         "40/15": {
-          "rating": 3607,
-          "margin": 9,
-          "rank": 10,
-          "games": 2793,
-          "version": "Alexandria 9.0.0 64-bit",
-          "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Alexandria%209.0.0%2064-bit"
-        },
-        "blitz": {
-          "rating": 3750,
+          "rating": 3608,
           "margin": 14,
           "rank": 9,
-          "games": 1239,
+          "games": 904,
+          "version": "Alexandria 9.1.0 64-bit",
+          "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Alexandria%209.1.0%2064-bit"
+        },
+        "blitz": {
+          "rating": 3751,
+          "margin": 14,
+          "rank": 9,
+          "games": 1311,
           "version": "Alexandria 9.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Alexandria%209.1.0%2064-bit"
         }
@@ -303,17 +303,17 @@
       "ccrl_name": "Annie",
       "ratings": {
         "40/15": {
-          "rating": 2750,
+          "rating": 2752,
           "margin": 17,
-          "rank": 290,
-          "games": 923,
+          "rank": 293,
+          "games": 937,
           "version": "Annie 1.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Annie%201.2%2064-bit"
         },
         "blitz": {
           "rating": 2669,
           "margin": 14,
-          "rank": 280,
+          "rank": 281,
           "games": 1493,
           "version": "Annie 1.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Annie%201.2%2064-bit"
@@ -328,7 +328,7 @@
         "40/15": {
           "rating": 2650,
           "margin": 21,
-          "rank": 312,
+          "rank": 315,
           "games": 588,
           "version": "Amira 1.82 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Amira%201.82%2064-bit"
@@ -336,7 +336,7 @@
         "blitz": {
           "rating": 2698,
           "margin": 15,
-          "rank": 275,
+          "rank": 276,
           "games": 1337,
           "version": "Amira 1.82 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Amira%201.82%2064-bit"
@@ -351,16 +351,16 @@
         "40/15": {
           "rating": 3041,
           "margin": 11,
-          "rank": 224,
+          "rank": 226,
           "games": 1894,
           "version": "Amoeba 3.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Amoeba%203.4%2064-bit"
         },
         "blitz": {
-          "rating": 3035,
+          "rating": 3034,
           "margin": 10,
-          "rank": 209,
-          "games": 3227,
+          "rank": 210,
+          "games": 3259,
           "version": "Amoeba 3.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Amoeba%203.4%2064-bit"
         }
@@ -372,9 +372,9 @@
       "ccrl_name": "Amundsen",
       "ratings": {
         "40/15": {
-          "rating": 2289,
+          "rating": 2290,
           "margin": 14,
-          "rank": 384,
+          "rank": 386,
           "games": 1269,
           "version": "Amundsen 0.80",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Amundsen%200.80"
@@ -382,7 +382,7 @@
         "blitz": {
           "rating": 2324,
           "margin": 15,
-          "rank": 346,
+          "rank": 347,
           "games": 1443,
           "version": "Amundsen 0.80 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Amundsen%200.80%2064-bit"
@@ -395,18 +395,18 @@
       "ccrl_name": "Amy",
       "ratings": {
         "40/15": {
-          "rating": 2396,
+          "rating": 2397,
           "margin": 26,
-          "rank": 367,
+          "rank": 369,
           "games": 398,
           "version": "Amy 0.9.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Amy%200.9.7%2064-bit"
         },
         "blitz": {
-          "rating": 2431,
-          "margin": 16,
-          "rank": 324,
-          "games": 1334,
+          "rating": 2429,
+          "margin": 15,
+          "rank": 326,
+          "games": 1366,
           "version": "Amy 0.9.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Amy%200.9.7%2064-bit"
         }
@@ -418,9 +418,9 @@
       "ccrl_name": "Anka",
       "ratings": {
         "40/15": {
-          "rating": 2440,
-          "margin": 12,
-          "rank": 356,
+          "rating": 2441,
+          "margin": 11,
+          "rank": 358,
           "games": 1957,
           "version": "Anka 0.6.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Anka%200.6.3%2064-bit"
@@ -428,8 +428,8 @@
         "blitz": {
           "rating": 2422,
           "margin": 14,
-          "rank": 328,
-          "games": 1626,
+          "rank": 329,
+          "games": 1658,
           "version": "Anka 0.6.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Anka%200.6.3%2064-bit"
         }
@@ -443,7 +443,7 @@
         "40/15": {
           "rating": 1745,
           "margin": 20,
-          "rank": 459,
+          "rank": 460,
           "games": 832,
           "version": "Apollo 1.2.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Apollo%201.2.1%2064-bit"
@@ -451,7 +451,7 @@
         "blitz": {
           "rating": 1667,
           "margin": 18,
-          "rank": 478,
+          "rank": 479,
           "games": 1279,
           "version": "Apollo 1.2.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Apollo%201.2.1%2064-bit"
@@ -466,16 +466,16 @@
         "40/15": {
           "rating": 2751,
           "margin": 13,
-          "rank": 289,
+          "rank": 294,
           "games": 1305,
           "version": "Aramis 1.4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Aramis%201.4.0%2064-bit"
         },
         "blitz": {
-          "rating": 2759,
+          "rating": 2758,
           "margin": 13,
-          "rank": 259,
-          "games": 1719,
+          "rank": 260,
+          "games": 1751,
           "version": "Aramis 1.4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Aramis%201.4.0%2064-bit"
         }
@@ -510,15 +510,15 @@
       "ccrl_name": "Arcanum",
       "ratings": {
         "40/15": {
-          "rating": 3391,
+          "rating": 3393,
           "margin": 13,
-          "rank": 110,
-          "games": 1144,
+          "rank": 109,
+          "games": 1285,
           "version": "Arcanum 2.8 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Arcanum%202.8%2064-bit"
         },
         "blitz": {
-          "rating": 3461,
+          "rating": 3460,
           "margin": 14,
           "rank": 97,
           "games": 1278,
@@ -550,16 +550,16 @@
         "40/15": {
           "rating": 3594,
           "margin": 10,
-          "rank": 17,
-          "games": 2079,
+          "rank": 18,
+          "games": 2099,
           "version": "Astra 7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Astra%207.0%2064-bit"
         },
         "blitz": {
           "rating": 3730,
           "margin": 10,
-          "rank": 18,
-          "games": 3074,
+          "rank": 17,
+          "games": 3196,
           "version": "Astra 7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Astra%207.0%2064-bit"
         }
@@ -573,16 +573,16 @@
         "40/15": {
           "rating": 2938,
           "margin": 11,
-          "rank": 250,
+          "rank": 253,
           "games": 1997,
           "version": "Asymptote 0.8 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Asymptote%200.8%2064-bit"
         },
         "blitz": {
-          "rating": 2941,
+          "rating": 2940,
           "margin": 9,
-          "rank": 229,
-          "games": 4645,
+          "rank": 230,
+          "games": 4677,
           "version": "Asymptote 0.8 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Asymptote%200.8%2064-bit"
         }
@@ -611,15 +611,15 @@
         "40/15": {
           "rating": 2990,
           "margin": 22,
-          "rank": 234,
-          "games": 479,
+          "rank": 237,
+          "games": 495,
           "version": "Aurora 1.28.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Aurora%201.28.1%2064-bit"
         },
         "blitz": {
-          "rating": 3087,
+          "rating": 3086,
           "margin": 17,
-          "rank": 194,
+          "rank": 195,
           "games": 1056,
           "version": "Aurora 1.28.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Aurora%201.28.1%2064-bit"
@@ -632,17 +632,17 @@
       "ccrl_name": "Austerlitz",
       "ratings": {
         "40/15": {
-          "rating": 2263,
+          "rating": 2264,
           "margin": 19,
-          "rank": 387,
+          "rank": 389,
           "games": 749,
           "version": "Austerlitz 1.4.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Austerlitz%201.4.7%2064-bit"
         },
         "blitz": {
-          "rating": 2240,
+          "rating": 2239,
           "margin": 16,
-          "rank": 358,
+          "rank": 359,
           "games": 1387,
           "version": "Austerlitz 1.4.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Austerlitz%201.4.7%2064-bit"
@@ -655,10 +655,10 @@
       "ccrl_name": "Avalanche",
       "ratings": {
         "40/15": {
-          "rating": 3532,
-          "margin": 23,
+          "rating": 3534,
+          "margin": 20,
           "rank": 48,
-          "games": 352,
+          "games": 460,
           "version": "Avalanche 5.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Avalanche%205.0.0%2064-bit"
         },
@@ -680,7 +680,7 @@
         "40/15": {
           "rating": 2518,
           "margin": 13,
-          "rank": 343,
+          "rank": 345,
           "games": 1343,
           "version": "Axolotl 1.9 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Axolotl%201.9%2064-bit"
@@ -688,7 +688,7 @@
         "blitz": {
           "rating": 2519,
           "margin": 14,
-          "rank": 307,
+          "rank": 308,
           "games": 1690,
           "version": "Axolotl 1.9 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Axolotl%201.9%2064-bit"
@@ -703,7 +703,7 @@
         "blitz": {
           "rating": 1928,
           "margin": 13,
-          "rank": 430,
+          "rank": 431,
           "games": 2512,
           "version": "BadChessEngine 0.4.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=BadChessEngine%200.4.4%2064-bit"
@@ -718,7 +718,7 @@
         "40/15": {
           "rating": 3410,
           "margin": 16,
-          "rank": 97,
+          "rank": 98,
           "games": 776,
           "version": "Bagatur 5.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Bagatur%205.3%2064-bit"
@@ -741,15 +741,15 @@
         "40/15": {
           "rating": 2423,
           "margin": 16,
-          "rank": 358,
+          "rank": 360,
           "games": 992,
           "version": "Barbarossa 0.7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Barbarossa%200.7.0%2064-bit"
         },
         "blitz": {
-          "rating": 2626,
+          "rating": 2625,
           "margin": 23,
-          "rank": 288,
+          "rank": 289,
           "games": 574,
           "version": "Barbarossa 0.8.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Barbarossa%200.8.0%2064-bit"
@@ -762,9 +762,9 @@
       "ccrl_name": "BBC",
       "ratings": {
         "blitz": {
-          "rating": 2020,
+          "rating": 2019,
           "margin": 17,
-          "rank": 405,
+          "rank": 406,
           "games": 1243,
           "version": "BBC 1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=BBC%201.1%2064-bit"
@@ -777,18 +777,18 @@
       "ccrl_name": "Belette",
       "ratings": {
         "40/15": {
-          "rating": 2806,
+          "rating": 2807,
           "margin": 13,
-          "rank": 274,
+          "rank": 278,
           "games": 1446,
           "version": "Belette 3.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Belette%203.0.0%2064-bit"
         },
         "blitz": {
-          "rating": 2806,
+          "rating": 2805,
           "margin": 13,
-          "rank": 250,
-          "games": 1850,
+          "rank": 251,
+          "games": 1852,
           "version": "Belette 3.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Belette%203.0.0%2064-bit"
         }
@@ -801,17 +801,17 @@
       "ratings": {
         "40/15": {
           "rating": 3601,
-          "margin": 10,
+          "margin": 9,
           "rank": 14,
-          "games": 2190,
+          "games": 2214,
           "version": "Berserk 14 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Berserk%2014%2064-bit"
         },
         "blitz": {
           "rating": 3737,
-          "margin": 11,
+          "margin": 10,
           "rank": 16,
-          "games": 2927,
+          "games": 3000,
           "version": "Berserk 14 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Berserk%2014%2064-bit"
         }
@@ -825,7 +825,7 @@
         "40/15": {
           "rating": 3097,
           "margin": 10,
-          "rank": 208,
+          "rank": 210,
           "games": 2026,
           "version": "Bit-Genie 9 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Bit-Genie%209%2064-bit"
@@ -833,7 +833,7 @@
         "blitz": {
           "rating": 3088,
           "margin": 9,
-          "rank": 193,
+          "rank": 194,
           "games": 4001,
           "version": "Bit-Genie 9 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Bit-Genie%209%2064-bit"
@@ -846,18 +846,18 @@
       "ccrl_name": "bitbit",
       "ratings": {
         "40/15": {
-          "rating": 3352,
-          "margin": 19,
-          "rank": 129,
-          "games": 613,
+          "rating": 3354,
+          "margin": 17,
+          "rank": 132,
+          "games": 687,
           "version": "bitbit 1.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=bitbit%201.7%2064-bit"
         },
         "blitz": {
-          "rating": 3406,
+          "rating": 3405,
           "margin": 15,
           "rank": 114,
-          "games": 1149,
+          "games": 1181,
           "version": "bitbit 1.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=bitbit%201.7%2064-bit"
         }
@@ -877,7 +877,7 @@
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Black%20Marlin%209.0%2064-bit"
         },
         "blitz": {
-          "rating": 3590,
+          "rating": 3589,
           "margin": 10,
           "rank": 54,
           "games": 3222,
@@ -892,9 +892,9 @@
       "ccrl_name": "BlackCore",
       "ratings": {
         "40/15": {
-          "rating": 3376,
+          "rating": 3377,
           "margin": 10,
-          "rank": 115,
+          "rank": 117,
           "games": 1961,
           "version": "BlackCore 6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=BlackCore%206.0%2064-bit"
@@ -902,8 +902,8 @@
         "blitz": {
           "rating": 3438,
           "margin": 8,
-          "rank": 109,
-          "games": 5365,
+          "rank": 108,
+          "games": 5397,
           "version": "BlackCore 6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=BlackCore%206.0%2064-bit"
         }
@@ -917,7 +917,7 @@
         "blitz": {
           "rating": 1646,
           "margin": 17,
-          "rank": 480,
+          "rank": 481,
           "games": 1612,
           "version": "BLANK 1.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=BLANK%201.3.0%2064-bit"
@@ -932,7 +932,7 @@
         "40/15": {
           "rating": 2692,
           "margin": 11,
-          "rank": 299,
+          "rank": 304,
           "games": 2075,
           "version": "Blunder 8.5.5 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Blunder%208.5.5%2064-bit"
@@ -940,7 +940,7 @@
         "blitz": {
           "rating": 2662,
           "margin": 11,
-          "rank": 282,
+          "rank": 283,
           "games": 2573,
           "version": "Blunder 8.5.5 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Blunder%208.5.5%2064-bit"
@@ -970,15 +970,15 @@
         "40/15": {
           "rating": 2711,
           "margin": 13,
-          "rank": 296,
+          "rank": 300,
           "games": 1500,
           "version": "Boychesser 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Boychesser%201.0%2064-bit"
         },
         "blitz": {
-          "rating": 2736,
+          "rating": 2735,
           "margin": 12,
-          "rank": 267,
+          "rank": 268,
           "games": 2197,
           "version": "Boychesser 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Boychesser%201.0%2064-bit"
@@ -991,10 +991,10 @@
       "ccrl_name": "Bread",
       "ratings": {
         "40/15": {
-          "rating": 3521,
+          "rating": 3522,
           "margin": 15,
-          "rank": 53,
-          "games": 799,
+          "rank": 52,
+          "games": 818,
           "version": "Bread 4.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Bread%204.0.0%2064-bit"
         },
@@ -1014,18 +1014,18 @@
       "ccrl_name": "byte-knight",
       "ratings": {
         "40/15": {
-          "rating": 2862,
+          "rating": 2863,
           "margin": 18,
-          "rank": 262,
+          "rank": 266,
           "games": 669,
           "version": "byte-knight 4.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=byte-knight%204.0.0%2064-bit"
         },
         "blitz": {
           "rating": 2863,
-          "margin": 16,
-          "rank": 242,
-          "games": 1152,
+          "margin": 15,
+          "rank": 243,
+          "games": 1184,
           "version": "byte-knight 4.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=byte-knight%204.0.0%2064-bit"
         }
@@ -1039,7 +1039,7 @@
         "blitz": {
           "rating": 1964,
           "margin": 17,
-          "rank": 418,
+          "rank": 419,
           "games": 1326,
           "version": "Cadabra 2.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Cadabra%202.0.0%2064-bit"
@@ -1052,10 +1052,10 @@
       "ccrl_name": "Cadie",
       "ratings": {
         "40/15": {
-          "rating": 3260,
+          "rating": 3259,
           "margin": 10,
-          "rank": 161,
-          "games": 2065,
+          "rank": 166,
+          "games": 2076,
           "version": "Cadie 2.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Cadie%202.1%2064-bit"
         },
@@ -1075,10 +1075,10 @@
       "ccrl_name": "Caissa",
       "ratings": {
         "40/15": {
-          "rating": 3598,
+          "rating": 3599,
           "margin": 14,
           "rank": 15,
-          "games": 982,
+          "games": 996,
           "version": "Caissa 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Caissa%202.0%2064-bit"
         },
@@ -1086,7 +1086,7 @@
           "rating": 3748,
           "margin": 12,
           "rank": 11,
-          "games": 1810,
+          "games": 1882,
           "version": "Caissa 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Caissa%202.0%2064-bit"
         }
@@ -1100,7 +1100,7 @@
         "40/15": {
           "rating": 3521,
           "margin": 11,
-          "rank": 53,
+          "rank": 54,
           "games": 1434,
           "version": "Calvin 6.1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Calvin%206.1.1%2064-bit"
@@ -1123,7 +1123,7 @@
         "40/15": {
           "rating": 2244,
           "margin": 30,
-          "rank": 390,
+          "rank": 392,
           "games": 304,
           "version": "Camel 1.6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Camel%201.6.0%2064-bit"
@@ -1131,7 +1131,7 @@
         "blitz": {
           "rating": 2209,
           "margin": 16,
-          "rank": 362,
+          "rank": 363,
           "games": 1339,
           "version": "Camel 1.6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Camel%201.6.0%2064-bit"
@@ -1146,7 +1146,7 @@
         "blitz": {
           "rating": 1964,
           "margin": 17,
-          "rank": 418,
+          "rank": 419,
           "games": 1297,
           "version": "Captain 4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Captain%204.0%2064-bit"
@@ -1182,18 +1182,18 @@
       "ccrl_name": "Casanchess",
       "ratings": {
         "40/15": {
-          "rating": 3135,
+          "rating": 3136,
           "margin": 23,
-          "rank": 201,
+          "rank": 203,
           "games": 412,
           "version": "Casanchess 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Casanchess%202.0%2064-bit"
         },
         "blitz": {
-          "rating": 3194,
-          "margin": 23,
-          "rank": 174,
-          "games": 480,
+          "rating": 3190,
+          "margin": 18,
+          "rank": 175,
+          "games": 832,
           "version": "Casanchess 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Casanchess%202.0%2064-bit"
         }
@@ -1205,7 +1205,7 @@
       "ccrl_name": "Catto",
       "ratings": {
         "blitz": {
-          "rating": 1029,
+          "rating": 1028,
           "margin": 20,
           "rank": 554,
           "games": 1502,
@@ -1222,7 +1222,7 @@
         "blitz": {
           "rating": 2292,
           "margin": 13,
-          "rank": 349,
+          "rank": 350,
           "games": 2114,
           "version": "chai 3.4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=chai%203.4.0%2064-bit"
@@ -1235,9 +1235,9 @@
       "ccrl_name": "Chareth",
       "ratings": {
         "blitz": {
-          "rating": 1716,
+          "rating": 1715,
           "margin": 16,
-          "rank": 470,
+          "rank": 471,
           "games": 1643,
           "version": "Chareth 2020-06-28 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Chareth%202020-06-28%2064-bit"
@@ -1252,7 +1252,7 @@
         "blitz": {
           "rating": 1662,
           "margin": 19,
-          "rank": 479,
+          "rank": 480,
           "games": 1181,
           "version": "Chers 0.8.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Chers%200.8.0%2064-bit"
@@ -1267,8 +1267,8 @@
         "40/15": {
           "rating": 3428,
           "margin": 10,
-          "rank": 94,
-          "games": 1820,
+          "rank": 95,
+          "games": 1860,
           "version": "chess.cpp 4.10 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=chess.cpp%204.10%2064-bit"
         }
@@ -1282,7 +1282,7 @@
         "40/15": {
           "rating": 3115,
           "margin": 11,
-          "rank": 205,
+          "rank": 207,
           "games": 1854,
           "version": "chess22k 1.14 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=chess22k%201.14%2064-bit"
@@ -1291,7 +1291,7 @@
           "rating": 3114,
           "margin": 9,
           "rank": 188,
-          "games": 3461,
+          "games": 3465,
           "version": "chess22k 1.14 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=chess22k%201.14%2064-bit"
         }
@@ -1305,8 +1305,8 @@
         "blitz": {
           "rating": 2425,
           "margin": 18,
-          "rank": 327,
-          "games": 911,
+          "rank": 328,
+          "games": 943,
           "version": "chess4j 6.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=chess4j%206.3%2064-bit"
         }
@@ -1320,16 +1320,16 @@
         "40/15": {
           "rating": 2981,
           "margin": 15,
-          "rank": 238,
+          "rank": 241,
           "games": 983,
           "version": "Chessatron 1.3.14159 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Chessatron%201.3.14159%2064-bit"
         },
         "blitz": {
-          "rating": 2991,
+          "rating": 2992,
           "margin": 24,
-          "rank": 217,
-          "games": 492,
+          "rank": 218,
+          "games": 494,
           "version": "Chessatron 1.3.14c 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Chessatron%201.3.14c%2064-bit"
         }
@@ -1371,9 +1371,9 @@
       "ccrl_name": "chessplusplus",
       "ratings": {
         "40/15": {
-          "rating": 2229,
+          "rating": 2230,
           "margin": 19,
-          "rank": 392,
+          "rank": 394,
           "games": 779,
           "version": "chessplusplus 1.2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=chessplusplus%201.2.0%2064-bit"
@@ -1381,7 +1381,7 @@
         "blitz": {
           "rating": 2168,
           "margin": 15,
-          "rank": 377,
+          "rank": 378,
           "games": 1451,
           "version": "chessplusplus 1.2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=chessplusplus%201.2.0%2064-bit"
@@ -1396,13 +1396,13 @@
         "40/15": {
           "rating": 1435,
           "margin": 26,
-          "rank": 472,
+          "rank": 473,
           "games": 636,
           "version": "Cicada 0.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Cicada%200.1%2064-bit"
         },
         "blitz": {
-          "rating": 1435,
+          "rating": 1434,
           "margin": 18,
           "rank": 510,
           "games": 1404,
@@ -1418,17 +1418,17 @@
       "ratings": {
         "40/15": {
           "rating": 3608,
-          "margin": 13,
+          "margin": 12,
           "rank": 9,
-          "games": 1180,
+          "games": 1234,
           "version": "Cinder 0.6.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Cinder%200.6.1%2064-bit"
         },
         "blitz": {
           "rating": 3760,
           "margin": 12,
-          "rank": 5,
-          "games": 2156,
+          "rank": 7,
+          "games": 2229,
           "version": "Cinder 0.6.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Cinder%200.6.1%2064-bit"
         }
@@ -1440,17 +1440,17 @@
       "ccrl_name": "Cinnamon",
       "ratings": {
         "40/15": {
-          "rating": 2335,
+          "rating": 2336,
           "margin": 17,
-          "rank": 379,
+          "rank": 381,
           "games": 840,
           "version": "Cinnamon 2.5 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Cinnamon%202.5%2064-bit"
         },
         "blitz": {
-          "rating": 2327,
+          "rating": 2326,
           "margin": 16,
-          "rank": 344,
+          "rank": 345,
           "games": 1178,
           "version": "Cinnamon 2.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Cinnamon%202.4%2064-bit"
@@ -1463,7 +1463,7 @@
       "ccrl_name": "Clarity",
       "ratings": {
         "40/15": {
-          "rating": 3530,
+          "rating": 3531,
           "margin": 11,
           "rank": 49,
           "games": 1643,
@@ -1488,7 +1488,7 @@
         "40/15": {
           "rating": 3585,
           "margin": 8,
-          "rank": 22,
+          "rank": 23,
           "games": 3539,
           "version": "Clover 9.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Clover%209.1%2064-bit"
@@ -1497,7 +1497,7 @@
           "rating": 3726,
           "margin": 8,
           "rank": 19,
-          "games": 6617,
+          "games": 6740,
           "version": "Clover 9.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Clover%209.1%2064-bit"
         }
@@ -1511,16 +1511,16 @@
         "40/15": {
           "rating": 2864,
           "margin": 11,
-          "rank": 261,
+          "rank": 265,
           "games": 1797,
           "version": "Clovis III 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Clovis%20III%2064-bit"
         },
         "blitz": {
-          "rating": 2828,
+          "rating": 2827,
           "margin": 10,
-          "rank": 245,
-          "games": 2960,
+          "rank": 246,
+          "games": 2962,
           "version": "Clovis III 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Clovis%20III%2064-bit"
         }
@@ -1532,9 +1532,9 @@
       "ccrl_name": "Coiled",
       "ratings": {
         "40/15": {
-          "rating": 2795,
+          "rating": 2796,
           "margin": 13,
-          "rank": 277,
+          "rank": 281,
           "games": 1303,
           "version": "Coiled 1.1 (no NNUE) 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Coiled%201.1%20%28no%20NNUE%29%2064-bit"
@@ -1542,7 +1542,7 @@
         "blitz": {
           "rating": 2730,
           "margin": 12,
-          "rank": 270,
+          "rank": 271,
           "games": 2157,
           "version": "Coiled 1.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Coiled%201.2%2064-bit"
@@ -1557,7 +1557,7 @@
         "40/15": {
           "rating": 3249,
           "margin": 10,
-          "rank": 167,
+          "rank": 171,
           "games": 2157,
           "version": "Combusken 2.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Combusken%202.0.0%2064-bit"
@@ -1578,7 +1578,7 @@
       "ccrl_name": "Cosette",
       "ratings": {
         "40/15": {
-          "rating": 2415,
+          "rating": 2416,
           "margin": 18,
           "rank": 362,
           "games": 746,
@@ -1588,7 +1588,7 @@
         "blitz": {
           "rating": 2442,
           "margin": 12,
-          "rank": 321,
+          "rank": 322,
           "games": 2361,
           "version": "Cosette 5.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Cosette%205.1%2064-bit"
@@ -1603,7 +1603,7 @@
         "40/15": {
           "rating": 3332,
           "margin": 11,
-          "rank": 138,
+          "rank": 141,
           "games": 1708,
           "version": "Counter 5.5 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Counter%205.5%2064-bit"
@@ -1624,9 +1624,9 @@
       "ccrl_name": "Crabby",
       "ratings": {
         "blitz": {
-          "rating": 2052,
+          "rating": 2051,
           "margin": 18,
-          "rank": 397,
+          "rank": 398,
           "games": 1186,
           "version": "Crabby 2.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Crabby%202.0.0%2064-bit"
@@ -1641,7 +1641,7 @@
         "blitz": {
           "rating": 2608,
           "margin": 17,
-          "rank": 289,
+          "rank": 290,
           "games": 1007,
           "version": "ClassicAra 0.9.5.post0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=ClassicAra%200.9.5.post0%2064-bit"
@@ -1654,15 +1654,15 @@
       "ccrl_name": "Cwtch",
       "ratings": {
         "40/15": {
-          "rating": 3394,
+          "rating": 3393,
           "margin": 13,
-          "rank": 107,
-          "games": 1153,
+          "rank": 109,
+          "games": 1293,
           "version": "Cwtch 6 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Cwtch%206%2064-bit"
         },
         "blitz": {
-          "rating": 3455,
+          "rating": 3454,
           "margin": 18,
           "rank": 101,
           "games": 800,
@@ -1677,9 +1677,9 @@
       "ccrl_name": "Deepov",
       "ratings": {
         "40/15": {
-          "rating": 1820,
+          "rating": 1821,
           "margin": 20,
-          "rank": 454,
+          "rank": 455,
           "games": 736,
           "version": "Deepov 0.4.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Deepov%200.4.1%2064-bit"
@@ -1687,7 +1687,7 @@
         "blitz": {
           "rating": 1791,
           "margin": 18,
-          "rank": 462,
+          "rank": 463,
           "games": 1269,
           "version": "Deepov 0.4.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Deepov%200.4.1%2064-bit"
@@ -1700,9 +1700,9 @@
       "ccrl_name": "Defenchess",
       "ratings": {
         "40/15": {
-          "rating": 3250,
+          "rating": 3251,
           "margin": 7,
-          "rank": 166,
+          "rank": 170,
           "games": 4356,
           "version": "Defenchess 2.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Defenchess%202.2%2064-bit"
@@ -1725,16 +1725,16 @@
         "40/15": {
           "rating": 2710,
           "margin": 11,
-          "rank": 297,
+          "rank": 301,
           "games": 2089,
           "version": "Delocto 200419 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Delocto%20200419%2064-bit"
         },
         "blitz": {
-          "rating": 2806,
+          "rating": 2805,
           "margin": 9,
-          "rank": 250,
-          "games": 3914,
+          "rank": 251,
+          "games": 3916,
           "version": "Delocto 0.61n 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Delocto%200.61n%2064-bit"
         }
@@ -1748,7 +1748,7 @@
         "40/15": {
           "rating": 3153,
           "margin": 11,
-          "rank": 198,
+          "rank": 201,
           "games": 1781,
           "version": "Demolito 2021-10-04 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Demolito%202021-10-04%2064-bit"
@@ -1757,7 +1757,7 @@
           "rating": 3244,
           "margin": 22,
           "rank": 166,
-          "games": 600,
+          "games": 632,
           "version": "Demolito 2021-10-04 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Demolito%202021-10-04%2064-bit"
         }
@@ -1769,9 +1769,9 @@
       "ccrl_name": "Detroid",
       "ratings": {
         "40/15": {
-          "rating": 2544,
+          "rating": 2545,
           "margin": 14,
-          "rank": 339,
+          "rank": 341,
           "games": 1302,
           "version": "Detroid 1.0.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Detroid%201.0.1%2064-bit"
@@ -1779,7 +1779,7 @@
         "blitz": {
           "rating": 2493,
           "margin": 15,
-          "rank": 314,
+          "rank": 315,
           "games": 1468,
           "version": "Detroid 1.0.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Detroid%201.0.1%2064-bit"
@@ -1794,7 +1794,7 @@
         "40/15": {
           "rating": 3583,
           "margin": 15,
-          "rank": 24,
+          "rank": 25,
           "games": 818,
           "version": "Devre 7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Devre%207.0%2064-bit"
@@ -1803,7 +1803,7 @@
           "rating": 3704,
           "margin": 12,
           "rank": 25,
-          "games": 1658,
+          "games": 1731,
           "version": "Devre 7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Devre%207.0%2064-bit"
         }
@@ -1832,15 +1832,15 @@
         "40/15": {
           "rating": 2594,
           "margin": 12,
-          "rank": 326,
+          "rank": 329,
           "games": 1603,
           "version": "Donna 4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Donna%204.0%2064-bit"
         },
         "blitz": {
-          "rating": 2704,
+          "rating": 2703,
           "margin": 11,
-          "rank": 274,
+          "rank": 275,
           "games": 2661,
           "version": "Donna 4.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Donna%204.1%2064-bit"
@@ -1868,9 +1868,9 @@
       "ccrl_name": "Dreamer",
       "ratings": {
         "40/15": {
-          "rating": 1315,
+          "rating": 1316,
           "margin": 24,
-          "rank": 476,
+          "rank": 477,
           "games": 640,
           "version": "Dreamer 0.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Dreamer%200.3.0%2064-bit"
@@ -1878,7 +1878,7 @@
         "blitz": {
           "rating": 1434,
           "margin": 19,
-          "rank": 511,
+          "rank": 510,
           "games": 1372,
           "version": "Dreamer 0.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Dreamer%200.3.0%2064-bit"
@@ -1893,7 +1893,7 @@
         "40/15": {
           "rating": 3244,
           "margin": 13,
-          "rank": 170,
+          "rank": 174,
           "games": 1295,
           "version": "Drofa 4.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Drofa%204.1.0%2064-bit"
@@ -1916,7 +1916,7 @@
         "40/15": {
           "rating": 2660,
           "margin": 11,
-          "rank": 308,
+          "rank": 311,
           "games": 1949,
           "version": "Drosophila 1.6 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Drosophila%201.6%2064-bit"
@@ -1924,7 +1924,7 @@
         "blitz": {
           "rating": 2653,
           "margin": 9,
-          "rank": 283,
+          "rank": 284,
           "games": 3861,
           "version": "Drosophila 1.6 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Drosophila%201.6%2064-bit"
@@ -1939,7 +1939,7 @@
         "40/15": {
           "rating": 3179,
           "margin": 20,
-          "rank": 191,
+          "rank": 195,
           "games": 521,
           "version": "Dual 0.4.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Dual%200.4.2%2064-bit"
@@ -1962,7 +1962,7 @@
         "40/15": {
           "rating": 2856,
           "margin": 12,
-          "rank": 265,
+          "rank": 269,
           "games": 1709,
           "version": "Dumb 2.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Dumb%202.3%2064-bit"
@@ -1970,8 +1970,8 @@
         "blitz": {
           "rating": 2833,
           "margin": 14,
-          "rank": 243,
-          "games": 1551,
+          "rank": 244,
+          "games": 1553,
           "version": "Dumb 2.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Dumb%202.3%2064-bit"
         }
@@ -1985,7 +1985,7 @@
         "blitz": {
           "rating": 2495,
           "margin": 17,
-          "rank": 313,
+          "rank": 314,
           "games": 991,
           "version": "Echekinator 1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Echekinator%201.1%2064-bit"
@@ -2000,7 +2000,7 @@
         "blitz": {
           "rating": 2448,
           "margin": 16,
-          "rank": 320,
+          "rank": 321,
           "games": 1251,
           "version": "Eggnog 6 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Eggnog%206%2064-bit"
@@ -2015,7 +2015,7 @@
         "40/15": {
           "rating": 2974,
           "margin": 11,
-          "rank": 239,
+          "rank": 242,
           "games": 1950,
           "version": "Eidolon 1.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Eidolon%201.0.0%2064-bit"
@@ -2028,7 +2028,7 @@
       "ccrl_name": "Eleanor",
       "ratings": {
         "40/15": {
-          "rating": 3497,
+          "rating": 3498,
           "margin": 14,
           "rank": 59,
           "games": 970,
@@ -2076,7 +2076,7 @@
         "blitz": {
           "rating": 2390,
           "margin": 17,
-          "rank": 332,
+          "rank": 333,
           "games": 1161,
           "version": "Emerald 0.4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Emerald%200.4.0%2064-bit"
@@ -2089,10 +2089,10 @@
       "ccrl_name": "Endamat",
       "ratings": {
         "blitz": {
-          "rating": 1220,
+          "rating": 1222,
           "margin": 20,
           "rank": 536,
-          "games": 1349,
+          "games": 1380,
           "version": "Endamat 20210217 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Endamat%2020210217%2064-bit"
         }
@@ -2106,7 +2106,7 @@
         "blitz": {
           "rating": 1695,
           "margin": 19,
-          "rank": 476,
+          "rank": 477,
           "games": 1140,
           "version": "Eques 1.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Eques%201.0.0%2064-bit"
@@ -2121,7 +2121,7 @@
         "40/15": {
           "rating": 3469,
           "margin": 10,
-          "rank": 74,
+          "rank": 75,
           "games": 1858,
           "version": "Equisetum 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Equisetum%201.0%2064-bit"
@@ -2142,9 +2142,9 @@
       "ccrl_name": "Ethereal",
       "ratings": {
         "40/15": {
-          "rating": 3375,
+          "rating": 3376,
           "margin": 9,
-          "rank": 116,
+          "rank": 118,
           "games": 2660,
           "version": "Ethereal 12.75 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Ethereal%2012.75%2064-bit"
@@ -2167,15 +2167,15 @@
         "40/15": {
           "rating": 2830,
           "margin": 21,
-          "rank": 269,
+          "rank": 273,
           "games": 589,
           "version": "Eubos 4.5 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Eubos%204.5%2064-bit"
         },
         "blitz": {
-          "rating": 2713,
+          "rating": 2712,
           "margin": 16,
-          "rank": 272,
+          "rank": 273,
           "games": 1222,
           "version": "Eubos 4.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Eubos%204.4%2064-bit"
@@ -2190,16 +2190,16 @@
         "40/15": {
           "rating": 2866,
           "margin": 12,
-          "rank": 259,
+          "rank": 263,
           "games": 1666,
           "version": "Euwe 2.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Euwe%202.1.0%2064-bit"
         },
         "blitz": {
-          "rating": 2883,
+          "rating": 2882,
           "margin": 12,
-          "rank": 240,
-          "games": 2017,
+          "rank": 241,
+          "games": 2049,
           "version": "Euwe 2.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Euwe%202.1.0%2064-bit"
         }
@@ -2213,7 +2213,7 @@
         "40/15": {
           "rating": 2210,
           "margin": 15,
-          "rank": 393,
+          "rank": 395,
           "games": 1139,
           "version": "Exacto 0.e 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Exacto%200.e%2064-bit"
@@ -2228,16 +2228,16 @@
         "40/15": {
           "rating": 3027,
           "margin": 10,
-          "rank": 229,
+          "rank": 231,
           "games": 2386,
           "version": "FabChess 1.16 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=FabChess%201.16%2064-bit"
         },
         "blitz": {
-          "rating": 3053,
+          "rating": 3052,
           "margin": 9,
-          "rank": 202,
-          "games": 4317,
+          "rank": 203,
+          "games": 4349,
           "version": "FabChess 1.16 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=FabChess%201.16%2064-bit"
         }
@@ -2251,7 +2251,7 @@
         "40/15": {
           "rating": 2739,
           "margin": 17,
-          "rank": 291,
+          "rank": 295,
           "games": 809,
           "version": "Fatalii 0.10.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Fatalii%200.10.0%2064-bit"
@@ -2274,7 +2274,7 @@
         "40/15": {
           "rating": 2651,
           "margin": 12,
-          "rank": 311,
+          "rank": 314,
           "games": 1832,
           "version": "Floyd 0.9 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Floyd%200.9%2064-bit"
@@ -2297,7 +2297,7 @@
         "40/15": {
           "rating": 3020,
           "margin": 19,
-          "rank": 232,
+          "rank": 234,
           "games": 636,
           "version": "FoxChess 1.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=FoxChess%201.2%2064-bit"
@@ -2306,7 +2306,7 @@
           "rating": 3035,
           "margin": 16,
           "rank": 209,
-          "games": 1057,
+          "games": 1089,
           "version": "FoxChess 1.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=FoxChess%201.2%2064-bit"
         }
@@ -2318,15 +2318,15 @@
       "ccrl_name": "FoxSEE",
       "ratings": {
         "40/15": {
-          "rating": 2495,
+          "rating": 2496,
           "margin": 11,
-          "rank": 345,
+          "rank": 347,
           "games": 2247,
           "version": "FoxSEE 8.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=FoxSEE%208.2%2064-bit"
         },
         "blitz": {
-          "rating": 2472,
+          "rating": 2471,
           "margin": 13,
           "rank": 318,
           "games": 1827,
@@ -2356,9 +2356,9 @@
       "ccrl_name": "FrankWalter",
       "ratings": {
         "40/15": {
-          "rating": 2528,
+          "rating": 2529,
           "margin": 13,
-          "rank": 340,
+          "rank": 342,
           "games": 1430,
           "version": "FrankWalter 2.4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=FrankWalter%202.4.0%2064-bit"
@@ -2366,7 +2366,7 @@
         "blitz": {
           "rating": 2503,
           "margin": 13,
-          "rank": 311,
+          "rank": 312,
           "games": 1741,
           "version": "FrankWalter 2.4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=FrankWalter%202.4.0%2064-bit"
@@ -2381,7 +2381,7 @@
         "40/15": {
           "rating": 1873,
           "margin": 21,
-          "rank": 449,
+          "rank": 450,
           "games": 640,
           "version": "Franky 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Franky%201.0%2064-bit"
@@ -2394,9 +2394,9 @@
       "ccrl_name": "FrankyGo",
       "ratings": {
         "blitz": {
-          "rating": 2015,
+          "rating": 2014,
           "margin": 17,
-          "rank": 408,
+          "rank": 409,
           "games": 1301,
           "version": "FrankyGo 1.0.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=FrankyGo%201.0.2%2064-bit"
@@ -2411,7 +2411,7 @@
         "blitz": {
           "rating": 2204,
           "margin": 16,
-          "rank": 364,
+          "rank": 365,
           "games": 1251,
           "version": "Freda 1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Freda%201.1%2064-bit"
@@ -2426,7 +2426,7 @@
         "40/15": {
           "rating": 3276,
           "margin": 10,
-          "rank": 158,
+          "rank": 161,
           "games": 2190,
           "version": "Frozenight 6.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Frozenight%206.0.0%2064-bit"
@@ -2464,15 +2464,15 @@
         "40/15": {
           "rating": 1983,
           "margin": 17,
-          "rank": 432,
+          "rank": 433,
           "games": 928,
           "version": "Goldfish 1.13.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Goldfish%201.13.0%2064-bit"
         },
         "blitz": {
-          "rating": 2253,
+          "rating": 2252,
           "margin": 16,
-          "rank": 355,
+          "rank": 356,
           "games": 1348,
           "version": "Goldfish 2.1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Goldfish%202.1.1%2064-bit"
@@ -2485,9 +2485,9 @@
       "ccrl_name": "GopherCheck",
       "ratings": {
         "40/15": {
-          "rating": 2137,
+          "rating": 2138,
           "margin": 16,
-          "rank": 411,
+          "rank": 412,
           "games": 1039,
           "version": "GopherCheck 0.2.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=GopherCheck%200.2.3%2064-bit"
@@ -2495,7 +2495,7 @@
         "blitz": {
           "rating": 2147,
           "margin": 16,
-          "rank": 380,
+          "rank": 381,
           "games": 1241,
           "version": "GopherCheck 0.2.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=GopherCheck%200.2.3%2064-bit"
@@ -2508,15 +2508,15 @@
       "ccrl_name": "Grail",
       "ratings": {
         "40/15": {
-          "rating": 3392,
-          "margin": 16,
-          "rank": 108,
-          "games": 771,
-          "version": "Grail 2.0.1 64-bit",
-          "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Grail%202.0.1%2064-bit"
+          "rating": 3425,
+          "margin": 20,
+          "rank": 96,
+          "games": 475,
+          "version": "Grail 3.0.0 64-bit",
+          "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Grail%203.0.0%2064-bit"
         },
         "blitz": {
-          "rating": 3491,
+          "rating": 3490,
           "margin": 16,
           "rank": 88,
           "games": 923,
@@ -2533,15 +2533,15 @@
         "40/15": {
           "rating": 2028,
           "margin": 18,
-          "rank": 423,
+          "rank": 424,
           "games": 806,
           "version": "Gunborg 1.35 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Gunborg%201.35%2064-bit"
         },
         "blitz": {
-          "rating": 2028,
-          "margin": 20,
-          "rank": 404,
+          "rating": 2027,
+          "margin": 19,
+          "rank": 405,
           "games": 922,
           "version": "Gunborg 1.35 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Gunborg%201.35%2064-bit"
@@ -2554,10 +2554,10 @@
       "ccrl_name": "Hactar",
       "ratings": {
         "blitz": {
-          "rating": 1168,
+          "rating": 1167,
           "margin": 18,
           "rank": 541,
-          "games": 1681,
+          "games": 1713,
           "version": "Hactar 0.9.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Hactar%200.9.0%2064-bit"
         }
@@ -2571,7 +2571,7 @@
         "40/15": {
           "rating": 3028,
           "margin": 10,
-          "rank": 227,
+          "rank": 230,
           "games": 2172,
           "version": "Hakkapeliitta TCEC v2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Hakkapeliitta%20TCEC%20v2%2064-bit"
@@ -2579,8 +2579,8 @@
         "blitz": {
           "rating": 3045,
           "margin": 8,
-          "rank": 204,
-          "games": 5501,
+          "rank": 205,
+          "games": 5533,
           "version": "Hakkapeliitta TCEC v2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Hakkapeliitta%20TCEC%20v2%2064-bit"
         }
@@ -2592,18 +2592,18 @@
       "ccrl_name": "Halogen",
       "ratings": {
         "40/15": {
-          "rating": 3592,
+          "rating": 3593,
           "margin": 9,
-          "rank": 18,
+          "rank": 19,
           "games": 2592,
           "version": "Halogen 16 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Halogen%2016%2064-bit"
         },
         "blitz": {
-          "rating": 3721,
+          "rating": 3720,
           "margin": 8,
           "rank": 20,
-          "games": 7534,
+          "games": 7656,
           "version": "Halogen 16.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Halogen%2016.0.0%2064-bit"
         }
@@ -2618,7 +2618,7 @@
           "rating": 3553,
           "margin": 11,
           "rank": 39,
-          "games": 1698,
+          "games": 1714,
           "version": "Heimdall 1.5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Heimdall%201.5.0%2064-bit"
         },
@@ -2653,9 +2653,9 @@
       "ccrl_name": "Homura",
       "ratings": {
         "blitz": {
-          "rating": 2513,
+          "rating": 2512,
           "margin": 15,
-          "rank": 309,
+          "rank": 310,
           "games": 1292,
           "version": "Homura 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Homura%2064-bit"
@@ -2670,7 +2670,7 @@
         "blitz": {
           "rating": 2288,
           "margin": 14,
-          "rank": 350,
+          "rank": 351,
           "games": 1634,
           "version": "Hopper 1.8 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Hopper%201.8%2064-bit"
@@ -2685,7 +2685,7 @@
         "blitz": {
           "rating": 2110,
           "margin": 16,
-          "rank": 387,
+          "rank": 388,
           "games": 1462,
           "version": "Horowitz 2.2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Horowitz%202.2.0%2064-bit"
@@ -2700,16 +2700,16 @@
         "40/15": {
           "rating": 3579,
           "margin": 8,
-          "rank": 25,
-          "games": 3067,
+          "rank": 26,
+          "games": 3073,
           "version": "Horsie 1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Horsie%201.1%2064-bit"
         },
         "blitz": {
-          "rating": 3708,
+          "rating": 3709,
           "margin": 10,
           "rank": 24,
-          "games": 3670,
+          "games": 3742,
           "version": "Horsie 1.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Horsie%201.1.0%2064-bit"
         }
@@ -2721,10 +2721,10 @@
       "ccrl_name": "ice4",
       "ratings": {
         "40/15": {
-          "rating": 3184,
+          "rating": 3183,
           "margin": 14,
-          "rank": 189,
-          "games": 1166,
+          "rank": 193,
+          "games": 1206,
           "version": "ice4 v6.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=ice4%20v6.1%2064-bit"
         }
@@ -2736,12 +2736,12 @@
       "ccrl_name": "Igel",
       "ratings": {
         "40/15": {
-          "rating": 3577,
-          "margin": 15,
-          "rank": 27,
-          "games": 780,
-          "version": "Igel 3.7.0 64-bit",
-          "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Igel%203.7.0%2064-bit"
+          "rating": 3595,
+          "margin": 24,
+          "rank": 17,
+          "games": 290,
+          "version": "Igel 3.8.0 64-bit",
+          "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Igel%203.8.0%2064-bit"
         },
         "blitz": {
           "rating": 3692,
@@ -2761,16 +2761,16 @@
         "40/15": {
           "rating": 3371,
           "margin": 10,
-          "rank": 118,
-          "games": 2022,
+          "rank": 120,
+          "games": 2043,
           "version": "Illumina 3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Illumina%203.0%2064-bit"
         },
         "blitz": {
-          "rating": 3439,
+          "rating": 3438,
           "margin": 11,
           "rank": 108,
-          "games": 2312,
+          "games": 2345,
           "version": "Illumina 3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Illumina%203%2064-bit"
         }
@@ -2784,7 +2784,7 @@
         "40/15": {
           "rating": 3047,
           "margin": 12,
-          "rank": 222,
+          "rank": 224,
           "games": 1544,
           "version": "Inanis 1.6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Inanis%201.6.0%2064-bit"
@@ -2792,7 +2792,7 @@
         "blitz": {
           "rating": 3091,
           "margin": 11,
-          "rank": 192,
+          "rank": 193,
           "games": 2594,
           "version": "Inanis 1.6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Inanis%201.6.0%2064-bit"
@@ -2807,16 +2807,16 @@
         "40/15": {
           "rating": 3121,
           "margin": 9,
-          "rank": 204,
+          "rank": 206,
           "games": 2469,
           "version": "Invictus r382 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Invictus%20r382%2064-bit"
         },
         "blitz": {
           "rating": 3131,
-          "margin": 9,
+          "margin": 8,
           "rank": 183,
-          "games": 4507,
+          "games": 4511,
           "version": "Invictus r382 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Invictus%20r382%2064-bit"
         }
@@ -2830,7 +2830,7 @@
         "blitz": {
           "rating": 1697,
           "margin": 19,
-          "rank": 475,
+          "rank": 476,
           "games": 1163,
           "version": "Izumi-chan 0.5.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Izumi-chan%200.5.4%2064-bit"
@@ -2843,15 +2843,15 @@
       "ccrl_name": "Jackal",
       "ratings": {
         "40/15": {
-          "rating": 3365,
-          "margin": 13,
-          "rank": 122,
-          "games": 1427,
+          "rating": 3363,
+          "margin": 12,
+          "rank": 128,
+          "games": 1501,
           "version": "Jackal 2.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Jackal%202.0.0%2064-bit"
         },
         "blitz": {
-          "rating": 3473,
+          "rating": 3472,
           "margin": 16,
           "rank": 95,
           "games": 1262,
@@ -2868,16 +2868,16 @@
         "40/15": {
           "rating": 2913,
           "margin": 16,
-          "rank": 253,
+          "rank": 256,
           "games": 836,
           "version": "Jacky Chess 25.12 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Jacky%20Chess%2025.12%2064-bit"
         },
         "blitz": {
-          "rating": 2935,
+          "rating": 2934,
           "margin": 15,
-          "rank": 230,
-          "games": 1194,
+          "rank": 231,
+          "games": 1226,
           "version": "Jacky Chess 25.12 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Jacky%20Chess%2025.12%2064-bit"
         }
@@ -2891,16 +2891,16 @@
         "40/15": {
           "rating": 2761,
           "margin": 20,
-          "rank": 284,
+          "rank": 288,
           "games": 625,
           "version": "Javelin 3.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Javelin%203.0.0%2064-bit"
         },
         "blitz": {
           "rating": 2773,
-          "margin": 15,
-          "rank": 255,
-          "games": 1485,
+          "margin": 14,
+          "rank": 257,
+          "games": 1517,
           "version": "Javelin 3.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Javelin%203.0.0%2064-bit"
         }
@@ -2914,7 +2914,7 @@
         "40/15": {
           "rating": 3174,
           "margin": 11,
-          "rank": 193,
+          "rank": 196,
           "games": 1717,
           "version": "Jet 1.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Jet%201.2%2064-bit"
@@ -2922,7 +2922,7 @@
         "blitz": {
           "rating": 3193,
           "margin": 10,
-          "rank": 175,
+          "rank": 174,
           "games": 2873,
           "version": "Jet 1.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Jet%201.2%2064-bit"
@@ -2937,15 +2937,15 @@
         "40/15": {
           "rating": 2713,
           "margin": 11,
-          "rank": 295,
+          "rank": 299,
           "games": 2107,
           "version": "K2 0.99",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=K2%200.99"
         },
         "blitz": {
-          "rating": 2751,
+          "rating": 2750,
           "margin": 10,
-          "rank": 262,
+          "rank": 263,
           "games": 3355,
           "version": "K2 0.99",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=K2%200.99"
@@ -2960,7 +2960,7 @@
         "blitz": {
           "rating": 1839,
           "margin": 17,
-          "rank": 455,
+          "rank": 456,
           "games": 1323,
           "version": "Kelp 0.12.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Kelp%200.12.0%2064-bit"
@@ -2973,17 +2973,17 @@
       "ccrl_name": "KhepriChess",
       "ratings": {
         "40/15": {
-          "rating": 2201,
+          "rating": 2202,
           "margin": 20,
-          "rank": 396,
+          "rank": 397,
           "games": 673,
           "version": "KhepriChess 4.0.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=KhepriChess%204.0.1%2064-bit"
         },
         "blitz": {
-          "rating": 2145,
+          "rating": 2144,
           "margin": 15,
-          "rank": 381,
+          "rank": 382,
           "games": 1545,
           "version": "KhepriChess 4.0.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=KhepriChess%204.0.1%2064-bit"
@@ -2996,17 +2996,17 @@
       "ccrl_name": "Kingfisher",
       "ratings": {
         "40/15": {
-          "rating": 2276,
+          "rating": 2277,
           "margin": 22,
-          "rank": 385,
+          "rank": 387,
           "games": 442,
           "version": "Kingfisher 1.1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Kingfisher%201.1.1%2064-bit"
         },
         "blitz": {
-          "rating": 2245,
+          "rating": 2244,
           "margin": 19,
-          "rank": 356,
+          "rank": 357,
           "games": 845,
           "version": "Kingfisher 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Kingfisher%201.0%2064-bit"
@@ -3021,7 +3021,7 @@
         "40/15": {
           "rating": 3240,
           "margin": 18,
-          "rank": 172,
+          "rank": 176,
           "games": 620,
           "version": "Kobra 2.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Kobra%202.1%2064-bit"
@@ -3065,9 +3065,9 @@
       "ccrl_name": "Kreveta",
       "ratings": {
         "40/15": {
-          "rating": 2334,
+          "rating": 2335,
           "margin": 26,
-          "rank": 380,
+          "rank": 382,
           "games": 396,
           "version": "Kreveta 2.3.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Kreveta%202.3.1%2064-bit"
@@ -3089,9 +3089,9 @@
       "ratings": {
         "40/15": {
           "rating": 3436,
-          "margin": 15,
-          "rank": 89,
-          "games": 907,
+          "margin": 14,
+          "rank": 90,
+          "games": 920,
           "version": "Lambergar 1.5 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lambergar%201.5%2064-bit"
         },
@@ -3113,13 +3113,13 @@
         "40/15": {
           "rating": 3254,
           "margin": 6,
-          "rank": 164,
+          "rank": 168,
           "games": 6180,
           "version": "Laser 1.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Laser%201.7%2064-bit"
         },
         "blitz": {
-          "rating": 3293,
+          "rating": 3292,
           "margin": 7,
           "rank": 152,
           "games": 7842,
@@ -3136,7 +3136,7 @@
         "blitz": {
           "rating": 1869,
           "margin": 19,
-          "rank": 447,
+          "rank": 448,
           "games": 1022,
           "version": "Leandor 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Leandor%202.0%2064-bit"
@@ -3149,9 +3149,9 @@
       "ccrl_name": "Lc0",
       "ratings": {
         "40/15": {
-          "rating": 3385,
+          "rating": 3386,
           "margin": 12,
-          "rank": 113,
+          "rank": 115,
           "games": 1438,
           "version": "Lc0 0.21.3 wLD2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lc0%200.21.3%20wLD2%2064-bit"
@@ -3159,7 +3159,7 @@
         "blitz": {
           "rating": 3008,
           "margin": 18,
-          "rank": 215,
+          "rank": 216,
           "games": 864,
           "version": "Lc0 0.24.0 w591226 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lc0%200.24.0%20w591226%2064-bit"
@@ -3172,17 +3172,17 @@
       "ccrl_name": "Leorik",
       "ratings": {
         "40/15": {
-          "rating": 3404,
+          "rating": 3403,
           "margin": 12,
-          "rank": 101,
-          "games": 1444,
+          "rank": 105,
+          "games": 1505,
           "version": "Leorik 3.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Leorik%203.2%2064-bit"
         },
         "blitz": {
           "rating": 3490,
           "margin": 12,
-          "rank": 89,
+          "rank": 88,
           "games": 2075,
           "version": "Leorik 3.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Leorik%203.2%2064-bit"
@@ -3197,15 +3197,15 @@
         "40/15": {
           "rating": 2667,
           "margin": 11,
-          "rank": 305,
+          "rank": 309,
           "games": 2148,
           "version": "Lishex 1.1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lishex%201.1.1%2064-bit"
         },
         "blitz": {
-          "rating": 2688,
+          "rating": 2687,
           "margin": 12,
-          "rank": 277,
+          "rank": 278,
           "games": 2100,
           "version": "Lishex 1.1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lishex%201.1.1%2064-bit"
@@ -3220,15 +3220,15 @@
         "40/15": {
           "rating": 2113,
           "margin": 22,
-          "rank": 414,
+          "rank": 415,
           "games": 534,
           "version": "Little Wing 0.7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Little%20Wing%200.7.0%2064-bit"
         },
         "blitz": {
-          "rating": 2515,
+          "rating": 2514,
           "margin": 18,
-          "rank": 308,
+          "rank": 309,
           "games": 968,
           "version": "Little Wing 0.8.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Little%20Wing%200.8.0%2064-bit"
@@ -3249,10 +3249,10 @@
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lizard%2011.2%2064-bit"
         },
         "blitz": {
-          "rating": 3694,
+          "rating": 3693,
           "margin": 11,
-          "rank": 29,
-          "games": 1995,
+          "rank": 30,
+          "games": 2068,
           "version": "Lizard 11.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lizard%2011.2%2064-bit"
         }
@@ -3266,16 +3266,16 @@
         "40/15": {
           "rating": 2473,
           "margin": 11,
-          "rank": 347,
+          "rank": 349,
           "games": 1929,
           "version": "Loki 3.5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Loki%203.5.0%2064-bit"
         },
         "blitz": {
-          "rating": 2428,
+          "rating": 2427,
           "margin": 13,
-          "rank": 325,
-          "games": 1920,
+          "rank": 327,
+          "games": 1952,
           "version": "Loki 3.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Loki%203.0.0%2064-bit"
         }
@@ -3287,7 +3287,7 @@
       "ccrl_name": "Lumac0",
       "ratings": {
         "blitz": {
-          "rating": 1593,
+          "rating": 1592,
           "margin": 18,
           "rank": 485,
           "games": 1320,
@@ -3304,7 +3304,7 @@
         "40/15": {
           "rating": 2556,
           "margin": 14,
-          "rank": 337,
+          "rank": 339,
           "games": 1237,
           "version": "Luna 2.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Luna%202.0.0%2064-bit"
@@ -3325,18 +3325,18 @@
       "ccrl_name": "Lux",
       "ratings": {
         "40/15": {
-          "rating": 2815,
-          "margin": 17,
-          "rank": 272,
-          "games": 1003,
+          "rating": 2813,
+          "margin": 16,
+          "rank": 277,
+          "games": 1015,
           "version": "Lux 5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lux%205.0%2064-bit"
         },
         "blitz": {
-          "rating": 2813,
+          "rating": 2812,
           "margin": 15,
-          "rank": 248,
-          "games": 1234,
+          "rank": 249,
+          "games": 1236,
           "version": "Lux 5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lux%205.0%2064-bit"
         }
@@ -3350,7 +3350,7 @@
         "blitz": {
           "rating": 1849,
           "margin": 17,
-          "rank": 453,
+          "rank": 454,
           "games": 1305,
           "version": "Lxna 0.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lxna%200.3.0%2064-bit"
@@ -3363,10 +3363,10 @@
       "ccrl_name": "Lynx",
       "ratings": {
         "40/15": {
-          "rating": 3319,
+          "rating": 3318,
           "margin": 11,
-          "rank": 141,
-          "games": 1894,
+          "rank": 143,
+          "games": 1920,
           "version": "Lynx 1.11.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Lynx%201.11.0%2064-bit"
         },
@@ -3386,18 +3386,18 @@
       "ccrl_name": "MadChess",
       "ratings": {
         "40/15": {
-          "rating": 2858,
+          "rating": 2859,
           "margin": 22,
-          "rank": 263,
+          "rank": 267,
           "games": 497,
           "version": "MadChess 3.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=MadChess%203.4%2064-bit"
         },
         "blitz": {
-          "rating": 2792,
+          "rating": 2794,
           "margin": 15,
           "rank": 254,
-          "games": 1263,
+          "games": 1297,
           "version": "MadChess 3.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=MadChess%203.3%2064-bit"
         }
@@ -3411,7 +3411,7 @@
         "blitz": {
           "rating": 3318,
           "margin": 11,
-          "rank": 145,
+          "rank": 144,
           "games": 2131,
           "version": "Maelstrom 3.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Maelstrom%203.3.0%2064-bit"
@@ -3441,7 +3441,7 @@
         "40/15": {
           "rating": 3291,
           "margin": 9,
-          "rank": 153,
+          "rank": 156,
           "games": 2271,
           "version": "Mantissa 3.7.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Mantissa%203.7.2%2064-bit"
@@ -3464,13 +3464,13 @@
         "40/15": {
           "rating": 3404,
           "margin": 10,
-          "rank": 101,
+          "rank": 104,
           "games": 1777,
           "version": "Marvin 6.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Marvin%206.3.0%2064-bit"
         },
         "blitz": {
-          "rating": 3459,
+          "rating": 3458,
           "margin": 10,
           "rank": 98,
           "games": 3149,
@@ -3502,7 +3502,7 @@
         "40/15": {
           "rating": 3063,
           "margin": 15,
-          "rank": 217,
+          "rank": 219,
           "games": 1037,
           "version": "Meltdown 1.11 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Meltdown%201.11%2064-bit"
@@ -3510,8 +3510,8 @@
         "blitz": {
           "rating": 3135,
           "margin": 12,
-          "rank": 182,
-          "games": 2124,
+          "rank": 181,
+          "games": 2160,
           "version": "Meltdown 1.11 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Meltdown%201.11%2064-bit"
         }
@@ -3525,16 +3525,16 @@
         "40/15": {
           "rating": 2772,
           "margin": 10,
-          "rank": 282,
+          "rank": 286,
           "games": 2728,
           "version": "Mess 0.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Mess%200.3.0%2064-bit"
         },
         "blitz": {
-          "rating": 2773,
+          "rating": 2774,
           "margin": 12,
-          "rank": 255,
-          "games": 2329,
+          "rank": 256,
+          "games": 2360,
           "version": "Mess 0.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Mess%200.3.0%2064-bit"
         }
@@ -3548,13 +3548,13 @@
         "40/15": {
           "rating": 3392,
           "margin": 10,
-          "rank": 108,
+          "rank": 111,
           "games": 2101,
           "version": "Midnight 9 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Midnight%209%2064-bit"
         },
         "blitz": {
-          "rating": 3477,
+          "rating": 3476,
           "margin": 9,
           "rank": 94,
           "games": 3712,
@@ -3592,9 +3592,9 @@
       "ccrl_name": "MinimalChess",
       "ratings": {
         "40/15": {
-          "rating": 2416,
+          "rating": 2417,
           "margin": 22,
-          "rank": 359,
+          "rank": 361,
           "games": 483,
           "version": "MinimalChess 0.6 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=MinimalChess%200.6%2064-bit"
@@ -3602,7 +3602,7 @@
         "blitz": {
           "rating": 2439,
           "margin": 13,
-          "rank": 323,
+          "rank": 324,
           "games": 1989,
           "version": "MinimalChess 0.6 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=MinimalChess%200.6%2064-bit"
@@ -3615,7 +3615,7 @@
       "ccrl_name": "Minke",
       "ratings": {
         "40/15": {
-          "rating": 3577,
+          "rating": 3578,
           "margin": 15,
           "rank": 27,
           "games": 810,
@@ -3655,7 +3655,7 @@
         "40/15": {
           "rating": 3365,
           "margin": 12,
-          "rank": 122,
+          "rank": 124,
           "games": 1433,
           "version": "Molybdenum 4.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Molybdenum%204.1%2064-bit"
@@ -3664,7 +3664,7 @@
           "rating": 3431,
           "margin": 10,
           "rank": 110,
-          "games": 2853,
+          "games": 2885,
           "version": "Molybdenum 4.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Molybdenum%204.1%2064-bit"
         }
@@ -3676,7 +3676,7 @@
       "ccrl_name": "Monchester",
       "ratings": {
         "blitz": {
-          "rating": 571,
+          "rating": 570,
           "margin": 27,
           "rank": 571,
           "games": 990,
@@ -3691,10 +3691,10 @@
       "ccrl_name": "Monolith",
       "ratings": {
         "40/15": {
-          "rating": 3232,
-          "margin": 14,
-          "rank": 175,
-          "games": 1169,
+          "rating": 3233,
+          "margin": 13,
+          "rank": 178,
+          "games": 1220,
           "version": "Monolith 3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Monolith%203%2064-bit"
         },
@@ -3716,7 +3716,7 @@
         "40/15": {
           "rating": 2949,
           "margin": 12,
-          "rank": 247,
+          "rank": 251,
           "games": 1805,
           "version": "monty 1.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=monty%201.0.0%2064-bit"
@@ -3725,7 +3725,7 @@
           "rating": 3044,
           "margin": 11,
           "rank": 206,
-          "games": 2488,
+          "games": 2520,
           "version": "monty 1.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=monty%201.0.0%2064-bit"
         }
@@ -3739,7 +3739,7 @@
         "40/15": {
           "rating": 2149,
           "margin": 21,
-          "rank": 408,
+          "rank": 409,
           "games": 554,
           "version": "MORA 1.0.0",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=MORA%201.0.0"
@@ -3747,7 +3747,7 @@
         "blitz": {
           "rating": 2188,
           "margin": 17,
-          "rank": 369,
+          "rank": 370,
           "games": 1131,
           "version": "MORA 1.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=MORA%201.1.0%2064-bit"
@@ -3762,7 +3762,7 @@
         "40/15": {
           "rating": 3313,
           "margin": 10,
-          "rank": 143,
+          "rank": 145,
           "games": 2152,
           "version": "Mr Bob 1.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Mr%20Bob%201.3.0%2064-bit"
@@ -3800,7 +3800,7 @@
         "40/15": {
           "rating": 2299,
           "margin": 14,
-          "rank": 383,
+          "rank": 385,
           "games": 1310,
           "version": "Napoleon 1.8 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Napoleon%201.8%2064-bit"
@@ -3808,7 +3808,7 @@
         "blitz": {
           "rating": 2203,
           "margin": 15,
-          "rank": 365,
+          "rank": 366,
           "games": 1488,
           "version": "Napoleon 1.8 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Napoleon%201.8%2064-bit"
@@ -3821,9 +3821,9 @@
       "ccrl_name": "Nawito",
       "ratings": {
         "40/15": {
-          "rating": 2755,
+          "rating": 2756,
           "margin": 10,
-          "rank": 286,
+          "rank": 290,
           "games": 2507,
           "version": "Nawito 22.07 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Nawito%2022.07%2064-bit"
@@ -3831,7 +3831,7 @@
         "blitz": {
           "rating": 2744,
           "margin": 11,
-          "rank": 266,
+          "rank": 267,
           "games": 2636,
           "version": "Nawito 22.07 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Nawito%2022.07%2064-bit"
@@ -3846,7 +3846,7 @@
         "blitz": {
           "rating": 1860,
           "margin": 19,
-          "rank": 449,
+          "rank": 450,
           "games": 987,
           "version": "Nectar 0.1.8 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Nectar%200.1.8%2064-bit"
@@ -3859,10 +3859,10 @@
       "ccrl_name": "Neocortex",
       "ratings": {
         "blitz": {
-          "rating": 1169,
+          "rating": 1170,
           "margin": 18,
           "rank": 540,
-          "games": 2088,
+          "games": 2120,
           "version": "Neocortex 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Neocortex%201.0%2064-bit"
         }
@@ -3874,9 +3874,9 @@
       "ccrl_name": "Neuromancer",
       "ratings": {
         "blitz": {
-          "rating": 1836,
+          "rating": 1835,
           "margin": 17,
-          "rank": 456,
+          "rank": 457,
           "games": 1424,
           "version": "Neuromancer 1.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Neuromancer%201.4%2064-bit"
@@ -3891,15 +3891,15 @@
         "40/15": {
           "rating": 2615,
           "margin": 11,
-          "rank": 320,
+          "rank": 323,
           "games": 1942,
           "version": "NoraGrace 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=NoraGrace%202.0%2064-bit"
         },
         "blitz": {
-          "rating": 2597,
+          "rating": 2596,
           "margin": 13,
-          "rank": 291,
+          "rank": 292,
           "games": 1889,
           "version": "NoraGrace 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=NoraGrace%202.0%2064-bit"
@@ -3914,7 +3914,7 @@
         "blitz": {
           "rating": 1694,
           "margin": 19,
-          "rank": 477,
+          "rank": 478,
           "games": 1136,
           "version": "NuclearChess 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=NuclearChess%201.0%2064-bit"
@@ -3930,7 +3930,7 @@
           "rating": 3605,
           "margin": 7,
           "rank": 12,
-          "games": 4367,
+          "games": 4394,
           "version": "Obsidian 16.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Obsidian%2016.0%2064-bit"
         },
@@ -3938,7 +3938,7 @@
           "rating": 3746,
           "margin": 9,
           "rank": 13,
-          "games": 5570,
+          "games": 5643,
           "version": "Obsidian 16.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Obsidian%2016.0%2064-bit"
         }
@@ -3952,16 +3952,16 @@
         "40/15": {
           "rating": 3301,
           "margin": 14,
-          "rank": 146,
-          "games": 1017,
+          "rank": 149,
+          "games": 1081,
           "version": "Odonata 1.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Odonata%201.1.0%2064-bit"
         },
         "blitz": {
           "rating": 3346,
           "margin": 12,
-          "rank": 136,
-          "games": 2017,
+          "rank": 137,
+          "games": 2049,
           "version": "Odonata 1.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Odonata%201.1.0%2064-bit"
         }
@@ -3973,15 +3973,15 @@
       "ccrl_name": "Oxide",
       "ratings": {
         "40/15": {
-          "rating": 3478,
+          "rating": 3477,
           "margin": 17,
           "rank": 68,
-          "games": 618,
+          "games": 628,
           "version": "Oxide 3.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Oxide%203.0.0%2064-bit"
         },
         "blitz": {
-          "rating": 3537,
+          "rating": 3536,
           "margin": 14,
           "rank": 74,
           "games": 1203,
@@ -3996,15 +3996,15 @@
       "ccrl_name": "Panda",
       "ratings": {
         "40/15": {
-          "rating": 3434,
+          "rating": 3436,
           "margin": 16,
           "rank": 90,
-          "games": 719,
+          "games": 759,
           "version": "Panda 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Panda%202.0%2064-bit"
         },
         "blitz": {
-          "rating": 3523,
+          "rating": 3522,
           "margin": 15,
           "rank": 80,
           "games": 1116,
@@ -4020,9 +4020,9 @@
       "ratings": {
         "40/15": {
           "rating": 3491,
-          "margin": 18,
+          "margin": 17,
           "rank": 61,
-          "games": 598,
+          "games": 617,
           "version": "Patricia 5.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Patricia%205.1%2064-bit"
         },
@@ -4044,15 +4044,15 @@
         "40/15": {
           "rating": 2550,
           "margin": 13,
-          "rank": 338,
+          "rank": 340,
           "games": 1399,
           "version": "paulchen332 0.1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=paulchen332%200.1.1%2064-bit"
         },
         "blitz": {
-          "rating": 2539,
+          "rating": 2538,
           "margin": 13,
-          "rank": 305,
+          "rank": 306,
           "games": 1966,
           "version": "paulchen332 0.1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=paulchen332%200.1.1%2064-bit"
@@ -4068,15 +4068,15 @@
           "rating": 3612,
           "margin": 9,
           "rank": 6,
-          "games": 2674,
+          "games": 2702,
           "version": "pawnocchio 2.0.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=pawnocchio%202.0.1%2064-bit"
         },
         "blitz": {
           "rating": 3755,
           "margin": 11,
-          "rank": 6,
-          "games": 2651,
+          "rank": 8,
+          "games": 2723,
           "version": "pawnocchio 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=pawnocchio%202.0%2064-bit"
         }
@@ -4088,9 +4088,9 @@
       "ccrl_name": "Peacekeeper",
       "ratings": {
         "40/15": {
-          "rating": 3520,
+          "rating": 3521,
           "margin": 9,
-          "rank": 55,
+          "rank": 54,
           "games": 2517,
           "version": "Peacekeeper 3.01 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Peacekeeper%203.01%2064-bit"
@@ -4113,7 +4113,7 @@
         "40/15": {
           "rating": 3357,
           "margin": 12,
-          "rank": 127,
+          "rank": 130,
           "games": 1479,
           "version": "Pedantic 2.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Pedantic%202.1.0%2064-bit"
@@ -4134,15 +4134,15 @@
       "ccrl_name": "Perseus",
       "ratings": {
         "40/15": {
-          "rating": 3350,
+          "rating": 3349,
           "margin": 10,
-          "rank": 131,
-          "games": 1986,
+          "rank": 133,
+          "games": 2061,
           "version": "Perseus 1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Perseus%201.1%2064-bit"
         },
         "blitz": {
-          "rating": 3398,
+          "rating": 3397,
           "margin": 10,
           "rank": 118,
           "games": 2955,
@@ -4159,15 +4159,15 @@
         "40/15": {
           "rating": 1754,
           "margin": 23,
-          "rank": 458,
+          "rank": 459,
           "games": 502,
           "version": "Pigeon 1.5.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Pigeon%201.5.1%2064-bit"
         },
         "blitz": {
-          "rating": 1727,
+          "rating": 1726,
           "margin": 19,
-          "rank": 468,
+          "rank": 470,
           "games": 1002,
           "version": "Pigeon 1.5.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Pigeon%201.5.1%2064-bit"
@@ -4182,7 +4182,7 @@
         "40/15": {
           "rating": 3187,
           "margin": 12,
-          "rank": 185,
+          "rank": 190,
           "games": 1545,
           "version": "Pingu 5.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Pingu%205.0.0%2064-bit"
@@ -4205,7 +4205,7 @@
         "40/15": {
           "rating": 3049,
           "margin": 10,
-          "rank": 221,
+          "rank": 223,
           "games": 2175,
           "version": "Pirarucu 3.3.5 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Pirarucu%203.3.5%2064-bit"
@@ -4213,7 +4213,7 @@
         "blitz": {
           "rating": 3058,
           "margin": 8,
-          "rank": 199,
+          "rank": 200,
           "games": 4743,
           "version": "Pirarucu 3.3.5 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Pirarucu%203.3.5%2064-bit"
@@ -4226,18 +4226,18 @@
       "ccrl_name": "PlentyChess",
       "ratings": {
         "40/15": {
-          "rating": 3616,
+          "rating": 3617,
           "margin": 10,
           "rank": 4,
-          "games": 2216,
+          "games": 2244,
           "version": "PlentyChess 8.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=PlentyChess%208.0.0%2064-bit"
         },
         "blitz": {
           "rating": 3773,
           "margin": 12,
-          "rank": 2,
-          "games": 2202,
+          "rank": 3,
+          "games": 2274,
           "version": "PlentyChess 8.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=PlentyChess%208.0.0%2064-bit"
         }
@@ -4266,7 +4266,7 @@
         "40/15": {
           "rating": 2923,
           "margin": 11,
-          "rank": 251,
+          "rank": 254,
           "games": 2003,
           "version": "Pluto 1.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Pluto%201.0.0%2064-bit"
@@ -4274,8 +4274,8 @@
         "blitz": {
           "rating": 2974,
           "margin": 13,
-          "rank": 225,
-          "games": 1677,
+          "rank": 226,
+          "games": 1678,
           "version": "Pluto 1.0.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Pluto%201.0.1%2064-bit"
         }
@@ -4289,7 +4289,7 @@
         "40/15": {
           "rating": 1477,
           "margin": 27,
-          "rank": 470,
+          "rank": 471,
           "games": 629,
           "version": "PolarChess 1.3",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=PolarChess%201.3"
@@ -4312,7 +4312,7 @@
         "40/15": {
           "rating": 3021,
           "margin": 11,
-          "rank": 231,
+          "rank": 233,
           "games": 1811,
           "version": "Polaris 1.8.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Polaris%201.8.1%2064-bit"
@@ -4320,8 +4320,8 @@
         "blitz": {
           "rating": 3049,
           "margin": 9,
-          "rank": 203,
-          "games": 3792,
+          "rank": 204,
+          "games": 3824,
           "version": "Polaris 1.8.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Polaris%201.8.1%2064-bit"
         }
@@ -4333,17 +4333,17 @@
       "ccrl_name": "Potential",
       "ratings": {
         "40/15": {
-          "rating": 3255,
+          "rating": 3256,
           "margin": 19,
-          "rank": 163,
-          "games": 552,
+          "rank": 167,
+          "games": 573,
           "version": "Potential Unlocked 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Potential%20Unlocked%2064-bit"
         },
         "blitz": {
-          "rating": 3064,
+          "rating": 3063,
           "margin": 14,
-          "rank": 198,
+          "rank": 199,
           "games": 1445,
           "version": "Potential 3.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Potential%203.0.0%2064-bit"
@@ -4358,13 +4358,13 @@
         "40/15": {
           "rating": 3187,
           "margin": 12,
-          "rank": 185,
+          "rank": 190,
           "games": 1485,
           "version": "Pounce 3.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Pounce%203.0.0%2064-bit"
         },
         "blitz": {
-          "rating": 3220,
+          "rating": 3219,
           "margin": 12,
           "rank": 171,
           "games": 2017,
@@ -4381,13 +4381,13 @@
         "40/15": {
           "rating": 3135,
           "margin": 16,
-          "rank": 201,
+          "rank": 204,
           "games": 868,
           "version": "Priessnitz 2.0.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Priessnitz%202.0.1%2064-bit"
         },
         "blitz": {
-          "rating": 3175,
+          "rating": 3174,
           "margin": 11,
           "rank": 177,
           "games": 2725,
@@ -4402,18 +4402,18 @@
       "ccrl_name": "Princhess",
       "ratings": {
         "40/15": {
-          "rating": 3245,
+          "rating": 3246,
           "margin": 17,
-          "rank": 169,
-          "games": 757,
+          "rank": 173,
+          "games": 787,
           "version": "Princhess 0.22.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Princhess%200.22.0%2064-bit"
         },
         "blitz": {
-          "rating": 3353,
+          "rating": 3354,
           "margin": 15,
-          "rank": 133,
-          "games": 1216,
+          "rank": 132,
+          "games": 1248,
           "version": "Princhess 0.22.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Princhess%200.22.0%2064-bit"
         }
@@ -4433,7 +4433,7 @@
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Prune%204.0.1%2064-bit"
         },
         "blitz": {
-          "rating": 3645,
+          "rating": 3644,
           "margin": 13,
           "rank": 46,
           "games": 1488,
@@ -4448,10 +4448,10 @@
       "ccrl_name": "Publius",
       "ratings": {
         "40/15": {
-          "rating": 3289,
-          "margin": 13,
-          "rank": 155,
-          "games": 1319,
+          "rating": 3290,
+          "margin": 12,
+          "rank": 158,
+          "games": 1369,
           "version": "Publius 1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Publius%201.1%2064-bit"
         }
@@ -4465,7 +4465,7 @@
         "40/15": {
           "rating": 2987,
           "margin": 11,
-          "rank": 236,
+          "rank": 239,
           "games": 1968,
           "version": "Puffin 5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Puffin%205.0%2064-bit"
@@ -4474,7 +4474,7 @@
           "rating": 2978,
           "margin": 12,
           "rank": 223,
-          "games": 2179,
+          "games": 2180,
           "version": "Puffin 5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Puffin%205.0%2064-bit"
         }
@@ -4488,7 +4488,7 @@
         "40/15": {
           "rating": 1516,
           "margin": 20,
-          "rank": 467,
+          "rank": 468,
           "games": 928,
           "version": "Pulse 1.6.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Pulse%201.6.1%2064-bit"
@@ -4511,7 +4511,7 @@
         "blitz": {
           "rating": 1786,
           "margin": 21,
-          "rank": 463,
+          "rank": 464,
           "games": 903,
           "version": "Purple Haze 2.1.0",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Purple%20Haze%202.1.0"
@@ -4526,16 +4526,16 @@
         "40/15": {
           "rating": 3584,
           "margin": 13,
-          "rank": 23,
-          "games": 1065,
+          "rank": 24,
+          "games": 1083,
           "version": "PZChessBot 7.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=PZChessBot%207.1%2064-bit"
         },
         "blitz": {
           "rating": 3711,
-          "margin": 12,
+          "margin": 11,
           "rank": 23,
-          "games": 2036,
+          "games": 2159,
           "version": "PZChessBot 7.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=PZChessBot%207.1%2064-bit"
         }
@@ -4547,9 +4547,9 @@
       "ccrl_name": "Qapla",
       "ratings": {
         "40/15": {
-          "rating": 2988,
+          "rating": 2989,
           "margin": 21,
-          "rank": 235,
+          "rank": 238,
           "games": 536,
           "version": "Qapla 0.4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Qapla%200.4.0%2064-bit"
@@ -4557,7 +4557,7 @@
         "blitz": {
           "rating": 3015,
           "margin": 16,
-          "rank": 214,
+          "rank": 215,
           "games": 1087,
           "version": "Qapla 0.4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Qapla%200.4.0%2064-bit"
@@ -4570,9 +4570,9 @@
       "ccrl_name": "Quanticade",
       "ratings": {
         "40/15": {
-          "rating": 3587,
+          "rating": 3588,
           "margin": 9,
-          "rank": 21,
+          "rank": 22,
           "games": 2628,
           "version": "Quanticade Cronus 3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Quanticade%20Cronus%203.0%2064-bit"
@@ -4581,7 +4581,7 @@
           "rating": 3716,
           "margin": 10,
           "rank": 22,
-          "games": 3563,
+          "games": 3636,
           "version": "Quanticade Cronus 3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Quanticade%20Cronus%203.0%2064-bit"
         }
@@ -4593,15 +4593,15 @@
       "ccrl_name": "Quirky",
       "ratings": {
         "40/15": {
-          "rating": 3469,
+          "rating": 3470,
           "margin": 14,
-          "rank": 74,
-          "games": 974,
+          "rank": 73,
+          "games": 987,
           "version": "Quirky 3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Quirky%203.0%2064-bit"
         },
         "blitz": {
-          "rating": 3549,
+          "rating": 3548,
           "margin": 14,
           "rank": 68,
           "games": 1186,
@@ -4616,7 +4616,7 @@
       "ccrl_name": "Quokka",
       "ratings": {
         "blitz": {
-          "rating": 1279,
+          "rating": 1278,
           "margin": 21,
           "rank": 530,
           "games": 850,
@@ -4633,7 +4633,7 @@
         "blitz": {
           "rating": 3054,
           "margin": 17,
-          "rank": 201,
+          "rank": 202,
           "games": 1019,
           "version": "Radiance 5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Radiance%205.0%2064-bit"
@@ -4646,18 +4646,18 @@
       "ccrl_name": "Raphael",
       "ratings": {
         "40/15": {
-          "rating": 3590,
+          "rating": 3591,
           "margin": 10,
-          "rank": 19,
-          "games": 1967,
+          "rank": 20,
+          "games": 1991,
           "version": "Raphael 4.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Raphael%204.2%2064-bit"
         },
         "blitz": {
-          "rating": 3731,
+          "rating": 3730,
           "margin": 12,
           "rank": 17,
-          "games": 1901,
+          "games": 2024,
           "version": "Raphael 4.2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Raphael%204.2.0%2064-bit"
         }
@@ -4669,9 +4669,9 @@
       "ccrl_name": "Rasch",
       "ratings": {
         "blitz": {
-          "rating": 1305,
+          "rating": 1304,
           "margin": 20,
-          "rank": 525,
+          "rank": 526,
           "games": 1175,
           "version": "Rasch r142 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Rasch%20r142%2064-bit"
@@ -4686,15 +4686,15 @@
         "40/15": {
           "rating": 2589,
           "margin": 9,
-          "rank": 330,
+          "rank": 332,
           "games": 2852,
           "version": "Raven 1.30 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Raven%201.30%2064-bit"
         },
         "blitz": {
-          "rating": 2554,
+          "rating": 2553,
           "margin": 13,
-          "rank": 303,
+          "rank": 304,
           "games": 1811,
           "version": "Raven 1.30 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Raven%201.30%2064-bit"
@@ -4710,15 +4710,15 @@
           "rating": 3621,
           "margin": 8,
           "rank": 3,
-          "games": 3117,
+          "games": 3155,
           "version": "Reckless 0.9.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Reckless%200.9.0%2064-bit"
         },
         "blitz": {
-          "rating": 3765,
+          "rating": 3766,
           "margin": 10,
-          "rank": 4,
-          "games": 3305,
+          "rank": 5,
+          "games": 3378,
           "version": "Reckless 0.9.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Reckless%200.9.0%2064-bit"
         }
@@ -4733,14 +4733,14 @@
           "rating": 3575,
           "margin": 13,
           "rank": 29,
-          "games": 1149,
+          "games": 1168,
           "version": "Renegade 1.3.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Renegade%201.3.1%2064-bit"
         },
         "blitz": {
           "rating": 3693,
           "margin": 11,
-          "rank": 31,
+          "rank": 30,
           "games": 2086,
           "version": "Renegade 1.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Renegade%201.3.0%2064-bit"
@@ -4753,17 +4753,17 @@
       "ccrl_name": "Reyna",
       "ratings": {
         "40/15": {
-          "rating": 2658,
+          "rating": 2659,
           "margin": 16,
-          "rank": 309,
+          "rank": 312,
           "games": 958,
           "version": "Reyna 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Reyna%201.0%2064-bit"
         },
         "blitz": {
-          "rating": 2667,
+          "rating": 2666,
           "margin": 14,
-          "rank": 281,
+          "rank": 282,
           "games": 1538,
           "version": "Reyna 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Reyna%201.0%2064-bit"
@@ -4776,15 +4776,15 @@
       "ccrl_name": "Rice",
       "ratings": {
         "40/15": {
-          "rating": 3431,
+          "rating": 3432,
           "margin": 12,
-          "rank": 93,
-          "games": 1331,
+          "rank": 94,
+          "games": 1370,
           "version": "Rice 8.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Rice%208.0.0%2064-bit"
         },
         "blitz": {
-          "rating": 3530,
+          "rating": 3529,
           "margin": 9,
           "rank": 76,
           "games": 3786,
@@ -4801,15 +4801,15 @@
         "40/15": {
           "rating": 2172,
           "margin": 15,
-          "rank": 402,
+          "rank": 403,
           "games": 1244,
           "version": "Robocide 20170718 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Robocide%2020170718%2064-bit"
         },
         "blitz": {
-          "rating": 2181,
+          "rating": 2180,
           "margin": 16,
-          "rank": 371,
+          "rank": 372,
           "games": 1275,
           "version": "Robocide 0.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Robocide%200.4%2064-bit"
@@ -4825,14 +4825,14 @@
           "rating": 3470,
           "margin": 18,
           "rank": 73,
-          "games": 556,
+          "games": 566,
           "version": "Rodent V 1.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Rodent%20V%201.2%2064-bit"
         },
         "blitz": {
-          "rating": 3539,
+          "rating": 3538,
           "margin": 15,
-          "rank": 71,
+          "rank": 73,
           "games": 1054,
           "version": "Rodent V 1.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Rodent%20V%201.2%2064-bit"
@@ -4845,12 +4845,12 @@
       "ccrl_name": "Ronja",
       "ratings": {
         "blitz": {
-          "rating": 1124,
-          "margin": 22,
+          "rating": 1125,
+          "margin": 27,
           "rank": 549,
-          "games": 1050,
-          "version": "Ronja 0.8.2 64-bit",
-          "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Ronja%200.8.2%2064-bit"
+          "games": 508,
+          "version": "Ronja 0.10.0 64-bit",
+          "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Ronja%200.10.0%2064-bit"
         }
       }
     },
@@ -4868,10 +4868,10 @@
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=RubiChess%2020240817%2064-bit"
         },
         "blitz": {
-          "rating": 3692,
+          "rating": 3691,
           "margin": 7,
-          "rank": 32,
-          "games": 9410,
+          "rank": 33,
+          "games": 9483,
           "version": "RubiChess 20240817 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=RubiChess%2020240817%2064-bit"
         }
@@ -4883,18 +4883,18 @@
       "ccrl_name": "Rudim",
       "ratings": {
         "40/15": {
-          "rating": 3092,
+          "rating": 3094,
           "margin": 18,
-          "rank": 210,
-          "games": 660,
+          "rank": 212,
+          "games": 676,
           "version": "Rudim 3.0.5 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Rudim%203.0.5%2064-bit"
         },
         "blitz": {
-          "rating": 3036,
-          "margin": 15,
-          "rank": 207,
-          "games": 1583,
+          "rating": 3034,
+          "margin": 14,
+          "rank": 210,
+          "games": 1614,
           "version": "Rudim 3.0.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Rudim%203.0.4%2064-bit"
         }
@@ -4908,13 +4908,13 @@
         "40/15": {
           "rating": 3315,
           "margin": 14,
-          "rank": 142,
-          "games": 1018,
+          "rank": 144,
+          "games": 1042,
           "version": "RukChess 4.2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=RukChess%204.2.0%2064-bit"
         },
         "blitz": {
-          "rating": 3377,
+          "rating": 3376,
           "margin": 13,
           "rank": 125,
           "games": 1670,
@@ -4929,9 +4929,9 @@
       "ccrl_name": "Rustic",
       "ratings": {
         "blitz": {
-          "rating": 1794,
+          "rating": 1793,
           "margin": 16,
-          "rank": 460,
+          "rank": 462,
           "games": 1713,
           "version": "Rustic Alpha 3.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Rustic%20Alpha%203.0.0%2064-bit"
@@ -4946,7 +4946,7 @@
         "40/15": {
           "rating": 2362,
           "margin": 26,
-          "rank": 374,
+          "rank": 376,
           "games": 397,
           "version": "Rusty-Rival 1.0.29 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Rusty-Rival%201.0.29%2064-bit"
@@ -4954,7 +4954,7 @@
         "blitz": {
           "rating": 2218,
           "margin": 17,
-          "rank": 359,
+          "rank": 360,
           "games": 1142,
           "version": "Rusty Rival 1.0.23 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Rusty%20Rival%201.0.23%2064-bit"
@@ -4969,7 +4969,7 @@
         "40/15": {
           "rating": 1814,
           "margin": 19,
-          "rank": 455,
+          "rank": 456,
           "games": 796,
           "version": "Sapeli 1.02 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sapeli%201.02%2064-bit"
@@ -4977,7 +4977,7 @@
         "blitz": {
           "rating": 1908,
           "margin": 18,
-          "rank": 435,
+          "rank": 436,
           "games": 1101,
           "version": "Sapeli 1.92 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sapeli%201.92%2064-bit"
@@ -4990,10 +4990,10 @@
       "ccrl_name": "Sapling",
       "ratings": {
         "40/15": {
-          "rating": 3389,
+          "rating": 3390,
           "margin": 10,
-          "rank": 111,
-          "games": 1924,
+          "rank": 112,
+          "games": 1964,
           "version": "Sapling 1.2.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sapling%201.2.7%2064-bit"
         },
@@ -5015,13 +5015,13 @@
         "40/15": {
           "rating": 1360,
           "margin": 20,
-          "rank": 475,
+          "rank": 476,
           "games": 1249,
           "version": "Saruman 2017.08.10 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Saruman%202017.08.10%2064-bit"
         },
         "blitz": {
-          "rating": 1474,
+          "rating": 1473,
           "margin": 18,
           "rank": 503,
           "games": 1245,
@@ -5036,9 +5036,9 @@
       "ccrl_name": "Sayuri",
       "ratings": {
         "40/15": {
-          "rating": 1757,
+          "rating": 1758,
           "margin": 22,
-          "rank": 457,
+          "rank": 458,
           "games": 600,
           "version": "Sayuri 2018.03.06 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sayuri%202018.03.06%2064-bit"
@@ -5046,7 +5046,7 @@
         "blitz": {
           "rating": 1727,
           "margin": 17,
-          "rank": 468,
+          "rank": 469,
           "games": 1359,
           "version": "Sayuri 2018.05.23 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sayuri%202018.05.23%2064-bit"
@@ -5061,7 +5061,7 @@
         "40/15": {
           "rating": 3355,
           "margin": 12,
-          "rank": 128,
+          "rank": 131,
           "games": 1360,
           "version": "Schneckbert 3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Schneckbert%203.0%2064-bit"
@@ -5069,7 +5069,7 @@
         "blitz": {
           "rating": 3401,
           "margin": 11,
-          "rank": 116,
+          "rank": 115,
           "games": 2277,
           "version": "Schneckbert 3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Schneckbert%203.0%2064-bit"
@@ -5082,9 +5082,9 @@
       "ccrl_name": "Scoria",
       "ratings": {
         "blitz": {
-          "rating": 2722,
+          "rating": 2721,
           "margin": 16,
-          "rank": 271,
+          "rank": 272,
           "games": 1072,
           "version": "Scoria 4.4.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Scoria%204.4.7%2064-bit"
@@ -5097,18 +5097,18 @@
       "ccrl_name": "Seawall",
       "ratings": {
         "40/15": {
-          "rating": 2904,
+          "rating": 2905,
           "margin": 13,
-          "rank": 256,
+          "rank": 259,
           "games": 1455,
           "version": "Seawall 20250322 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Seawall%2020250322%2064-bit"
         },
         "blitz": {
-          "rating": 2979,
+          "rating": 2978,
           "margin": 13,
-          "rank": 222,
-          "games": 1810,
+          "rank": 223,
+          "games": 1811,
           "version": "Seawall 20250322 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Seawall%2020250322%2064-bit"
         }
@@ -5120,7 +5120,7 @@
       "ccrl_name": "Seer",
       "ratings": {
         "40/15": {
-          "rating": 3542,
+          "rating": 3543,
           "margin": 6,
           "rank": 45,
           "games": 6013,
@@ -5128,7 +5128,7 @@
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Seer%202.8.0%2064-bit"
         },
         "blitz": {
-          "rating": 3640,
+          "rating": 3639,
           "margin": 7,
           "rank": 48,
           "games": 9789,
@@ -5145,16 +5145,16 @@
         "40/15": {
           "rating": 2970,
           "margin": 11,
-          "rank": 240,
-          "games": 2051,
+          "rank": 243,
+          "games": 2067,
           "version": "Sentinel 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sentinel%202.0%2064-bit"
         },
         "blitz": {
           "rating": 2984,
           "margin": 12,
-          "rank": 221,
-          "games": 2126,
+          "rank": 222,
+          "games": 2127,
           "version": "Sentinel 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sentinel%202.0%2064-bit"
         }
@@ -5191,7 +5191,7 @@
         "40/15": {
           "rating": 1618,
           "margin": 21,
-          "rank": 462,
+          "rank": 463,
           "games": 776,
           "version": "Shallow Blue 2.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Shallow%20Blue%202.0.0%2064-bit"
@@ -5212,18 +5212,18 @@
       "ccrl_name": "Shallow Guess",
       "ratings": {
         "40/15": {
-          "rating": 2956,
+          "rating": 2957,
           "margin": 17,
-          "rank": 243,
+          "rank": 246,
           "games": 879,
           "version": "Shallow Guess 1.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Shallow%20Guess%201.1.0%2064-bit"
         },
         "blitz": {
-          "rating": 2922,
-          "margin": 16,
-          "rank": 234,
-          "games": 1231,
+          "rating": 2923,
+          "margin": 15,
+          "rank": 235,
+          "games": 1263,
           "version": "Shallow Guess 1.1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Shallow%20Guess%201.1.0%2064-bit"
         }
@@ -5237,7 +5237,7 @@
         "blitz": {
           "rating": 2165,
           "margin": 16,
-          "rank": 378,
+          "rank": 379,
           "games": 1420,
           "version": "Shuffle 5.2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Shuffle%205.2.0%2064-bit"
@@ -5252,7 +5252,7 @@
         "40/15": {
           "rating": 3192,
           "margin": 8,
-          "rank": 184,
+          "rank": 188,
           "games": 3751,
           "version": "Simbelmyne 1.10.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Simbelmyne%201.10.0%2064-bit"
@@ -5261,7 +5261,7 @@
           "rating": 3239,
           "margin": 11,
           "rank": 168,
-          "games": 2292,
+          "games": 2324,
           "version": "Simbelmyne 1.10.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Simbelmyne%201.10.0%2064-bit"
         }
@@ -5275,15 +5275,15 @@
         "40/15": {
           "rating": 2607,
           "margin": 13,
-          "rank": 324,
+          "rank": 326,
           "games": 1476,
           "version": "Sloppy 0.2.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sloppy%200.2.2%2064-bit"
         },
         "blitz": {
-          "rating": 2590,
+          "rating": 2589,
           "margin": 13,
-          "rank": 294,
+          "rank": 295,
           "games": 1801,
           "version": "Sloppy 0.2.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sloppy%200.2.2%2064-bit"
@@ -5296,15 +5296,15 @@
       "ccrl_name": "Smallbrain",
       "ratings": {
         "40/15": {
-          "rating": 3381,
+          "rating": 3382,
           "margin": 9,
-          "rank": 114,
+          "rank": 116,
           "games": 2783,
           "version": "Smallbrain 7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Smallbrain%207.0%2064-bit"
         },
         "blitz": {
-          "rating": 3455,
+          "rating": 3454,
           "margin": 8,
           "rank": 101,
           "games": 5546,
@@ -5319,9 +5319,9 @@
       "ccrl_name": "Small Potato",
       "ratings": {
         "40/15": {
-          "rating": 2018,
+          "rating": 2019,
           "margin": 18,
-          "rank": 427,
+          "rank": 428,
           "games": 873,
           "version": "Small Potato 0.7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Small%20Potato%200.7.0%2064-bit"
@@ -5329,7 +5329,7 @@
         "blitz": {
           "rating": 1958,
           "margin": 19,
-          "rank": 421,
+          "rank": 422,
           "games": 1014,
           "version": "Small Potato 0.7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Small%20Potato%200.7.0%2064-bit"
@@ -5344,7 +5344,7 @@
         "40/15": {
           "rating": 1925,
           "margin": 21,
-          "rank": 443,
+          "rank": 444,
           "games": 664,
           "version": "Snowy 0.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Snowy%200.2%2064-bit"
@@ -5352,7 +5352,7 @@
         "blitz": {
           "rating": 1872,
           "margin": 20,
-          "rank": 445,
+          "rank": 446,
           "games": 906,
           "version": "Snowy 0.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Snowy%200.2%2064-bit"
@@ -5367,7 +5367,7 @@
         "40/15": {
           "rating": 2426,
           "margin": 20,
-          "rank": 357,
+          "rank": 359,
           "games": 617,
           "version": "SoFCheck 0.9 beta 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=SoFCheck%200.9%20beta%2064-bit"
@@ -5375,7 +5375,7 @@
         "blitz": {
           "rating": 2384,
           "margin": 17,
-          "rank": 334,
+          "rank": 335,
           "games": 1040,
           "version": "SoFCheck 0.9 beta 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=SoFCheck%200.9%20beta%2064-bit"
@@ -5390,15 +5390,15 @@
         "40/15": {
           "rating": 2185,
           "margin": 17,
-          "rank": 399,
+          "rank": 401,
           "games": 947,
           "version": "SpaceDog 0.97.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=SpaceDog%200.97.7%2064-bit"
         },
         "blitz": {
-          "rating": 2181,
+          "rating": 2180,
           "margin": 16,
-          "rank": 371,
+          "rank": 372,
           "games": 1412,
           "version": "SpaceDog 0.97.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=SpaceDog%200.97.7%2064-bit"
@@ -5413,7 +5413,7 @@
         "40/15": {
           "rating": 3565,
           "margin": 8,
-          "rank": 36,
+          "rank": 37,
           "games": 3334,
           "version": "Starzix 6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Starzix%206.0%2064-bit"
@@ -5422,7 +5422,7 @@
           "rating": 3689,
           "margin": 8,
           "rank": 34,
-          "games": 7606,
+          "games": 7679,
           "version": "Starzix 6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Starzix%206.0%2064-bit"
         }
@@ -5434,18 +5434,18 @@
       "ccrl_name": "Stash",
       "ratings": {
         "40/15": {
-          "rating": 3372,
+          "rating": 3373,
           "margin": 12,
-          "rank": 117,
-          "games": 1355,
+          "rank": 119,
+          "games": 1389,
           "version": "Stash 37.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Stash%2037.0%2064-bit"
         },
         "blitz": {
-          "rating": 3418,
+          "rating": 3417,
           "margin": 11,
           "rank": 113,
-          "games": 2327,
+          "games": 2359,
           "version": "Stash 37.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Stash%2037.0%2064-bit"
         }
@@ -5459,7 +5459,7 @@
         "40/15": {
           "rating": 2100,
           "margin": 20,
-          "rank": 417,
+          "rank": 418,
           "games": 759,
           "version": "Stellar 1.4.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Stellar%201.4.3%2064-bit"
@@ -5467,7 +5467,7 @@
         "blitz": {
           "rating": 2215,
           "margin": 15,
-          "rank": 360,
+          "rank": 361,
           "games": 1559,
           "version": "Stellar 1.3.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Stellar%201.3.0%2064-bit"
@@ -5482,7 +5482,7 @@
         "40/15": {
           "rating": 3442,
           "margin": 20,
-          "rank": 87,
+          "rank": 88,
           "games": 480,
           "version": "StockDory Koi 0.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=StockDory%20Koi%200.3%2064-bit"
@@ -5506,7 +5506,7 @@
           "rating": 3629,
           "margin": 11,
           "rank": 2,
-          "games": 1475,
+          "games": 1513,
           "version": "Stockfish 19 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Stockfish%2019%2064-bit"
         },
@@ -5514,7 +5514,7 @@
           "rating": 3792,
           "margin": 11,
           "rank": 1,
-          "games": 2982,
+          "games": 3054,
           "version": "Stockfish 19 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Stockfish%2019%2064-bit"
         }
@@ -5528,7 +5528,7 @@
         "40/15": {
           "rating": 3243,
           "margin": 11,
-          "rank": 171,
+          "rank": 175,
           "games": 1680,
           "version": "StockNemo 5.7.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=StockNemo%205.7.0.0%2064-bit"
@@ -5549,10 +5549,10 @@
       "ccrl_name": "Stormphrax",
       "ratings": {
         "40/15": {
-          "rating": 3607,
+          "rating": 3608,
           "margin": 9,
-          "rank": 10,
-          "games": 2833,
+          "rank": 9,
+          "games": 2861,
           "version": "Stormphrax 8.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Stormphrax%208.0.0%2064-bit"
         },
@@ -5560,7 +5560,7 @@
           "rating": 3744,
           "margin": 11,
           "rank": 14,
-          "games": 2750,
+          "games": 2823,
           "version": "Stormphrax 8.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Stormphrax%208.0.0%2064-bit"
         }
@@ -5572,18 +5572,18 @@
       "ccrl_name": "Sturddle",
       "ratings": {
         "40/15": {
-          "rating": 3351,
+          "rating": 3349,
           "margin": 20,
-          "rank": 130,
-          "games": 482,
+          "rank": 133,
+          "games": 516,
           "version": "Sturddle 2.7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sturddle%202.7.0%2064-bit"
         },
         "blitz": {
-          "rating": 3345,
+          "rating": 3347,
           "margin": 16,
-          "rank": 137,
-          "games": 1047,
+          "rank": 136,
+          "games": 1079,
           "version": "Sturddle 2.7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Sturddle%202.7.0%2064-bit"
         }
@@ -5597,7 +5597,7 @@
         "40/15": {
           "rating": 2677,
           "margin": 10,
-          "rank": 304,
+          "rank": 307,
           "games": 2461,
           "version": "Supernova 2.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Supernova%202.4%2064-bit"
@@ -5605,7 +5605,7 @@
         "blitz": {
           "rating": 2679,
           "margin": 10,
-          "rank": 279,
+          "rank": 280,
           "games": 3586,
           "version": "Supernova 2.4 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Supernova%202.4%2064-bit"
@@ -5626,7 +5626,7 @@
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Superultra%202.0%2064-bit"
         },
         "blitz": {
-          "rating": 3528,
+          "rating": 3527,
           "margin": 11,
           "rank": 78,
           "games": 2423,
@@ -5641,9 +5641,9 @@
       "ccrl_name": "Svart",
       "ratings": {
         "40/15": {
-          "rating": 3239,
+          "rating": 3240,
           "margin": 11,
-          "rank": 173,
+          "rank": 176,
           "games": 1846,
           "version": "Svart 6 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Svart%206%2064-bit"
@@ -5666,15 +5666,15 @@
         "40/15": {
           "rating": 2414,
           "margin": 14,
-          "rank": 363,
+          "rank": 365,
           "games": 1278,
           "version": "Taltos rev118 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Taltos%20rev118%2064-bit"
         },
         "blitz": {
-          "rating": 2345,
+          "rating": 2344,
           "margin": 18,
-          "rank": 341,
+          "rank": 342,
           "games": 1045,
           "version": "Taltos rev118 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Taltos%20rev118%2064-bit"
@@ -5687,7 +5687,7 @@
       "ccrl_name": "Tarnished",
       "ratings": {
         "40/15": {
-          "rating": 3598,
+          "rating": 3599,
           "margin": 10,
           "rank": 15,
           "games": 1722,
@@ -5695,7 +5695,7 @@
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Tarnished%206.0-Eternal%2064-bit"
         },
         "blitz": {
-          "rating": 3719,
+          "rating": 3718,
           "margin": 10,
           "rank": 21,
           "games": 3032,
@@ -5710,18 +5710,18 @@
       "ccrl_name": "Tcheran",
       "ratings": {
         "40/15": {
-          "rating": 3560,
-          "margin": 14,
-          "rank": 37,
-          "games": 896,
-          "version": "Tcheran 13.0 64-bit",
-          "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Tcheran%2013.0%2064-bit"
+          "rating": 3568,
+          "margin": 19,
+          "rank": 33,
+          "games": 474,
+          "version": "Tcheran 14.0 64-bit",
+          "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Tcheran%2014.0%2064-bit"
         },
         "blitz": {
-          "rating": 3695,
-          "margin": 18,
+          "rating": 3698,
+          "margin": 15,
           "rank": 28,
-          "games": 647,
+          "games": 1047,
           "version": "Tcheran 14.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Tcheran%2014.0%2064-bit"
         }
@@ -5735,15 +5735,15 @@
         "40/15": {
           "rating": 2400,
           "margin": 12,
-          "rank": 365,
+          "rank": 367,
           "games": 1855,
           "version": "Teki 2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Teki%202%2064-bit"
         },
         "blitz": {
-          "rating": 2373,
+          "rating": 2372,
           "margin": 20,
-          "rank": 335,
+          "rank": 336,
           "games": 794,
           "version": "Teki 1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Teki%201%2064-bit"
@@ -5766,7 +5766,7 @@
         "blitz": {
           "rating": 3561,
           "margin": 10,
-          "rank": 63,
+          "rank": 62,
           "games": 3362,
           "version": "Texel 1.12 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Texel%201.12%2064-bit"
@@ -5781,7 +5781,7 @@
         "blitz": {
           "rating": 1876,
           "margin": 16,
-          "rank": 443,
+          "rank": 444,
           "games": 1478,
           "version": "Tinman 0.4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Tinman%200.4.0%2064-bit"
@@ -5817,17 +5817,17 @@
       "ccrl_name": "Toad",
       "ratings": {
         "40/15": {
-          "rating": 2616,
+          "rating": 2617,
           "margin": 14,
-          "rank": 318,
+          "rank": 321,
           "games": 1312,
           "version": "Toad 3.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Toad%203.0.0%2064-bit"
         },
         "blitz": {
-          "rating": 1778,
+          "rating": 1777,
           "margin": 18,
-          "rank": 465,
+          "rank": 466,
           "games": 1283,
           "version": "Toad 1.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Toad%201.0.0%2064-bit"
@@ -5840,10 +5840,10 @@
       "ccrl_name": "Tofiks",
       "ratings": {
         "blitz": {
-          "rating": 2803,
-          "margin": 21,
-          "rank": 253,
-          "games": 620,
+          "rating": 2778,
+          "margin": 17,
+          "rank": 255,
+          "games": 1069,
           "version": "Tofiks 1.6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Tofiks%201.6.0%2064-bit"
         }
@@ -5855,18 +5855,18 @@
       "ccrl_name": "tomitankChess",
       "ratings": {
         "40/15": {
-          "rating": 3061,
+          "rating": 3062,
           "margin": 19,
-          "rank": 219,
+          "rank": 221,
           "games": 580,
           "version": "tomitankChess 7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=tomitankChess%207.0%2064-bit"
         },
         "blitz": {
-          "rating": 3045,
+          "rating": 3044,
           "margin": 15,
-          "rank": 204,
-          "games": 1229,
+          "rank": 206,
+          "games": 1261,
           "version": "tomitankChess 7.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=tomitankChess%207.0%2064-bit"
         }
@@ -5880,7 +5880,7 @@
         "blitz": {
           "rating": 1712,
           "margin": 18,
-          "rank": 471,
+          "rank": 472,
           "games": 1164,
           "version": "Topas 1.3.3 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Topas%201.3.3%2064-bit"
@@ -5893,9 +5893,9 @@
       "ccrl_name": "Topple",
       "ratings": {
         "40/15": {
-          "rating": 3039,
+          "rating": 3040,
           "margin": 14,
-          "rank": 225,
+          "rank": 227,
           "games": 1020,
           "version": "Topple 0.8.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Topple%200.8.0%2064-bit"
@@ -5903,8 +5903,8 @@
         "blitz": {
           "rating": 3036,
           "margin": 9,
-          "rank": 207,
-          "games": 4230,
+          "rank": 208,
+          "games": 4262,
           "version": "Topple 0.8.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Topple%200.8.1%2064-bit"
         }
@@ -5918,16 +5918,16 @@
         "40/15": {
           "rating": 2753,
           "margin": 15,
-          "rank": 288,
+          "rank": 292,
           "games": 1131,
           "version": "Trinket 3.5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Trinket%203.5.0%2064-bit"
         },
         "blitz": {
-          "rating": 2753,
+          "rating": 2754,
           "margin": 13,
-          "rank": 261,
-          "games": 1734,
+          "rank": 262,
+          "games": 1766,
           "version": "Trinket 3.5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Trinket%203.5.0%2064-bit"
         }
@@ -5939,20 +5939,20 @@
       "ccrl_name": "Triumviratus",
       "ratings": {
         "40/15": {
-          "rating": 3633,
-          "margin": 21,
+          "rating": 3635,
+          "margin": 16,
           "rank": 1,
-          "games": 392,
+          "games": 700,
           "version": "Triumviratus 8.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Triumviratus%208.0%2064-bit"
         },
         "blitz": {
-          "rating": 3755,
-          "margin": 12,
-          "rank": 6,
-          "games": 2015,
-          "version": "Triumviratus 7.0 64-bit",
-          "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Triumviratus%207.0%2064-bit"
+          "rating": 3784,
+          "margin": 13,
+          "rank": 2,
+          "games": 1573,
+          "version": "Triumviratus 8.0 64-bit",
+          "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Triumviratus%208.0%2064-bit"
         }
       }
     },
@@ -5964,7 +5964,7 @@
         "40/15": {
           "rating": 3433,
           "margin": 10,
-          "rank": 92,
+          "rank": 93,
           "games": 2062,
           "version": "Tucano 12.00 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Tucano%2012.00%2064-bit"
@@ -5985,10 +5985,10 @@
       "ccrl_name": "Tunguska",
       "ratings": {
         "40/15": {
-          "rating": 3362,
-          "margin": 20,
-          "rank": 125,
-          "games": 521,
+          "rating": 3364,
+          "margin": 19,
+          "rank": 126,
+          "games": 571,
           "version": "Tunguska 2.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Tunguska%202.2%2064-bit"
         },
@@ -5996,7 +5996,7 @@
           "rating": 3350,
           "margin": 16,
           "rank": 135,
-          "games": 959,
+          "games": 991,
           "version": "Tunguska 2.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Tunguska%202.1%2064-bit"
         }
@@ -6008,15 +6008,15 @@
       "ccrl_name": "Vajolet2",
       "ratings": {
         "40/15": {
-          "rating": 3337,
+          "rating": 3342,
           "margin": 18,
-          "rank": 135,
-          "games": 612,
+          "rank": 138,
+          "games": 633,
           "version": "Vajolet2 3.2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Vajolet2%203.2%2064-bit"
         },
         "blitz": {
-          "rating": 3402,
+          "rating": 3401,
           "margin": 15,
           "rank": 115,
           "games": 1153,
@@ -6033,7 +6033,7 @@
         "blitz": {
           "rating": 3101,
           "margin": 20,
-          "rank": 190,
+          "rank": 191,
           "games": 751,
           "version": "Vault 0.4.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Vault%200.4.1%2064-bit"
@@ -6048,13 +6048,13 @@
         "40/15": {
           "rating": 3530,
           "margin": 9,
-          "rank": 49,
+          "rank": 50,
           "games": 2298,
           "version": "Velvet 8.1.1 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Velvet%208.1.1%2064-bit"
         },
         "blitz": {
-          "rating": 3648,
+          "rating": 3647,
           "margin": 10,
           "rank": 45,
           "games": 2758,
@@ -6071,15 +6071,15 @@
         "40/15": {
           "rating": 1997,
           "margin": 21,
-          "rank": 430,
+          "rank": 431,
           "games": 639,
           "version": "Vice 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Vice%201.0%2064-bit"
         },
         "blitz": {
-          "rating": 1978,
+          "rating": 1977,
           "margin": 18,
-          "rank": 417,
+          "rank": 418,
           "games": 1113,
           "version": "Vice 1.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Vice%201.0%2064-bit"
@@ -6092,10 +6092,10 @@
       "ccrl_name": "Viridithas",
       "ratings": {
         "40/15": {
-          "rating": 3610,
+          "rating": 3611,
           "margin": 9,
           "rank": 8,
-          "games": 2626,
+          "games": 2672,
           "version": "Viridithas 20.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Viridithas%2020.0.0%2064-bit"
         },
@@ -6103,7 +6103,7 @@
           "rating": 3748,
           "margin": 11,
           "rank": 11,
-          "games": 2535,
+          "games": 2607,
           "version": "Viridithas 20.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Viridithas%2020.0.0%2064-bit"
         }
@@ -6117,15 +6117,15 @@
         "40/15": {
           "rating": 3059,
           "margin": 9,
-          "rank": 220,
+          "rank": 222,
           "games": 3052,
           "version": "Wahoo 4.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Wahoo%204.0.0%2064-bit"
         },
         "blitz": {
-          "rating": 3095,
+          "rating": 3094,
           "margin": 10,
-          "rank": 191,
+          "rank": 192,
           "games": 3422,
           "version": "Wahoo 4.0.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Wahoo%204.0.0%2064-bit"
@@ -6140,7 +6140,7 @@
         "blitz": {
           "rating": 1707,
           "margin": 16,
-          "rank": 472,
+          "rank": 473,
           "games": 1665,
           "version": "Walleye 1.6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Walleye%201.6.0%2064-bit"
@@ -6155,7 +6155,7 @@
         "blitz": {
           "rating": 2545,
           "margin": 13,
-          "rank": 304,
+          "rank": 305,
           "games": 1798,
           "version": "Wasabi 1.5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Wasabi%201.5.0%2064-bit"
@@ -6170,7 +6170,7 @@
         "blitz": {
           "rating": 1883,
           "margin": 17,
-          "rank": 440,
+          "rank": 441,
           "games": 1195,
           "version": "Weasel 1.0.2 beta 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Weasel%201.0.2%20beta%2064-bit"
@@ -6185,8 +6185,8 @@
         "40/15": {
           "rating": 3364,
           "margin": 13,
-          "rank": 124,
-          "games": 1133,
+          "rank": 126,
+          "games": 1167,
           "version": "Weiawaga 6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Weiawaga%206.0%2064-bit"
         },
@@ -6194,7 +6194,7 @@
           "rating": 3440,
           "margin": 12,
           "rank": 107,
-          "games": 1955,
+          "games": 1987,
           "version": "Weiawaga 6.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Weiawaga%206.0%2064-bit"
         }
@@ -6208,13 +6208,13 @@
         "40/15": {
           "rating": 3263,
           "margin": 10,
-          "rank": 160,
+          "rank": 163,
           "games": 2128,
           "version": "Weiss 2.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Weiss%202.0%2064-bit"
         },
         "blitz": {
-          "rating": 3319,
+          "rating": 3318,
           "margin": 8,
           "rank": 144,
           "games": 6654,
@@ -6229,9 +6229,9 @@
       "ccrl_name": "Willow",
       "ratings": {
         "40/15": {
-          "rating": 3443,
+          "rating": 3444,
           "margin": 11,
-          "rank": 86,
+          "rank": 87,
           "games": 1764,
           "version": "Willow 4.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Willow%204.0%2064-bit"
@@ -6254,7 +6254,7 @@
         "40/15": {
           "rating": 3467,
           "margin": 15,
-          "rank": 77,
+          "rank": 76,
           "games": 890,
           "version": "Winter 5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Winter%205.0%2064-bit"
@@ -6277,7 +6277,7 @@
         "40/15": {
           "rating": 1879,
           "margin": 23,
-          "rank": 448,
+          "rank": 449,
           "games": 573,
           "version": "Wowl 1.3.8",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Wowl%201.3.8"
@@ -6285,7 +6285,7 @@
         "blitz": {
           "rating": 1773,
           "margin": 20,
-          "rank": 466,
+          "rank": 467,
           "games": 945,
           "version": "Wowl 1.3.8 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Wowl%201.3.8%2064-bit"
@@ -6300,7 +6300,7 @@
         "40/15": {
           "rating": 1955,
           "margin": 15,
-          "rank": 441,
+          "rank": 442,
           "games": 1262,
           "version": "Wuttang r2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Wuttang%20r2%2064-bit"
@@ -6308,7 +6308,7 @@
         "blitz": {
           "rating": 1932,
           "margin": 18,
-          "rank": 429,
+          "rank": 430,
           "games": 1145,
           "version": "Wuttang r2 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Wuttang%20r2%2064-bit"
@@ -6323,7 +6323,7 @@
         "40/15": {
           "rating": 2679,
           "margin": 12,
-          "rank": 302,
+          "rank": 305,
           "games": 1569,
           "version": "WyldChess 1.51 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=WyldChess%201.51%2064-bit"
@@ -6331,7 +6331,7 @@
         "blitz": {
           "rating": 2603,
           "margin": 12,
-          "rank": 290,
+          "rank": 291,
           "games": 2371,
           "version": "WyldChess 1.51 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=WyldChess%201.51%2064-bit"
@@ -6346,7 +6346,7 @@
         "40/15": {
           "rating": 3301,
           "margin": 6,
-          "rank": 146,
+          "rank": 149,
           "games": 5719,
           "version": "Xiphos 0.6 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Xiphos%200.6%2064-bit"
@@ -6355,7 +6355,7 @@
           "rating": 3354,
           "margin": 7,
           "rank": 132,
-          "games": 9651,
+          "games": 9683,
           "version": "Xiphos 0.6 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Xiphos%200.6%2064-bit"
         }
@@ -6368,9 +6368,9 @@
       "ratings": {
         "40/15": {
           "rating": 3305,
-          "margin": 21,
-          "rank": 144,
-          "games": 469,
+          "margin": 20,
+          "rank": 146,
+          "games": 489,
           "version": "Yakka 1.6 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Yakka%201.6%2064-bit"
         },
@@ -6392,7 +6392,7 @@
         "blitz": {
           "rating": 2169,
           "margin": 16,
-          "rank": 376,
+          "rank": 377,
           "games": 1382,
           "version": "Zagreus 5.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=Zagreus%205.0%2064-bit"
@@ -6407,7 +6407,7 @@
         "40/15": {
           "rating": 3290,
           "margin": 9,
-          "rank": 154,
+          "rank": 158,
           "games": 2344,
           "version": "Zahak 10.0 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Zahak%2010.0%2064-bit"
@@ -6428,17 +6428,17 @@
       "ccrl_name": "ZCT",
       "ratings": {
         "40/15": {
-          "rating": 2161,
+          "rating": 2162,
           "margin": 23,
-          "rank": 404,
+          "rank": 405,
           "games": 474,
           "version": "ZCT 0.3.2451",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=ZCT%200.3.2451"
         },
         "blitz": {
-          "rating": 2030,
+          "rating": 2029,
           "margin": 20,
-          "rank": 403,
+          "rank": 404,
           "games": 809,
           "version": "ZCT 0.3.2500 64-bit",
           "url": "https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?print=Details&each_game=0&eng=ZCT%200.3.2500%2064-bit"
@@ -6451,10 +6451,10 @@
       "ccrl_name": "Zevra",
       "ratings": {
         "40/15": {
-          "rating": 3277,
-          "margin": 18,
-          "rank": 157,
-          "games": 615,
+          "rating": 3278,
+          "margin": 17,
+          "rank": 160,
+          "games": 676,
           "version": "Zevra 2.7 64-bit",
           "url": "https://computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Zevra%202.7%2064-bit"
         },
